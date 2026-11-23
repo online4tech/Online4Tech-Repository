@@ -73,4 +73,4 @@ The small-first category selects skins, plugins, picons, scripts and other, orde
 
 ## Final verification record
 
-The script uploads an initial manifest/checksum set, then downloads the target assets and verifies every binary. It writes the final PASS state locally. After success, upload the final local mirror-manifest.json and SHA256SUMS.txt to that same destination release if you want the PASS state published there. Inspect the destination release before doing so; never rerun a completed batch blindly.
+The script uploads an initial manifest/checksum set, downloads the target assets and verifies every binary, then replaces the manifest/checksum assets in the same destination Release with the final PASS state. Inspect the destination release after success; never rerun a completed batch blindly.

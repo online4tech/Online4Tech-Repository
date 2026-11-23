@@ -119,8 +119,9 @@ foreach ($entry in $manifest) {
 }
 $manifest | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
 $manifest | ForEach-Object { "$($_.sha256)  $($_.mirrored_asset_name)" } | Set-Content -LiteralPath $checksumPath -Encoding ASCII
+gh release upload $batchTag $manifestPath $checksumPath --repo $TargetRepo --clobber
+if ($LASTEXITCODE -ne 0) { Stop-Check 'Binary checks passed, but publishing the final PASS manifest/checksums failed. Final files remain local.' }
 Write-Host ''
 Write-Host 'ALL BINARY ASSETS IN THIS BATCH PASSED REMOTE SHA-256 VERIFICATION.'
 Write-Host "Destination: https://github.com/$TargetRepo/releases/tag/$batchTag"
 Write-Host "Final PASS manifest and checksums are local: $batchDir"
-Write-Host 'Upload the final local manifest/checksum to the same release after reviewing it; do not rerun this batch.'

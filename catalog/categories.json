@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "categories": [
+    {"id":"plugins","label":"Plugins","path":"plugins/"},
+    {"id":"scripts","label":"Scripts and Commands","path":"scripts/"},
+    {"id":"packages","label":"Installable Packages","path":"packages/"},
+    {"id":"assets","label":"Images and Artwork","path":"assets/"},
+    {"id":"skins","label":"Skins","path":"assets/skins/"},
+    {"id":"backups","label":"Backups","path":"backups/"},
+    {"id":"releases","label":"Releases","path":"releases/"}
+  ]
+}

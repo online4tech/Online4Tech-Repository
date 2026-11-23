@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Online4Tech Repository Item",
+  "type": "object",
+  "required": ["id", "name", "type", "status"],
+  "properties": {
+    "id": {"type":"string","pattern":"^[a-z0-9][a-z0-9._-]*$"},
+    "name": {"type":"string"},
+    "description": {"type":"string"},
+    "type": {"enum":["plugin","script","command","ipk","asset","skin","backup","other"]},
+    "version": {"type":["string","null"]},
+    "source_url": {"type":["string","null"]},
+    "source_repo": {"type":["string","null"]},
+    "source_path": {"type":["string","null"]},
+    "original_author": {"type":["string","null"]},
+    "license": {"type":["string","null"]},
+    "license_review": {"enum":["pending","approved","not_redistributable","unknown"]},
+    "compatibility": {"type":"object"},
+    "file_path": {"type":["string","null"]},
+    "sha256": {"type":["string","null"],"pattern":"^[a-fA-F0-9]{64}$"},
+    "release_date": {"type":["string","null"],"format":"date"},
+    "status": {"enum":["pending_review","metadata_only","approved","tested","rejected"]},
+    "verification_notes": {"type":"string"}
+  },
+  "additionalProperties": false
+}

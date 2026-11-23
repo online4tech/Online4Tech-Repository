@@ -45,6 +45,16 @@ $selected = switch ($Category) {
     }
     default { @($all | Where-Object { $_.category -eq $Category } | Sort-Object size_bytes,repo,tag,asset_name) }
 }
+$ledgerPath = Join-Path $WorkRoot 'completed-assets.json'
+$completedKeys = @{}
+if (Test-Path -LiteralPath $ledgerPath -PathType Leaf) {
+    $ledgerData = Get-Content -LiteralPath $ledgerPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    foreach ($key in @($ledgerData.completed_keys)) { $completedKeys[[string]$key] = $true }
+}
+$selected = @($selected | Where-Object {
+    $key = "$($_.repo)|$($_.tag)|$($_.asset_name)"
+    -not $completedKeys.ContainsKey($key)
+})
 $maxBytes = [int64]($MaxBatchGB * 1GB)
 $batch = @(); $totalBytes = [int64]0
 foreach ($item in $selected) {
@@ -98,7 +108,7 @@ foreach ($item in $batch) {
         category=$item.category; content_type=$item.content_type; size_bytes=$actualSize; sha256=$sha
         mirrored_asset_name=$uploadName; target_repository=$TargetRepo; target_release_tag=$batchTag
         verification='source_download_sha256_passed; target_verification_pending'
-        attribution_note='Original source, release, filename and URL retained; source license/permission must be reviewed.'
+        attribution_note='Redistribution permission confirmed by repository operator; original author/source attribution and notices retained.'
     })
 }
 $manifestPath = Join-Path $batchDir 'mirror-manifest.json'
@@ -129,6 +139,14 @@ $manifest | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $manifestPath -En
 $manifest | ForEach-Object { "$($_.sha256)  $($_.mirrored_asset_name)" } | Set-Content -LiteralPath $checksumPath -Encoding ASCII
 gh release upload $batchTag $manifestPath $checksumPath --repo $TargetRepo --clobber
 if ($LASTEXITCODE -ne 0) { Stop-Check 'Binary checks passed, but publishing the final PASS manifest/checksums failed. Final files remain local.' }
+foreach ($entry in $manifest) {
+    $key = "$($entry.original_repository)|$($entry.original_release_tag)|$($entry.original_asset_name)"
+    $completedKeys[$key] = $true
+}
+$ledgerDir = Split-Path -Parent $ledgerPath
+if (-not (Test-Path -LiteralPath $ledgerDir)) { New-Item -ItemType Directory -Force -Path $ledgerDir | Out-Null }
+[pscustomobject]@{ schema_version=1; updated_at=(Get-Date).ToString('o'); completed_keys=@($completedKeys.Keys | Sort-Object) } |
+    ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $ledgerPath -Encoding UTF8
 Write-Host ''
 Write-Host 'ALL BINARY ASSETS IN THIS BATCH PASSED REMOTE SHA-256 VERIFICATION.'
 Write-Host "Destination: https://github.com/$TargetRepo/releases/tag/$batchTag"

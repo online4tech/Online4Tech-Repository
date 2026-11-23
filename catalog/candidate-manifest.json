@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-23",
+  "target_repository": "online4tech/Online4Tech-Repository",
+  "policy": {
+    "product_test_excluded": true,
+    "product_test_repository_deleted": false,
+    "source_repositories_modified": false,
+    "payloads_imported": false,
+    "panel_connected": false
+  },
+  "candidates": [
+    {
+      "id": "channels-byr-oe-openatv",
+      "type": "channel_backup",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Chanal-List",
+      "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "source_path": "channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "size_bytes": 680644,
+      "git_blob_sha": "11b7a72ed4c9639c631d8f1ab9349d3a61441fe7",
+      "notes": "Only channel package candidate in scope; OpenATV backup, not standalone XML."
+    },
+    {
+      "id": "channels-installer",
+      "type": "installer_script",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Chanal-List",
+      "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "source_path": "install-channels.sh",
+      "size_bytes": 1879,
+      "git_blob_sha": "41834dadbe18ccd2bf2c3edcb54d38ccd0e47702",
+      "notes": "Requires archive path validation and pinned SHA-256 before approval."
+    },
+    {
+      "id": "satellites-xml",
+      "type": "channel_data",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Chanal-List",
+      "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "source_path": "satellites.xml",
+      "size_bytes": 529521,
+      "git_blob_sha": "6a1364d04398235ae329dfb73ea92868b35b277a"
+    },
+    {
+      "id": "cables-xml",
+      "type": "channel_data",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Chanal-List",
+      "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "source_path": "cables.xml",
+      "size_bytes": 811770,
+      "git_blob_sha": "ee8829d83c7d2d843438a951e308b15ced7b76cd"
+    },
+    {
+      "id": "brand-byromeh-logo",
+      "type": "image",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Chanal-List",
+      "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "source_path": "assets/byromeh-logo.png",
+      "size_bytes": 266555,
+      "git_blob_sha": "cd58af7ccde2fc5487e4057f8ebceec39317b96c",
+      "notes": "Visual and rights review pending."
+    },
+    {
+      "id": "brand-online4tech-icon",
+      "type": "image",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Chanal-List",
+      "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "source_path": "assets/icon_online4tech.png",
+      "size_bytes": 6014,
+      "git_blob_sha": "615a15c862ed7dcfd6eeb9008596308d054b2123",
+      "notes": "Visual and rights review pending."
+    },
+    {
+      "id": "brand-online4tech-bootlogo",
+      "type": "image",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Chanal-List",
+      "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "source_path": "assets/bootlogo_online4tech.jpg",
+      "size_bytes": 88154,
+      "git_blob_sha": "35f34af7569622053a39b3e8011e74a956cfa580",
+      "notes": "Visual and rights review pending."
+    },
+    {
+      "id": "o4t-panel-plugin-7-5",
+      "type": "ipk",
+      "status": "first_party_candidate",
+      "source_repo": "online4tech/Online4Tech-Panel1",
+      "source_commit": "f0b1a9f879f85472b9364f981c2a77dc25dae2b8",
+      "source_path": "enigma2-plugin-extensions-online4tech_7.5_all.ipk",
+      "size_bytes": 385696,
+      "git_blob_sha": "853be7b292ad0ceacc9fd543c2a7cccf7069aa6e",
+      "notes": "Must inspect control metadata, architecture, dependencies, payload and maintainer scripts before import."
+    },
+    {
+      "id": "website-plugin-catalogue",
+      "type": "catalogue_metadata",
+      "status": "metadata_only",
+      "source_repo": "online4tech/online4Tech",
+      "source_commit": "5d31c60cf815618d308a610f7f106fa24e312918",
+      "source_path": "data/plugins.json",
+      "records": 82,
+      "git_blob_sha": "68b174d2e6304ddcf273c18126927467ea28e01b"
+    },
+    {
+      "id": "website-package-inventory",
+      "type": "catalogue_metadata",
+      "status": "metadata_only",
+      "source_repo": "online4tech/online4Tech",
+      "source_commit": "5d31c60cf815618d308a610f7f106fa24e312918",
+      "source_path": "data/plugins-inventory.json",
+      "records": 278,
+      "git_blob_sha": "7a914ee914455da3a451ebe6bedecaaeb899c9e5"
+    },
+    {
+      "id": "manus-plugin-catalogue",
+      "type": "catalogue_metadata",
+      "status": "metadata_only",
+      "source_repo": "online4tech/manus-ipk",
+      "source_commit": "2b626e0fd8d84912fcf42d9d375bfbe940c84b44",
+      "source_path": "public/catalog-data.json",
+      "records": 841,
+      "git_blob_sha": "3bc0febf6460e04426de5e38b401f6db9ce29532"
+    },
+    {
+      "id": "manus-commands-catalogue",
+      "type": "catalogue_metadata",
+      "status": "metadata_only",
+      "source_repo": "online4tech/manus-ipk",
+      "source_commit": "2b626e0fd8d84912fcf42d9d375bfbe940c84b44",
+      "source_path": "public/commands-data.json",
+      "records": 807,
+      "git_blob_sha": "6b407d1811ca99a08edfee8b789f49e69df33a70"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "repository": "online4tech/Product-test",
+      "reason": "User identified it as unrelated channel-list material; excluded from all candidate selection and install-source planning."
+    }
+  ],
+  "third_party_review": [
+    {
+      "repository": "online4tech/Online4Tech-Panel1",
+      "manifest_path": "sources/source-manifest.json",
+      "sources": 663,
+      "source_types": {
+        "first_party": 361,
+        "third_party": 302
+      },
+      "nested_sources": 44,
+      "notes": "Classification in source manifest is not proof of ownership or redistribution rights."
+    }
+  ]
+}

@@ -35,9 +35,13 @@ foreach ($release in $inventory.releases) {
 }
 $selected = switch ($Category) {
     'small-first' {
-        $priority = @{ skins=0; plugins=1; picons=2; scripts=3; other=4 }
-        @($all | Where-Object { $_.category -in @('skins','plugins','picons','scripts','other') } |
-            Sort-Object @{Expression={ $priority[$_.category] }},size_bytes,repo,tag,asset_name)
+        # Filename classification can label tiny .sh installers as skins/plugins.
+        # Keep executable scripts out of the binary package batch.
+        $priority = @{ skins=0; plugins=1; picons=2 }
+        @($all | Where-Object {
+            $_.category -in @('skins','plugins','picons') -and
+            [IO.Path]::GetExtension($_.asset_name).ToLowerInvariant() -ne '.sh'
+        } | Sort-Object @{Expression={ $priority[$_.category] }},size_bytes,repo,tag,asset_name)
     }
     default { @($all | Where-Object { $_.category -eq $Category } | Sort-Object size_bytes,repo,tag,asset_name) }
 }

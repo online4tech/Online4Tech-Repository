@@ -34,7 +34,11 @@ foreach ($release in $inventory.releases) {
     }
 }
 $selected = switch ($Category) {
-    'small-first' { @($all | Where-Object { $_.category -in @('skins','plugins','picons','scripts','other') } | Sort-Object size_bytes,repo,tag,asset_name) }
+    'small-first' {
+        $priority = @{ skins=0; plugins=1; picons=2; scripts=3; other=4 }
+        @($all | Where-Object { $_.category -in @('skins','plugins','picons','scripts','other') } |
+            Sort-Object @{Expression={ $priority[$_.category] }},size_bytes,repo,tag,asset_name)
+    }
     default { @($all | Where-Object { $_.category -eq $Category } | Sort-Object size_bytes,repo,tag,asset_name) }
 }
 $maxBytes = [int64]($MaxBatchGB * 1GB)

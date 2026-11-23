@@ -74,3 +74,32 @@ The small-first category selects non-`.sh` binary assets in skins, plugins and p
 ## Final verification record
 
 The script uploads an initial manifest/checksum set, downloads the target assets and verifies every binary, then replaces the manifest/checksum assets in the same destination Release with the final PASS state. Inspect the destination release after success; never rerun a completed batch blindly.
+
+
+## Unattended sequential run (Windows)
+
+After reviewing the source permissions and attribution for the indexed assets, the operator can start the sequential runner:
+
+    .\tools\release-mirror\Run-AllReleaseMirror.ps1
+
+The runner uses the existing completed-assets ledger and processes these groups in order:
+1. small-first (non-.sh skins, plugins and picons)
+2. remaining skins, plugins and picons (including script-like files classified in those groups)
+3. scripts
+4. other
+5. bridge_tools
+6. receiver_backups
+
+It launches the existing single-batch worker repeatedly. A batch is considered complete only when the worker has downloaded the destination assets again, verified SHA-256 and size, published the final PASS manifest, and advanced the completed ledger. It then proceeds to the next batch without asking for per-batch approval.
+
+Safety and recovery:
+- The runner does not edit/delete source repositories or source Releases.
+- It does not execute any mirrored package, shell script, command or backup.
+- It does not delete or overwrite an existing destination Release.
+- It stops on the first failed batch or if the ledger does not advance; it does not blindly retry a possibly partial Release.
+- Logs and a JSON run summary are written under _release-mirror-work/automation/.
+- A register of individual assets at/above 2 GiB is written to oversize-assets.json; these are not transferred by this runner and need a separate chunked-storage plan.
+- The runner requests that Windows remain awake only while the process is active. Keep the computer powered and connected to the internet.
+- Do not delete _release-mirror-work; it contains the completed ledger and recovery evidence.
+
+To resume after a cleanly completed run, start the runner again; completed assets are skipped. If a run stops on error, inspect its log and the last destination Release before resuming.

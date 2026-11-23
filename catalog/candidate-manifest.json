@@ -6,20 +6,25 @@
     "product_test_excluded": true,
     "product_test_repository_deleted": false,
     "source_repositories_modified": false,
-    "payloads_imported": false,
-    "panel_connected": false
+    "payloads_imported": true,
+    "panel_connected": false,
+    "external_sources_preserved": true,
+    "original_source_repositories_modified": false
   },
   "candidates": [
     {
       "id": "channels-byr-oe-openatv",
       "type": "channel_backup",
-      "status": "first_party_candidate",
+      "status": "mirrored_pending_validation",
       "source_repo": "online4tech/Chanal-List",
       "source_commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
       "source_path": "channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
       "size_bytes": 680644,
       "git_blob_sha": "11b7a72ed4c9639c631d8f1ab9349d3a61441fe7",
-      "notes": "Only channel package candidate in scope; OpenATV backup, not standalone XML."
+      "notes": "Only channel package candidate in scope; OpenATV backup, not standalone XML.",
+      "mirror_path": "backups/channels/BYRomeh-OpenATV/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "original_source_url": "https://github.com/online4tech/Chanal-List/blob/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "mirror_blob_sha": "11b7a72ed4c9639c631d8f1ab9349d3a61441fe7"
     },
     {
       "id": "channels-installer",
@@ -88,13 +93,16 @@
     {
       "id": "o4t-panel-plugin-7-5",
       "type": "ipk",
-      "status": "first_party_candidate",
+      "status": "mirrored_pending_validation",
       "source_repo": "online4tech/Online4Tech-Panel1",
       "source_commit": "f0b1a9f879f85472b9364f981c2a77dc25dae2b8",
       "source_path": "enigma2-plugin-extensions-online4tech_7.5_all.ipk",
       "size_bytes": 385696,
       "git_blob_sha": "853be7b292ad0ceacc9fd543c2a7cccf7069aa6e",
-      "notes": "Must inspect control metadata, architecture, dependencies, payload and maintainer scripts before import."
+      "notes": "Must inspect control metadata, architecture, dependencies, payload and maintainer scripts before import.",
+      "mirror_path": "packages/plugins/online4tech/enigma2-plugin-extensions-online4tech_7.5_all.ipk",
+      "original_source_url": "https://github.com/online4tech/Online4Tech-Panel1/blob/main/enigma2-plugin-extensions-online4tech_7.5_all.ipk",
+      "mirror_blob_sha": "853be7b292ad0ceacc9fd543c2a7cccf7069aa6e"
     },
     {
       "id": "website-plugin-catalogue",
@@ -155,5 +163,13 @@
       "nested_sources": 44,
       "notes": "Classification in source manifest is not proof of ownership or redistribution rights."
     }
-  ]
+  ],
+  "mirror_policy": {
+    "purpose": "Create additional Online4Tech-hosted copies while preserving original external source URLs and author/license metadata.",
+    "originals_deleted_or_changed": false,
+    "external_links_to_be_retained": true,
+    "third_party_author_credit_required": true,
+    "license_and_redistribution_terms_recorded_per_item": true,
+    "install_commands_published_only_after_package_and_script_validation": true
+  }
 }

@@ -68,7 +68,7 @@ public static class O4TAwake {
 }
 '@
     Add-Type -TypeDefinition $signature -ErrorAction SilentlyContinue
-    [void][O4TAwake]::SetThreadExecutionState(0x80000001)
+    [void][O4TAwake]::SetThreadExecutionState([uint32]2147483649)
     Start-Transcript -LiteralPath $logPath -Force | Out-Null
     $transcriptStarted = $true
 
@@ -122,7 +122,7 @@ public static class O4TAwake {
 }
 catch {
     $exitReason = 'stopped_on_error'
-    Write-Error $_
+    Write-Host ("ERROR: " + $_.Exception.Message)
     Write-Host 'AUTOMATION STOPPED. Do not rerun blindly; inspect the last destination release and log first.'
 }
 finally {
@@ -143,8 +143,9 @@ finally {
     }
     $summary | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $summaryPath -Encoding UTF8
     if ($transcriptStarted) { Stop-Transcript | Out-Null }
-    try { [void][O4TAwake]::SetThreadExecutionState(0x80000000) } catch {}
+    try { [void][O4TAwake]::SetThreadExecutionState([uint32]2147483648) } catch {}
 }
 if ($exitReason -ne 'completed') { exit 1 }
 exit 0
+
 

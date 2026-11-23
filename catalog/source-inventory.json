@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "audited_at": "2026-11-23",
+  "mode": "read_only_inventory",
+  "sources": [
+    {
+      "repository": "online4tech/online4Tech",
+      "commit": "5d31c60cf815618d308a610f7f106fa24e312918",
+      "files": 1184,
+      "counts": {
+        "ipk": 95,
+        "gz": 173,
+        "sh": 253,
+        "webp": 97,
+        "png": 32,
+        "jpg": 32
+      }
+    },
+    {
+      "repository": "online4tech/Online4Tech-Panel1",
+      "commit": "f0b1a9f879f85472b9364f981c2a77dc25dae2b8",
+      "files": 835,
+      "counts": {
+        "ipk": 23,
+        "deb": 27,
+        "gz": 114,
+        "sh": 544
+      }
+    },
+    {
+      "repository": "online4tech/Smart-Manager",
+      "commit": "3140fae3b7e199f57b2551c5de8435dc845a1314",
+      "files": 36
+    },
+    {
+      "repository": "online4tech/manus-ipk",
+      "commit": "2b626e0fd8d84912fcf42d9d375bfbe940c84b44",
+      "files": 23,
+      "catalogs": {
+        "items": 841,
+        "commands": 807
+      }
+    },
+    {
+      "repository": "online4tech/Chanal-List",
+      "commit": "e98398518c4500cd0cac7c6511b75181f41b74b2",
+      "files": 218
+    },
+    {
+      "repository": "online4tech/Product-test",
+      "commit": "ec9b28d41f0b1b3f480d5d42e443f6f3fda6251d",
+      "files": 179
+    }
+  ],
+  "catalog_counts": {
+    "Smart-Manager.plugins": 836,
+    "Smart-Manager.commands": 1276,
+    "Online4Tech-website.curated_plugins": 82,
+    "Online4Tech-website.plugin_inventory_packages": 278,
+    "Online4Tech-Panel1.plugins_section": 151
+  },
+  "chanal_product_comparison": {
+    "chanal_files": 218,
+    "product_test_files": 179,
+    "shared_paths": 177,
+    "identical_same_path": 168,
+    "different_same_path": 9,
+    "only_chanal": 41,
+    "only_product": 2,
+    "differing_paths": [
+      "control-center-app/index.html",
+      "control-center/index.html",
+      "data/enigma2/commands.json",
+      "enigma2-center.html",
+      "enigma2-control-center.html",
+      "index.html",
+      "products.html",
+      "src/components/DeviceConnection.jsx",
+      "src/pages/ControlCenter.jsx"
+    ]
+  },
+  "import_status": "none",
+  "source_modifications": "none",
+  "panel_connected": false
+}

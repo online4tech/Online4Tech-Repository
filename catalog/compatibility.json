@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0.0",
+  "platforms": ["Enigma2"],
+  "fields": ["receiver_brand","receiver_model","architecture","image","enigma2_version","python_version"],
+  "note": "Compatibility must be evidence-based; do not infer it from filenames."
+}

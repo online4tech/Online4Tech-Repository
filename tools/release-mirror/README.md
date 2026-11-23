@@ -34,7 +34,7 @@ After reviewing the exact list and confirming redistribution rights/attribution 
 
     .\tools\release-mirror\Start-ReleaseMirror.ps1 -Category skins -MaxFiles 10 -MaxBatchGB 0.5 -Execute -IConfirmRightsAndAttribution
 
-Repeat for plugins, picons, and scripts. Keep initial batches small.
+For the first skin/plugin/Picons pass, use `small-first`. After a batch passes remote SHA-256 verification, the tool records its completed asset keys in `_release-mirror-work/completed-assets.json`; the next run skips those completed assets and selects the next batch. Keep the work folder so this progress ledger is preserved.
 
 The script:
 1. Downloads from the original URL recorded in the inventory.
@@ -57,7 +57,7 @@ The manifest preserves source repository, release tag/page, original filename, o
 6. bridge_tools (separate from Enigma2 plugins)
 7. receiver_backups (last)
 
-The small-first category selects skins, plugins, picons, scripts and other, ordered smallest first.
+The small-first category selects non-`.sh` binary assets in skins, plugins and picons, in that priority order and then by size. Shell scripts are deliberately excluded from this first package batch.
 
 ## Safety rules
 
@@ -66,10 +66,10 @@ The small-first category selects skins, plugins, picons, scripts and other, orde
 - Files of 2 GiB or larger are skipped.
 - A batch stops on size/hash mismatch or upload/verification failure.
 - Never treat Git blob SHA as a file SHA-256.
-- Third-party assets must retain original attribution and license notices. The explicit confirmation switch requires a deliberate local confirmation; it is not a substitute for reviewing each item's actual license/permission.
+- Preserve original author attribution and any license/copyright notices. The operator confirms redistribution permission before execution; do not remove original notices from the packages.
 - Product-test is not in the current release inventory and remains excluded from channel-list content and installation commands.
 - The tool does not unpack/install packages or approve installation commands.
-- Keep the local work folder until the batch is reviewed and the target release is verified.
+- Keep the local work folder until all batches are reviewed and the target releases are verified; it contains the completed-assets ledger used to avoid repeating successful transfers.
 
 ## Final verification record
 

@@ -49,7 +49,6 @@ function render(){
   if(item.package_url){const a=el('a','tab primary','تحميل الحزمة');a.href=safeUrl(item.package_url);a.target='_blank';a.rel='noopener';if(a.href)actions.append(a)}
   if(item.latest_manifest){const a=el('a','tab','تفاصيل الإصدار');a.href=safeUrl(item.latest_manifest);a.target='_blank';a.rel='noopener';actions.append(a)}
   if(item.install_url){const cmd='wget -qO- '+safeUrl(item.install_url)+' | sh';const b=el('button','primary','نسخ أمر التثبيت');b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(cmd);b.textContent='تم نسخ الأمر'}catch(_){b.textContent='تعذر النسخ'}});actions.append(b)}
-  card.append(actions);
   if(Array.isArray(item.available_packages)&&item.available_packages.length>1){
    const details=el('details');const summary=el('summary','meta','كل ملفات الحزمة ('+item.available_packages.length+')');details.append(summary);
    item.available_packages.forEach(pkg=>{const u=safeUrl(pkg.download_url);if(!u)return;const a=el('a','meta',pkg.filename||'تحميل ملف');a.href=u;a.target='_blank';a.rel='noopener';a.style.display='block';a.style.padding='5px 0';details.append(a)});

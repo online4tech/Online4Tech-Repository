@@ -113,7 +113,8 @@ def choose(items,done,cat):
     for x in items:
         if key(x) in done: continue
         if cat=="small-first":
-            if x["category"] not in ("skins","plugins","picons"): continue
+            # Match the established local worker: keep tiny shell installers for their category pass.
+            if x["category"] not in ("skins","plugins","picons") or Path(x["name"]).suffix.lower()==".sh": continue
             pr={"skins":0,"plugins":1,"picons":2}[x["category"]]
         elif x["category"]==cat: pr=0
         else: continue

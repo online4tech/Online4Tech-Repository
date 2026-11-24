@@ -60,7 +60,8 @@ def build_addons(kind: str):
         icon = icon if icon.startswith("http") or not icon else (icon if icon.startswith("plugins/") or icon.startswith("skins/") else rel(folder / icon))
         shots = [x if x.startswith("http") or x.startswith("plugins/") or x.startswith("skins/") else rel(folder / x) for x in shots]
         install_file = folder / "install.sh"
-        install_url = str(meta.get("install_url") or (public(rel(install_file)) if install_file.is_file() else ""))
+        install_value = str(meta.get("install_url") or "")
+        install_url = install_value if install_value.startswith("http") else (public(install_value if install_value.startswith(("plugins/","skins/")) else rel(folder / install_value)) if install_value else (public(rel(install_file)) if install_file.is_file() else ""))
         latest_file = folder / "latest.json"
         items.append({
             "id": addon_id, "kind": kind, "name": str(meta.get("name") or folder.name.replace("-", " ").title()),

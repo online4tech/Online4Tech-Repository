@@ -7,11 +7,11 @@ on:
     inputs:
       source_url:
         description: "Direct downloadable URL of a cloud-hosted backup archive"
-        required: false
+        required: true
         type: string
       tag_name:
         description: "Unique Release tag, e.g. backup-vu-zero-4k-openatv-2026"
-        required: false
+        required: true
         type: string
       release_name:
         description: "Release title (optional)"
@@ -23,11 +23,11 @@ on:
         type: string
       brand:
         description: "Receiver brand, e.g. Vu+"
-        required: false
+        required: true
         type: string
       device_model:
         description: "Exact receiver model"
-        required: false
+        required: true
         type: string
       version:
         description: "Image / backup version"

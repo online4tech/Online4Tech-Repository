@@ -84,6 +84,8 @@ def index_release(tag):
 def upload_from_url(args):
     if not args.source_url or not args.tag_name:
         raise RuntimeError("source_url and tag_name are required.")
+    if not args.brand or not args.device_model:
+        raise RuntimeError("brand and device_model are required for a cloud URL upload.")
     tag = args.tag_name.strip()
     try:
         release = release_by_tag(tag)

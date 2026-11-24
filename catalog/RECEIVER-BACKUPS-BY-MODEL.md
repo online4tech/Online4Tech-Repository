@@ -1,212 +1,268 @@
-# فهرس النسخ الاحتياطية حسب موديل الرسيفر
+# النسخ الاحتياطية — فهرس حسب موديل الرسيفر
 
-> فهرس وصول فقط: لا ينقل ولا يحذف ولا يغيّر أي ملف من الـReleases أو المصادر الأصلية. روابط التحميل تشير إلى الملفات المنسوخة في Releases المستودع المركزي، وروابط المصدر محفوظة للمراجعة.
+> كل موديل له Release مستقل يحتوي على صوره فقط. روابط التحميل أدناه تفتح الملفات داخل Release الموديل، مع الاحتفاظ بمصادر الملفات الأصلية في Manifest.
 
-## نتيجة المراجعة
+- **16 موديلًا** لها Releases مستقلة.
+- **120 سجل مصدر**، تم تنظيمها في **119 ملفًا فريدًا** داخل Releases الموديلات؛ التكرار المتطابق في الاسم والبصمة تم حفظه مرة واحدة مع الاحتفاظ بمصدريه.
+- تم التحقق من وجود Manifest وبصمات SHA-256 لكل Release موديل.
+- النسخ القديمة المختلطة محفوظة كما هي ولم يتم حذفها أو تعديلها.
 
-- **120** ملف صورة/استعادة مرتبط بموديلات رسيفرات، موزعين حسب الموديل أدناه.
-- **1** نسخة إعدادات قنوات مستقلة، موضوعة في قسم منفصل لأنها ليست صورة نظام لرسيفر.
-- **89** عنصرًا كان موجودًا خطأً داخل فهرس `receiver_backups`: 4 ملفات من مجموعة البلجنز، و77 سكريبت/ملف نصي، و7 حزم IPK، وملف APK واحد. لم يتم نقل أو حذف هذه الملفات؛ هذه مراجعة تصنيف فقط.
-- **118 ملفًا** لها مطابقة مباشرة محددة، وسجلان يحملان اسم الملف نفسه من مصدرين مختلفين ولهما رابطا تنزيل مرشحان؛ أدرجت الرابطين بدل التخمين.
-- أسماء الملفات الأصلية وتواريخها وإصدارات الصور محفوظة كما هي؛ الترتيب هنا حسب موديل الجهاز، وليس حسب تاريخ الـRelease.
-- ملفات Dreambox الستة في الفهرس مسماة صراحةً DM520؛ لا توجد حاليًا ملفات باك أب محددة بالاسم لموديل DM525 بشكل مستقل.
+## اختار موديل الجهاز
 
-## النسخ حسب موديل الجهاز
+| الموديل | عدد الملفات | Release مستقل |
+|---|---:|---|
+| Dreambox DM520 | 6 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups) |
+| Vu+ Duo 4K SE | 10 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups) |
+| Vu+ Duo 4K | 12 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups) |
+| Vu+ Uno 4K SE | 8 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups) |
+| Vu+ Zero 4K | 6 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups) |
+| Dreambox Two | 1 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-two-backups) |
+| Novaler Pro | 9 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups) |
+| Multibox Pro | 24 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups) |
+| Vu+ Zero | 5 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-backups) |
+| Vu+ Uno 4K | 6 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups) |
+| Vu+ Ultimo 4K | 5 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-ultimo-4k-backups) |
+| Vu+ Solo 4K | 10 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups) |
+| Multibox SE | 7 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups) |
+| Novaler SE | 2 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-se-backups) |
+| Novaler 4K Pro | 3 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-pro-backups) |
+| Novaler 4K | 5 | [فتح Release](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups) |
 
-### Dreambox DM520 — 6 ملفات
+## Dreambox DM520
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `01_openATV-8.0.1-dm520-internal.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0015--01_openATV-8.0.1-dm520-internal.zip) | [Dreambox DM520 + DM525 Backup Images](https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121) |
-| `02_openATV-8.0.1-dm520-16112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114929/0007--02_openATV-8.0.1-dm520-16112026.zip) | [Dreambox DM520 + DM525 Backup Images](https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121) |
-| `03_openATV-8.1beta-dm520-16112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115605/0003--03_openATV-8.1beta-dm520-16112026.zip) | [Dreambox DM520 + DM525 Backup Images](https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121) |
-| `04_OpenBH-6.0-dm520-16112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115138/0001--04_OpenBH-6.0-dm520-16112026.zip) | [Dreambox DM520 + DM525 Backup Images](https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121) |
-| `05_OpenVix-6.9-dm520-16112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0020--05_OpenVix-6.9-dm520-16112026.zip) | [Dreambox DM520 + DM525 Backup Images](https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121) |
-| `06_TSimage-13.0-dm520-17112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120853/0003--06_TSimage-13.0-dm520-17112026.zip) | [Dreambox DM520 + DM525 Backup Images](https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121) |
+**[فتح Release الخاص بـ Dreambox DM520](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups)** — 6 ملفات
 
-### Dreambox Two — 1 ملفات
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `01_openATV-8.0.1-dm520-internal.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/01_openATV-8.0.1-dm520-internal.zip ) |
+| `02_openATV-8.0.1-dm520-16112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/02_openATV-8.0.1-dm520-16112026.zip ) |
+| `03_openATV-8.1beta-dm520-16112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/03_openATV-8.1beta-dm520-16112026.zip ) |
+| `04_OpenBH-6.0-dm520-16112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/04_OpenBH-6.0-dm520-16112026.zip ) |
+| `05_OpenVix-6.9-dm520-16112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/05_OpenVix-6.9-dm520-16112026.zip ) |
+| `06_TSimage-13.0-dm520-17112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/06_TSimage-13.0-dm520-17112026.zip ) |
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121549/0002--e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
+## Vu+ Duo 4K SE
 
-### Vu+ Zero 4K — 6 ملفات
+**[فتح Release الخاص بـ Vu+ Duo 4K SE](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups)** — 10 ملفات
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120033/0003--bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `egami-11.0-r23-vuzero4k-03112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120853/0001--egami-11.0-r23-vuzero4k-03112026.zip) | [Online4Tech Backups - Vu+ Zero 4K](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k) |
-| `openatv-8.0.1-vuzero4k-03112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115821/0006--openatv-8.0.1-vuzero4k-03112026.zip) | [Online4Tech Backups - Vu+ Zero 4K](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k) |
-| `openbh-6.0.005-vuzero4k-03112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115138/0005--openbh-6.0.005-vuzero4k-03112026.zip) | [Online4Tech Backups - Vu+ Zero 4K](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k) |
-| `openvix-6.9.003-vuzero4k_03112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120033/0005--openvix-6.9.003-vuzero4k_03112026.zip) | [Online4Tech Backups - Vu+ Zero 4K](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k) |
-| `PurE2-7.6-vuzero4k_03112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120236/0003--PurE2-7.6-vuzero4k_03112026.zip) | [Online4Tech Backups - Vu+ Zero 4K](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k) |
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip ) |
+| `6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip ) |
+| `9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip ) |
+| `a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026--source-online4tech-catalog-assets.zip ) |
+| `egami-11.0-r23-vuduo4kse-02112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/egami-11.0-r23-vuduo4kse-02112026.zip ) |
+| `openatv-8.0.1-vuduo4kse-02112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openatv-8.0.1-vuduo4kse-02112026.zip ) |
+| `openatv-8.1.0.beta-vuduo4kse-12112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openatv-8.1.0.beta-vuduo4kse-12112026.zip ) |
+| `openbh-6.0.005-vuduo4kse-02112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openbh-6.0.005-vuduo4kse-02112026.zip ) |
+| `openvix-6.9.006-vuduo4kse_13112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openvix-6.9.006-vuduo4kse_13112026.zip ) |
+| `PurE2-7.6-vuduo4kse-02112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/PurE2-7.6-vuduo4kse-02112026.zip ) |
 
-### Vu+ Zero — 5 ملفات
+## Vu+ Duo 4K
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `egami-10.5.r10-vuzero-03102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115821/0004--egami-10.5.r10-vuzero-03102026.zip) | [Online4Tech backups - Vuzero](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuzero) |
-| `OpenATV-8.0.1-vuzero-02102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122224/0001--OpenATV-8.0.1-vuzero-02102026.zip) | [Online4Tech backups - Vuzero](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuzero) |
-| `openbh-6.0.004-vuzero-03102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121755/0004--openbh-6.0.004-vuzero-03102026.zip) | [Online4Tech backups - Vuzero](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuzero) |
-| `openspa-8.7-vuzero-03102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122013/0005--openspa-8.7-vuzero-03102026.zip) | [Online4Tech backups - Vuzero](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuzero) |
-| `openvix-6.9.002-vuzero-03102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122224/0003--openvix-6.9.002-vuzero-03102026.zip) | [Online4Tech backups - Vuzero](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuzero) |
+**[فتح Release الخاص بـ Vu+ Duo 4K](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups)** — 12 ملفات
 
-### Vu+ Duo 4K SE — 11 ملفات
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip ) |
+| `7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip ) |
+| `9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip ) |
+| `egami-11.0-r22-vuduo4k-24092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/egami-11.0-r22-vuduo4k-24092026.zip ) |
+| `egami-11.0-r23-vuduo4k-19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/egami-11.0-r23-vuduo4k-19112026.zip ) |
+| `openatv-8.0.0-RC1-vuduo4k-24092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openatv-8.0.0-RC1-vuduo4k-24092026.zip ) |
+| `openatv-8.0.1-vuduo4k-19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openatv-8.0.1-vuduo4k-19112026.zip ) |
+| `openbh-6.0.003-vuduo4k-24092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openbh-6.0.003-vuduo4k-24092026.zip ) |
+| `openbh-6.0.005-vuduo4k-19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openbh-6.0.005-vuduo4k-19112026.zip ) |
+| `openvix-6.9.002-vuduo4k_24092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openvix-6.9.002-vuduo4k_24092026.zip ) |
+| `PurE2-7.6-vuduo4k_19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/PurE2-7.6-vuduo4k_19112026.zip ) |
+| `vuduo4k-PurE2-7.6-24092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/vuduo4k-PurE2-7.6-24092026.zip ) |
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115821/0002--5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122644/0002--6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122438/0004--9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip` | [نسخة 1](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0017--a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip) / [نسخة 2](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0018--a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip` | [نسخة 1](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0017--a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip) / [نسخة 2](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0018--a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `egami-11.0-r23-vuduo4kse-02112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120647/0002--egami-11.0-r23-vuduo4kse-02112026.zip) | [Online4Tech backups - Vuduo4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse) |
-| `openatv-8.0.1-vuduo4kse-02112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120647/0006--openatv-8.0.1-vuduo4kse-02112026.zip) | [Online4Tech backups - Vuduo4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse) |
-| `openatv-8.1.0.beta-vuduo4kse-12112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122013/0001--openatv-8.1.0.beta-vuduo4kse-12112026.zip) | [Online4Tech backups - Vuduo4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse) |
-| `openbh-6.0.005-vuduo4kse-02112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0005--openbh-6.0.005-vuduo4kse-02112026.zip) | [Online4Tech backups - Vuduo4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse) |
-| `openvix-6.9.006-vuduo4kse_13112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120441/0003--openvix-6.9.006-vuduo4kse_13112026.zip) | [Online4Tech backups - Vuduo4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse) |
-| `PurE2-7.6-vuduo4kse-02112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115605/0005--PurE2-7.6-vuduo4kse-02112026.zip) | [Online4Tech backups - Vuduo4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse) |
+## Vu+ Uno 4K SE
 
-### Vu+ Duo 4K — 12 ملفات
+**[فتح Release الخاص بـ Vu+ Uno 4K SE](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups)** — 8 ملفات
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120853/0002--588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115138/0002--7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0001--9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `egami-11.0-r22-vuduo4k-24092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122438/0002--egami-11.0-r22-vuduo4k-24092026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `egami-11.0-r23-vuduo4k-19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121755/0005--egami-11.0-r23-vuduo4k-19112026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `openatv-8.0.0-RC1-vuduo4k-24092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122013/0004--openatv-8.0.0-RC1-vuduo4k-24092026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `openatv-8.0.1-vuduo4k-19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121549/0003--openatv-8.0.1-vuduo4k-19112026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `openbh-6.0.003-vuduo4k-24092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121755/0003--openbh-6.0.003-vuduo4k-24092026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `openbh-6.0.005-vuduo4k-19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115605/0002--openbh-6.0.005-vuduo4k-19112026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `openvix-6.9.002-vuduo4k_24092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122438/0003--openvix-6.9.002-vuduo4k_24092026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `PurE2-7.6-vuduo4k_19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121344/0004--PurE2-7.6-vuduo4k_19112026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
-| `vuduo4k-PurE2-7.6-24092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122224/0004--vuduo4k-PurE2-7.6-24092026.zip) | [Online4Tech backups - Vuduo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k) |
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip ) |
+| `963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip ) |
+| `bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip ) |
+| `egami-11.0-r23-vuuno4kse-01112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/egami-11.0-r23-vuuno4kse-01112026.zip ) |
+| `openatv-8.0.1-vuuno4kse-01112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openatv-8.0.1-vuuno4kse-01112026.zip ) |
+| `openbh-6.0.005-vuuno4kse-01112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openbh-6.0.005-vuuno4kse-01112026.zip ) |
+| `openvix-6.9.003-vuuno4kse_01112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openvix-6.9.003-vuuno4kse_01112026.zip ) |
+| `PurE2-7.6_vuuno4kse-01112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/PurE2-7.6_vuuno4kse-01112026.zip ) |
 
-### Vu+ Uno 4K SE — 8 ملفات
+## Vu+ Zero 4K
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121108/0003--8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0008--963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121344/0005--bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
-| `egami-11.0-r23-vuuno4kse-01112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120236/0004--egami-11.0-r23-vuuno4kse-01112026.zip) | [Online4Tech backups - Vuuno4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse) |
-| `openatv-8.0.1-vuuno4kse-01112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120441/0004--openatv-8.0.1-vuuno4kse-01112026.zip) | [Online4Tech backups - Vuuno4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse) |
-| `openbh-6.0.005-vuuno4kse-01112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120033/0004--openbh-6.0.005-vuuno4kse-01112026.zip) | [Online4Tech backups - Vuuno4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse) |
-| `openvix-6.9.003-vuuno4kse_01112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122644/0001--openvix-6.9.003-vuuno4kse_01112026.zip) | [Online4Tech backups - Vuuno4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse) |
-| `PurE2-7.6_vuuno4kse-01112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120236/0001--PurE2-7.6_vuuno4kse-01112026.zip) | [Online4Tech backups - Vuuno4kse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse) |
+**[فتح Release الخاص بـ Vu+ Zero 4K](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups)** — 6 ملفات
 
-### Vu+ Uno 4K — 6 ملفات
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip ) |
+| `egami-11.0-r23-vuzero4k-03112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/egami-11.0-r23-vuzero4k-03112026.zip ) |
+| `openatv-8.0.1-vuzero4k-03112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openatv-8.0.1-vuzero4k-03112026.zip ) |
+| `openbh-6.0.005-vuzero4k-03112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openbh-6.0.005-vuzero4k-03112026.zip ) |
+| `openvix-6.9.003-vuzero4k_03112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openvix-6.9.003-vuzero4k_03112026.zip ) |
+| `PurE2-7.6-vuzero4k_03112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/PurE2-7.6-vuzero4k_03112026.zip ) |
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `egami-10.6-r14-vuuno4k.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115138/0006--egami-10.6-r14-vuuno4k.zip) | [Online4Tech backups - Vuuno4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4k) |
-| `openatv-8.0.1-vuuno4k-08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120236/0002--openatv-8.0.1-vuuno4k-08112026.zip) | [Online4Tech backups - Vuuno4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4k) |
-| `openbh-6.0.005-vuuno4k-08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115138/0003--openbh-6.0.005-vuuno4k-08112026.zip) | [Online4Tech backups - Vuuno4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4k) |
-| `openspa-8.7.003-vuuno4k-08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121108/0002--openspa-8.7.003-vuuno4k-08112026.zip) | [Online4Tech backups - Vuuno4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4k) |
-| `openvix-6.9.003-vuuno4k_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120033/0006--openvix-6.9.003-vuuno4k_08112026.zip) | [Online4Tech backups - Vuuno4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4k) |
-| `PurE2-7.6-vuuno4k-08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120236/0005--PurE2-7.6-vuuno4k-08112026.zip) | [Online4Tech backups - Vuuno4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4k) |
+## Dreambox Two
 
-### Vu+ Ultimo 4K — 5 ملفات
+**[فتح Release الخاص بـ Dreambox Two](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-two-backups)** — 1 ملفات
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `egami-11.0-r23-vuultimo4k-05112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120441/0005--egami-11.0-r23-vuultimo4k-05112026.zip) | [Online4Tech backups - Vuultimo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuultimo4k) |
-| `openatv-8.0.1-vuultimo4k-05112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120441/0002--openatv-8.0.1-vuultimo4k-05112026.zip) | [Online4Tech backups - Vuultimo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuultimo4k) |
-| `openbh-6.0.005-vuultimo4k-05112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115138/0007--openbh-6.0.005-vuultimo4k-05112026.zip) | [Online4Tech backups - Vuultimo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuultimo4k) |
-| `openvix-6.9.003-vuultimo4k_05112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120236/0006--openvix-6.9.003-vuultimo4k_05112026.zip) | [Online4Tech backups - Vuultimo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuultimo4k) |
-| `PurE2-7.6-vuultimo4k_05112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115605/0004--PurE2-7.6-vuultimo4k_05112026.zip) | [Online4Tech backups - Vuultimo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuultimo4k) |
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-two-backups/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz ) |
 
-### Vu+ Solo 4K — 10 ملفات
+## Novaler Pro
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `egami-11.0-r22-vusolo4k-23092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122438/0001--egami-11.0-r22-vusolo4k-23092026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `egami-11.0-r23-vusolo4k-19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121549/0001--egami-11.0-r23-vusolo4k-19112026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `openatv-8.0.0-RC1-vusolo4k-23092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122224/0002--openatv-8.0.0-RC1-vusolo4k-23092026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `openatv-8.0.1-vusolo4k-19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121108/0004--openatv-8.0.1-vusolo4k-19112026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `openbh-6.0.003-vusolo4k-23092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121549/0004--openbh-6.0.003-vusolo4k-23092026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `openbh-6.0.005-vusolo4k-19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115138/0004--openbh-6.0.005-vusolo4k-19112026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `openvix-6.9.002-vusolo4k_23092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122224/0005--openvix-6.9.002-vusolo4k_23092026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `openvix-6.9.007-vusolo4k_19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120647/0004--openvix-6.9.007-vusolo4k_19112026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `PurE2-7.6-vusolo4k_19112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120853/0004--PurE2-7.6-vusolo4k_19112026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
-| `vusolo4k-PurE2-7.6-23092026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122013/0002--vusolo4k-PurE2-7.6-23092026.zip) | [Online4Tech backups - Vusolo4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k) |
+**[فتح Release الخاص بـ Novaler Pro](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups)** — 9 ملفات
 
-### Novaler SE / Multibox SE — 9 ملفات
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip ) |
+| `18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip ) |
+| `269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip ) |
+| `269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip ) |
+| `3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip ) |
+| `Hyperion-X3-novalerpro_18102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/Hyperion-X3-novalerpro_18102026.zip ) |
+| `novalerpro_corvoboys_slot5.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/novalerpro_corvoboys_slot5.zip ) |
+| `OpenPLi-GCC-16.1-novalerpro_19102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/OpenPLi-GCC-16.1-novalerpro_19102026.zip ) |
+| `PurE2-7.6-novalerpro_18102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/PurE2-7.6-novalerpro_18102026.zip ) |
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `EGAMI-11.0-multiboxse_06112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120647/0005--EGAMI-11.0-multiboxse_06112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `novalerSE_corvoboys_slot5.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0012--novalerSE_corvoboys_slot5.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `OpenATV-8.0.1-multiboxse_06112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115821/0005--OpenATV-8.0.1-multiboxse_06112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `OpenATV-8.1.0_beta-multiboxse_06112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120441/0001--OpenATV-8.1.0_beta-multiboxse_06112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `OpenBh-6.0-multiboxse_06112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0007--OpenBh-6.0-multiboxse_06112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `OpenPLi-9.2-multiboxse_06112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0016--OpenPLi-9.2-multiboxse_06112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `openspa-8.7.003-novalerse-10112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120647/0003--openspa-8.7.003-novalerse-10112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `OpenViX-6.9-multiboxse_06112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115348/0003--OpenViX-6.9-multiboxse_06112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
-| `PurE2-7.6-multiboxse_06112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115821/0003--PurE2-7.6-multiboxse_06112026.zip) | [Online4Tech backups - Novalerse](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse) |
+## Multibox Pro
 
-### Novaler Pro / Multibox Pro — 36 ملفات
+**[فتح Release الخاص بـ Multibox Pro](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups)** — 24 ملفات
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121344/0002--08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114929/0004--162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114929/0005--162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115348/0001--18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120853/0005--269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120853/0006--269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121108/0006--33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121344/0001--33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115821/0007--35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120033/0001--35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0013--3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115348/0006--6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115348/0007--6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120441/0006--6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121108/0005--6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114929/0001--8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114929/0002--8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121549/0005--959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121755/0001--b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121755/0002--b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `EGAMI-11.0-multiboxpro_10112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120033/0002--EGAMI-11.0-multiboxpro_10112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0002--f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0003--f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip) | [Online4Tech Verified Backups](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups) |
-| `Hyperion-X3-novalerpro_18102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121344/0003--Hyperion-X3-novalerpro_18102026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `novaler4kpro-3.53_recovery.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0010--novaler4kpro-3.53_recovery.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `novalerpro_corvoboys_slot5.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0014--novalerpro_corvoboys_slot5.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `OpenATV-8.0.1-multiboxpro_10112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115605/0007--OpenATV-8.0.1-multiboxpro_10112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `OpenATV-8.1.0_beta-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-120647/0001--OpenATV-8.1.0_beta-multiboxpro_08112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `OpenBh-6.0-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115605/0001--OpenBh-6.0-multiboxpro_08112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `openHDF-8.0-multiboxpro_09112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114929/0006--openHDF-8.0-multiboxpro_09112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `OpenPLi-GCC-16.1-novalerpro_19102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-121108/0001--OpenPLi-GCC-16.1-novalerpro_19102026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `OpenPLi-wrynose-multiboxpro_09112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0004--OpenPLi-wrynose-multiboxpro_09112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `openspa-8.7.002-OEA-novaler4kpro-06102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-122013/0003--openspa-8.7.002-OEA-novaler4kpro-06102026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `OpenViX-6.9-novaler4kpro_01112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115821/0001--OpenViX-6.9-novaler4kpro_01112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `PurE2-7.6-novalerpro_18102026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115348/0002--PurE2-7.6-novalerpro_18102026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
-| `Teamblue-8.0-multiboxpro_08112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114929/0003--Teamblue-8.0-multiboxpro_08112026.zip) | [Online4Tech backups - Novalerpro](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro) |
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip ) |
+| `162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip ) |
+| `33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip ) |
+| `33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip ) |
+| `35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip ) |
+| `35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip ) |
+| `6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip ) |
+| `6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip ) |
+| `6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip ) |
+| `6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip ) |
+| `8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip ) |
+| `8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip ) |
+| `959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip ) |
+| `b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip ) |
+| `b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip ) |
+| `EGAMI-11.0-multiboxpro_10112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/EGAMI-11.0-multiboxpro_10112026.zip ) |
+| `f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip ) |
+| `f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip ) |
+| `OpenATV-8.0.1-multiboxpro_10112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenATV-8.0.1-multiboxpro_10112026.zip ) |
+| `OpenATV-8.1.0_beta-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenATV-8.1.0_beta-multiboxpro_08112026.zip ) |
+| `OpenBh-6.0-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenBh-6.0-multiboxpro_08112026.zip ) |
+| `openHDF-8.0-multiboxpro_09112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/openHDF-8.0-multiboxpro_09112026.zip ) |
+| `OpenPLi-wrynose-multiboxpro_09112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenPLi-wrynose-multiboxpro_09112026.zip ) |
+| `Teamblue-8.0-multiboxpro_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/Teamblue-8.0-multiboxpro_08112026.zip ) |
 
-### Novaler 4K — 5 ملفات
+## Vu+ Zero
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `egami-11.0-r23-novaler4k-07112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115348/0005--egami-11.0-r23-novaler4k-07112026.zip) | [Online4Tech backups - Novaler4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k) |
-| `openatv-8.1.0.beta-novaler4k-07112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115605/0006--openatv-8.1.0.beta-novaler4k-07112026.zip) | [Online4Tech backups - Novaler4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k) |
-| `openbh-6.0.005-novaler4k_07112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0019--openbh-6.0.005-novaler4k_07112026.zip) | [Online4Tech backups - Novaler4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k) |
-| `openvix-6.9.006-novaler4k_07112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114710/0006--openvix-6.9.006-novaler4k_07112026.zip) | [Online4Tech backups - Novaler4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k) |
-| `PurE2-7.6-novaler4k-07112026.zip` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-115348/0004--PurE2-7.6-novaler4k-07112026.zip) | [Online4Tech backups - Novaler4k](https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k) |
+**[فتح Release الخاص بـ Vu+ Zero](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-backups)** — 5 ملفات
 
-## نسخ القنوات (ليست صور نظام)
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `egami-10.5.r10-vuzero-03102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/egami-10.5.r10-vuzero-03102026.zip ) |
+| `OpenATV-8.0.1-vuzero-02102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/OpenATV-8.0.1-vuzero-02102026.zip ) |
+| `openbh-6.0.004-vuzero-03102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/openbh-6.0.004-vuzero-03102026.zip ) |
+| `openspa-8.7-vuzero-03102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/openspa-8.7-vuzero-03102026.zip ) |
+| `openvix-6.9.002-vuzero-03102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/openvix-6.9.002-vuzero-03102026.zip ) |
 
-| الملف | تحميل من المستودع المركزي | Release المصدر |
-|---|---|---|
-| `c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz` | [تحميل مباشر](https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-receiver_backups-20261124-114451/0004--c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz) | [Online4Tech Catalog Assets](https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets) |
+## Vu+ Uno 4K
 
-## ملاحظات
+**[فتح Release الخاص بـ Vu+ Uno 4K](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups)** — 6 ملفات
 
-- بعض أسماء الأجهزة تظهر بأكثر من صيغة؛ تم توحيدها في اسم موديل واحد لتسهيل البحث، مع عدم تغيير اسم الملف نفسه.
-- لو نفس الملف موجود في أكثر من Release مصدر، تم الإبقاء على كل مرجع مصدر وعدم حذف التكرار.
-- هذا الفهرس لا يعني أن الصورة تم اختبارها على جهاز فعلي؛ هو تنظيم وفهرسة للملفات وروابطها فقط.
-- [الرجوع إلى المستودع المركزي](https://github.com/online4tech/Online4Tech-Repository/releases).
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `egami-10.6-r14-vuuno4k.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/egami-10.6-r14-vuuno4k.zip ) |
+| `openatv-8.0.1-vuuno4k-08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openatv-8.0.1-vuuno4k-08112026.zip ) |
+| `openbh-6.0.005-vuuno4k-08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openbh-6.0.005-vuuno4k-08112026.zip ) |
+| `openspa-8.7.003-vuuno4k-08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openspa-8.7.003-vuuno4k-08112026.zip ) |
+| `openvix-6.9.003-vuuno4k_08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openvix-6.9.003-vuuno4k_08112026.zip ) |
+| `PurE2-7.6-vuuno4k-08112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/PurE2-7.6-vuuno4k-08112026.zip ) |
+
+## Vu+ Ultimo 4K
+
+**[فتح Release الخاص بـ Vu+ Ultimo 4K](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-ultimo-4k-backups)** — 5 ملفات
+
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `egami-11.0-r23-vuultimo4k-05112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/egami-11.0-r23-vuultimo4k-05112026.zip ) |
+| `openatv-8.0.1-vuultimo4k-05112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/openatv-8.0.1-vuultimo4k-05112026.zip ) |
+| `openbh-6.0.005-vuultimo4k-05112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/openbh-6.0.005-vuultimo4k-05112026.zip ) |
+| `openvix-6.9.003-vuultimo4k_05112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/openvix-6.9.003-vuultimo4k_05112026.zip ) |
+| `PurE2-7.6-vuultimo4k_05112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/PurE2-7.6-vuultimo4k_05112026.zip ) |
+
+## Vu+ Solo 4K
+
+**[فتح Release الخاص بـ Vu+ Solo 4K](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups)** — 10 ملفات
+
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `egami-11.0-r22-vusolo4k-23092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/egami-11.0-r22-vusolo4k-23092026.zip ) |
+| `egami-11.0-r23-vusolo4k-19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/egami-11.0-r23-vusolo4k-19112026.zip ) |
+| `openatv-8.0.0-RC1-vusolo4k-23092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openatv-8.0.0-RC1-vusolo4k-23092026.zip ) |
+| `openatv-8.0.1-vusolo4k-19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openatv-8.0.1-vusolo4k-19112026.zip ) |
+| `openbh-6.0.003-vusolo4k-23092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openbh-6.0.003-vusolo4k-23092026.zip ) |
+| `openbh-6.0.005-vusolo4k-19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openbh-6.0.005-vusolo4k-19112026.zip ) |
+| `openvix-6.9.002-vusolo4k_23092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openvix-6.9.002-vusolo4k_23092026.zip ) |
+| `openvix-6.9.007-vusolo4k_19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openvix-6.9.007-vusolo4k_19112026.zip ) |
+| `PurE2-7.6-vusolo4k_19112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/PurE2-7.6-vusolo4k_19112026.zip ) |
+| `vusolo4k-PurE2-7.6-23092026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/vusolo4k-PurE2-7.6-23092026.zip ) |
+
+## Multibox SE
+
+**[فتح Release الخاص بـ Multibox SE](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups)** — 7 ملفات
+
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `EGAMI-11.0-multiboxse_06112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/EGAMI-11.0-multiboxse_06112026.zip ) |
+| `OpenATV-8.0.1-multiboxse_06112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenATV-8.0.1-multiboxse_06112026.zip ) |
+| `OpenATV-8.1.0_beta-multiboxse_06112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenATV-8.1.0_beta-multiboxse_06112026.zip ) |
+| `OpenBh-6.0-multiboxse_06112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenBh-6.0-multiboxse_06112026.zip ) |
+| `OpenPLi-9.2-multiboxse_06112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenPLi-9.2-multiboxse_06112026.zip ) |
+| `OpenViX-6.9-multiboxse_06112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenViX-6.9-multiboxse_06112026.zip ) |
+| `PurE2-7.6-multiboxse_06112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/PurE2-7.6-multiboxse_06112026.zip ) |
+
+## Novaler SE
+
+**[فتح Release الخاص بـ Novaler SE](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-se-backups)** — 2 ملفات
+
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `novalerSE_corvoboys_slot5.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-se-backups/novalerSE_corvoboys_slot5.zip ) |
+| `openspa-8.7.003-novalerse-10112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-se-backups/openspa-8.7.003-novalerse-10112026.zip ) |
+
+## Novaler 4K Pro
+
+**[فتح Release الخاص بـ Novaler 4K Pro](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-pro-backups)** — 3 ملفات
+
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `novaler4kpro-3.53_recovery.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/novaler4kpro-3.53_recovery.zip ) |
+| `openspa-8.7.002-OEA-novaler4kpro-06102026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/openspa-8.7.002-OEA-novaler4kpro-06102026.zip ) |
+| `OpenViX-6.9-novaler4kpro_01112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/OpenViX-6.9-novaler4kpro_01112026.zip ) |
+
+## Novaler 4K
+
+**[فتح Release الخاص بـ Novaler 4K](https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups)** — 5 ملفات
+
+| اسم الملف | التحميل المباشر |
+|---|---|
+| `egami-11.0-r23-novaler4k-07112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/egami-11.0-r23-novaler4k-07112026.zip ) |
+| `openatv-8.1.0.beta-novaler4k-07112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openatv-8.1.0.beta-novaler4k-07112026.zip ) |
+| `openbh-6.0.005-novaler4k_07112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openbh-6.0.005-novaler4k_07112026.zip ) |
+| `openvix-6.9.006-novaler4k_07112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openvix-6.9.006-novaler4k_07112026.zip ) |
+| `PurE2-7.6-novaler4k-07112026.zip` | [تحميل]( https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/PurE2-7.6-novaler4k-07112026.zip ) |
+
+## ملاحظات مهمة
+
+- أسماء ملفات الصور وتواريخها وإصداراتها الأصلية محفوظة.
+- ملفات Dreambox الستة الموجودة تخص DM520 حسب اسم الملف؛ لم يتم العثور على صورة DM525 مستقلة، لذلك لم ننشئ Release فارغًا له.
+- Novaler وMultibox مفصولان إلى موديلات مستقلة بدل جمعهما في مجموعة واحدة.
+- بصمة SHA-256 تثبت سلامة النقل، ولا تعني أن الصورة اختُبرت على جهاز فعلي أو اعتُمدت للتثبيت.
+- Releases الدُفعات المختلطة القديمة ما زالت موجودة كأرشيف ولم يتم حذف أي Asset.

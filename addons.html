@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Online4Tech | Plugins & Skins</title>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#101e31;--line:#233650;--text:#eef5ff;--muted:#9fb0c7;--blue:#39a5ff;--cyan:#55d6e8}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#102b49 0,#07111f 52%);color:var(--text);font-family:Tahoma,Arial,sans-serif}
+header{padding:34px 5vw 22px;border-bottom:1px solid var(--line)}h1{margin:0 0 9px;font-size:clamp(25px,4vw,38px)}header p{color:var(--muted);margin:0;line-height:1.8}
+main{max-width:1200px;margin:auto;padding:25px 5vw 60px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+button,.tab{border:1px solid var(--line);background:#10223a;color:var(--text);padding:10px 16px;border-radius:12px;cursor:pointer;font:inherit}
+.tab.active{background:#123b61;border-color:var(--blue)}#status{color:var(--muted);margin:12px 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:linear-gradient(160deg,#14263d,#0d192a);border:1px solid var(--line);border-radius:18px;padding:17px;min-width:0}
+.top{display:flex;gap:13px;align-items:center}.icon{width:68px;height:68px;object-fit:cover;border-radius:15px;background:#07111f;border:1px solid var(--line)}
+h2{font-size:18px;margin:0 0 5px}.meta,.desc{color:var(--muted);font-size:13px;line-height:1.7}.desc{margin:12px 0}
+.shots{display:flex;gap:8px;overflow:auto;margin:12px 0}.shots img{width:130px;height:82px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}.actions a,.actions button{font-size:13px;text-decoration:none}.primary{background:#1267a7;border-color:#258fd8}
+.empty{border:1px dashed var(--line);border-radius:15px;padding:25px;color:var(--muted);text-align:center;grid-column:1/-1}
+footer{color:var(--muted);text-align:center;padding:20px;border-top:1px solid var(--line);font-size:12px}
+</style></head>
+<body>
+<header><h1>مكتبة Online4Tech</h1><p>البلجنز والاسكينات — ملفاتها، صورها، إصداراتها وروابط التثبيت المركزية.</p></header>
+<main>
+<div class="toolbar">
+<button class="tab active" data-kind="all">الكل</button><button class="tab" data-kind="plugin">Plugins</button><button class="tab" data-kind="skin">Skins</button>
+</div>
+<div id="status">جاري تحميل الفهرس...</div><section id="grid" class="grid"></section>
+</main><footer>Online4Tech Repository · SHA-256 للتحقق من سلامة الملف، وليس لإثبات التوافق.</footer>
+<script>
+const ROOT='https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/';
+const grid=document.getElementById('grid'),statusBox=document.getElementById('status');
+let allItems=[],activeKind='all';
+const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
+function safeUrl(path){if(!path)return '';try{const u=new URL(path,ROOT);return u.origin==='https://raw.githubusercontent.com'?u.href:''}catch(_){return ''}}
+function render(){
+ grid.replaceChildren();const items=allItems.filter(x=>(activeKind==='all'||x.kind===activeKind)&&x.status==='published');
+ statusBox.textContent=items.length+' عنصر منشور';
+ if(!items.length){grid.append(el('div','empty','لسه مفيش إضافات منشورة في القسم ده.'));return}
+ for(const item of items){
+  const card=el('article','card'),top=el('div','top'),iconPath=safeUrl(item.icon),icon=el('img','icon');icon.alt='أيقونة '+(item.name||'');if(iconPath)icon.src=iconPath;else icon.src='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="68" height="68"%3E%3Crect width="100%25" height="100%25" fill="%23102030"/%3E%3C/svg%3E';
+  const heading=el('div');heading.append(el('h2','',item.name||item.id),el('div','meta',(item.kind==='skin'?'Skin':'Plugin')+' · '+(item.latest_version||'بدون إصدار')));
+  top.append(icon,heading);card.append(top);
+  if(item.description)card.append(el('p','desc',item.description));
+  if(item.compatibility_status)card.append(el('div','meta','التوافق: '+item.compatibility_status));
+  if(Array.isArray(item.supported_models)&&item.supported_models.length)card.append(el('div','meta','الأجهزة: '+item.supported_models.join('، ')));
+  const shots=el('div','shots');(item.screenshots||[]).slice(0,8).forEach(p=>{const u=safeUrl(p);if(u){const im=el('img');im.loading='lazy';im.src=u;im.alt=item.name||'Screenshot';shots.append(im)}});if(shots.childElementCount)card.append(shots);
+  const actions=el('div','actions');
+  if(item.latest_manifest){const a=el('a','tab','تفاصيل الإصدار');a.href=safeUrl(item.latest_manifest);a.target='_blank';a.rel='noopener';actions.append(a)}
+  if(item.install_url){const cmd='wget -qO- '+safeUrl(item.install_url)+' | sh';const b=el('button','primary','نسخ أمر التثبيت');b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(cmd);b.textContent='تم نسخ الأمر'}catch(_){b.textContent='تعذر النسخ'}});actions.append(b)}
+  card.append(actions);grid.append(card);
+ }
+}
+async function load(){
+ try{const paths=['catalog/addons/plugins.json','catalog/addons/skins.json'];const data=await Promise.all(paths.map(p=>fetch(ROOT+p).then(r=>{if(!r.ok)throw Error(p);return r.json()})));
+ allItems=[...(data[0].items||[]),...(data[1].items||[])];render();
+ }catch(e){statusBox.textContent='تعذر تحميل الفهرس. راجع تفعيل GitHub Pages وإتاحة ملفات JSON.';grid.replaceChildren(el('div','empty','لم نتمكن من تحميل بيانات المكتبة حاليًا.'))}
+}
+document.querySelectorAll('[data-kind]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-kind]').forEach(x=>x.classList.toggle('active',x===b));activeKind=b.dataset.kind;render()}));
+load();
+</script></body></html>

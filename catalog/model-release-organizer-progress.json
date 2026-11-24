@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:39:18.511862+00:00",
+  "updated_at": "2026-11-24T13:41:21.191496+00:00",
   "completed_models": [
-    "Dreambox DM520"
+    "Dreambox DM520",
+    "Vu+ Duo 4K SE"
   ],
   "models": [
     {
@@ -112,6 +113,194 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121",
               "asset_name": "06_TSimage-13.0-dm520-17112026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/06_TSimage-13.0-dm520-17112026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Vu+ Duo 4K SE",
+      "tag": "o4t-device-vu-duo-4k-se-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+      "source_records": 11,
+      "unique_assets": 10,
+      "bytes": 2753120910,
+      "files": [
+        {
+          "original_filename": "5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+          "asset_name": "5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+          "size_bytes": 249639756,
+          "sha256": "5a4936532bbad6b1dbaa636f425b0cae5f9d70c56d8d4bc3ec04132f14632af2",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+          "asset_name": "6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+          "size_bytes": 393912491,
+          "sha256": "6c56c6aee3837044c74d7bc708146bf437c91440e5d3dbbc00902394d81744c0",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+          "asset_name": "9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+          "size_bytes": 385860219,
+          "sha256": "9f1f46073900bcbbd7ee745c450ea6bcf05e0c7e0ccddc96b6fb53e9f9d46df2",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
+          "asset_name": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026--source-online4tech-catalog-assets.zip",
+          "size_bytes": 146733359,
+          "sha256": "a9adb8a1b733db094a513de1b2052e48ec718813e81d989119499fa5a408b1b7",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026--source-online4tech-catalog-assets.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip"
+            },
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "egami-11.0-r23-vuduo4kse-02112026.zip",
+          "asset_name": "egami-11.0-r23-vuduo4kse-02112026.zip",
+          "size_bytes": 259803031,
+          "sha256": "ebb7bc1ae7fd8b29fb07b24a7e1b4eaaa96e37408055a8f7146d5e90794ae46b",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/egami-11.0-r23-vuduo4kse-02112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuduo4kse",
+              "release_name": "Online4Tech backups - Vuduo4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse",
+              "asset_name": "egami-11.0-r23-vuduo4kse-02112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/egami-11.0-r23-vuduo4kse-02112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openatv-8.0.1-vuduo4kse-02112026.zip",
+          "asset_name": "openatv-8.0.1-vuduo4kse-02112026.zip",
+          "size_bytes": 265912352,
+          "sha256": "5a3e33ee7ecf0580a22a27507539765ccd088d8c87f55f43f7c5e98bad2d92b5",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openatv-8.0.1-vuduo4kse-02112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuduo4kse",
+              "release_name": "Online4Tech backups - Vuduo4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse",
+              "asset_name": "openatv-8.0.1-vuduo4kse-02112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.0.1-vuduo4kse-02112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openatv-8.1.0.beta-vuduo4kse-12112026.zip",
+          "asset_name": "openatv-8.1.0.beta-vuduo4kse-12112026.zip",
+          "size_bytes": 329602471,
+          "sha256": "aaa5756b8bd4755e0247e4713f8559c3f8ac92c1a46140b9d0a754d420bab41e",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openatv-8.1.0.beta-vuduo4kse-12112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuduo4kse",
+              "release_name": "Online4Tech backups - Vuduo4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse",
+              "asset_name": "openatv-8.1.0.beta-vuduo4kse-12112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.1.0.beta-vuduo4kse-12112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openbh-6.0.005-vuduo4kse-02112026.zip",
+          "asset_name": "openbh-6.0.005-vuduo4kse-02112026.zip",
+          "size_bytes": 221222283,
+          "sha256": "d38c4c1dc63c9abbee63ad029786a77d062f40f50035b63890344fb7c83759c4",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openbh-6.0.005-vuduo4kse-02112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuduo4kse",
+              "release_name": "Online4Tech backups - Vuduo4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse",
+              "asset_name": "openbh-6.0.005-vuduo4kse-02112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openbh-6.0.005-vuduo4kse-02112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openvix-6.9.006-vuduo4kse_13112026.zip",
+          "asset_name": "openvix-6.9.006-vuduo4kse_13112026.zip",
+          "size_bytes": 257421662,
+          "sha256": "a8d81235f5056f75798699d04c3035133271ce79a8bf2a2740f9c52d533f7e97",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openvix-6.9.006-vuduo4kse_13112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuduo4kse",
+              "release_name": "Online4Tech backups - Vuduo4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse",
+              "asset_name": "openvix-6.9.006-vuduo4kse_13112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openvix-6.9.006-vuduo4kse_13112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "PurE2-7.6-vuduo4kse-02112026.zip",
+          "asset_name": "PurE2-7.6-vuduo4kse-02112026.zip",
+          "size_bytes": 243013286,
+          "sha256": "3f2bf70f79f2f54a2cf5def124f83b1da5a1e0342c2b153fa6c6350dc7291ff0",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/PurE2-7.6-vuduo4kse-02112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuduo4kse",
+              "release_name": "Online4Tech backups - Vuduo4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4kse",
+              "asset_name": "PurE2-7.6-vuduo4kse-02112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/PurE2-7.6-vuduo4kse-02112026.zip"
             }
           ]
         }

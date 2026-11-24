@@ -6,8 +6,11 @@
   "status": "published",
   "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/epgimport--downloads__online4tech__plugins__community__enigma2-plugin-extensions-epgimport_1.0.ipk",
   "package_format": "ipk",
-  "icon": "",
-  "screenshots": [],
+  "icon": "assets/plugins/epg-import/screenshot-1.webp",
+  "screenshots": [
+    "assets/plugins/epg-import/screenshot-2.webp",
+    "assets/plugins/epg-import/screenshot-3.webp"
+  ],
   "supported_models": [],
   "compatibility_status": "unverified",
   "available_packages": [

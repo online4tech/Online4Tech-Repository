@@ -1,0 +1,15 @@
+{
+  "id": "aglare-fhd-openpli",
+  "name": "Aglare FHD OpenPLi",
+  "description": "Skin Aglare FHD لإصدارات OpenPLi مع صور معاينة أصلية.",
+  "version": "source-release",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-small-first-20261124-034429/0007--610e45806ecd-aglare-pli.ipk",
+  "package_format": "ipk",
+  "icon": "assets/skins/aglare-fhd-openpli/2.png",
+  "screenshots": [
+    "assets/skins/aglare-fhd-openpli/1707856681742.png"
+  ],
+  "supported_models": [],
+  "compatibility_status": "unverified"
+}

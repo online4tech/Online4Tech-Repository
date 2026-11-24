@@ -13,6 +13,33 @@ param(
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 function Stop-Check([string]$Message) { throw $Message }
+function Invoke-UploadWithRetry([string]$Tag, [string]$Path, [switch]$Clobber) {
+    $assetName = [IO.Path]::GetFileName($Path)
+    $localItem = Get-Item -LiteralPath $Path
+    $localSha = (Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash.ToLowerInvariant()
+    for ($attempt = 1; $attempt -le 5; $attempt++) {
+        $uploadArgs = @('release','upload',$Tag,$Path,'--repo',$TargetRepo)
+        if ($Clobber) { $uploadArgs += '--clobber' }
+        Write-Host "Uploading $assetName (attempt $attempt/5)"
+        $uploadOutput = & gh @uploadArgs 2>&1
+        $uploadExit = $LASTEXITCODE
+        $uploadOutput | ForEach-Object { Write-Host $_ }
+        if ($uploadExit -eq 0) { return }
+        $viewOutput = gh release view $Tag --repo $TargetRepo --json assets
+        if ($LASTEXITCODE -eq 0) {
+            $remoteAsset = ($viewOutput | ConvertFrom-Json).assets | Where-Object { $_.name -eq $assetName }
+            if ($remoteAsset) {
+                if ([int64]$remoteAsset.size -eq $localItem.Length -and $remoteAsset.digest -eq ("sha256:" + $localSha)) {
+                    Write-Host "Upload confirmed by remote digest after interrupted response: $assetName"
+                    return
+                }
+                if (-not $Clobber) { Stop-Check "Remote asset name collision with different bytes: $assetName" }
+            }
+        }
+        if ($attempt -lt 5) { Start-Sleep -Seconds ([Math]::Min(30, 5 * $attempt)) }
+    }
+    Stop-Check "Upload failed after 5 attempts for $assetName. Local files remain available."
+}
 function Get-SafeAssetName([int]$Index, [string]$Name) {
     $clean = [IO.Path]::GetFileName($Name) -replace '[^\w.\-()+ ]','_'
     if ([string]::IsNullOrWhiteSpace($clean)) { $clean = 'asset.bin' }
@@ -119,11 +146,10 @@ Write-Host "Creating destination prerelease $batchTag"
 gh release create $batchTag --repo $TargetRepo --title "Online4Tech mirror batch - $Category - $stamp" --notes "Mirrored assets. Original source URLs and SHA-256 values are recorded in mirror-manifest.json. No source release was modified." --prerelease
 if ($LASTEXITCODE -ne 0) { Stop-Check 'Could not create destination release. Local downloads were retained.' }
 foreach ($file in (Get-ChildItem -LiteralPath $downloadDir -File)) {
-    gh release upload $batchTag $file.FullName --repo $TargetRepo
-    if ($LASTEXITCODE -ne 0) { Stop-Check "Upload failed for $($file.Name). Local files remain in $batchDir." }
+    Invoke-UploadWithRetry -Tag $batchTag -Path $file.FullName
 }
-gh release upload $batchTag $manifestPath $checksumPath --repo $TargetRepo
-if ($LASTEXITCODE -ne 0) { Stop-Check 'Manifest/checksum upload failed. Inspect destination release before retrying.' }
+Invoke-UploadWithRetry -Tag $batchTag -Path $manifestPath
+Invoke-UploadWithRetry -Tag $batchTag -Path $checksumPath
 Write-Host 'Downloading target release assets back for independent verification...'
 gh release download $batchTag --repo $TargetRepo --dir $verifyDir
 if ($LASTEXITCODE -ne 0) { Stop-Check 'Target download failed; do not mark this batch complete.' }
@@ -137,8 +163,8 @@ foreach ($entry in $manifest) {
 }
 $manifest | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
 $manifest | ForEach-Object { "$($_.sha256)  $($_.mirrored_asset_name)" } | Set-Content -LiteralPath $checksumPath -Encoding ASCII
-gh release upload $batchTag $manifestPath $checksumPath --repo $TargetRepo --clobber
-if ($LASTEXITCODE -ne 0) { Stop-Check 'Binary checks passed, but publishing the final PASS manifest/checksums failed. Final files remain local.' }
+Invoke-UploadWithRetry -Tag $batchTag -Path $manifestPath -Clobber
+Invoke-UploadWithRetry -Tag $batchTag -Path $checksumPath -Clobber
 foreach ($entry in $manifest) {
     $key = "$($entry.original_repository)|$($entry.original_release_tag)|$($entry.original_asset_name)"
     $completedKeys[$key] = $true

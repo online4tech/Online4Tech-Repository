@@ -103,3 +103,10 @@ Safety and recovery:
 - Do not delete _release-mirror-work; it contains the completed ledger and recovery evidence.
 
 To resume after a cleanly completed run, start the runner again; completed assets are skipped. If a run stops on error, inspect its log and the last destination Release before resuming.
+
+
+## Interrupted upload recovery
+
+`Start-ReleaseMirror.ps1` retries failed GitHub Release uploads up to five times and checks the remote asset SHA-256 before treating an interrupted upload response as successful. Existing assets with different bytes are never overwritten.
+
+If an older batch stopped during upload, inspect its local manifest and destination Release first, then use `Recover-PartialBatch.ps1 -BatchTag <tag>`. The recovery script validates every local file against its manifest, skips remote assets only when size and GitHub SHA-256 match, uploads only missing assets, downloads the full destination batch for SHA-256 verification, publishes the final PASS manifest/checksums, and only then advances the completed ledger. It does not modify source repositories/releases or execute package contents.

@@ -22,3 +22,13 @@ backups/
 - كل نسخة جديدة لها مجلد مستقل؛ لا تستبدل نسخة قديمة.
 
 بعد رفع المجلد على `main`، GitHub Actions يحدث `catalog/uploads/backups.json` تلقائيًا، وتظهر النسخة الجديدة في قسم «النسخ المضافة حديثًا» بصفحة `receiver-backups.html`.
+
+## طرق رفع الباك أب
+
+- **الأسرع لملف موجود على الكمبيوتر:** افتح [صفحة Releases](https://github.com/online4tech/Online4Tech-Repository/releases)، أنشئ Release، أرفق ملف الباك أب والصور، ثم انشره. لا تحتاج إلى إنشاء `backup.json` يدويًا.
+- **GitHub Desktop / Git:** استخدمه للمجلدات والملفات التي تناسب حدود Git العادية. لا ترفع ملفًا أكبر من 100 MiB داخل Git؛ استخدم Releases بدلًا منه.
+- **GitHub Actions:** استخدم [Backup Release Publisher](https://github.com/online4tech/Online4Tech-Repository/actions/workflows/backup-release-publisher.yml) لإحضار ملف من رابط تنزيل سحابي مباشر ورفعه إلى Release دون تنزيله على جهازك.
+
+لرفع Release من الموقع، يفضّل أن يكون العنوان بالشكل: `Backup | Brand | Exact Model | Version`. ويمكن إضافة بيانات عادية في وصف Release مثل `Brand:` و`Model:` و`Version:` و`Date:` و`Description:` و`Compatibility:`. بعد النشر، ينشئ GitHub Actions ملف `backup.json` تلقائيًا داخل `catalog/uploads/release-backups/` ويحدّث فهرس الصفحة.
+
+راجع [دليل طرق الرفع الثلاثة](../docs/BACKUP-UPLOAD-GUIDE.md) للتفاصيل.

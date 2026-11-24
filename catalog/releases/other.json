@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "category": "other",
-  "generated_at": "2026-11-23",
-  "asset_count": 16,
+  "generated_at": "2026-11-24",
+  "asset_count": 18,
   "assets": [
     {
       "name": "1de7ece0d2c9-books-whitelist.txt",
@@ -187,6 +187,20 @@
       "attribution_status": "retain_original_release_attribution_and_license"
     },
     {
+      "name": "c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "size_bytes": 680644,
+      "content_type": "application/x-gtar",
+      "source_repository": "online4tech/online4Tech",
+      "release_tag": "online4tech-catalog-assets",
+      "release_name": "Online4Tech Catalog Assets",
+      "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "original_digest": "sha256:c2b23973eae0df47f3af6166261de63b379b9ec1f7879a2056132618efdc66e2",
+      "updated_at": "2026-11-20T21:32:06Z",
+      "mirror_status": "external_only_pending_binary_transfer",
+      "attribution_status": "retain_original_release_attribution_and_license"
+    },
+    {
       "name": "c9aeee4e32b3-HoloFHD-Black.tar.gz",
       "size_bytes": 625398,
       "content_type": "application/x-gtar",
@@ -225,6 +239,20 @@
       "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/fe816b31f162-InfobarWeather.tar.gz",
       "original_digest": "sha256:fe816b31f1625260a87f7c49ab3991a40529ab0c394b40a03f6cda0fcef15b7c",
       "updated_at": "2026-11-20T21:32:25Z",
+      "mirror_status": "external_only_pending_binary_transfer",
+      "attribution_status": "retain_original_release_attribution_and_license"
+    },
+    {
+      "name": "RX-Launcher-v2.41.apk",
+      "size_bytes": 47286709,
+      "content_type": "application/vnd.android.package-archive",
+      "source_repository": "online4tech/online4Tech",
+      "release_tag": "online4tech-backups-twin",
+      "release_name": "Online4Tech backups - Twin",
+      "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-twin",
+      "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-twin/RX-Launcher-v2.41.apk",
+      "original_digest": "sha256:323c2c5673ce50b7c1d0035e98a7b82ae466c0ec243c31fa79618ba2abb827dd",
+      "updated_at": "2026-11-17T21:10:26Z",
       "mirror_status": "external_only_pending_binary_transfer",
       "attribution_status": "retain_original_release_attribution_and_license"
     }

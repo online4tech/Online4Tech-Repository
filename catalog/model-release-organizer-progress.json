@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:01:21.002844+00:00",
+  "updated_at": "2026-11-24T14:02:17.057397+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
@@ -16,7 +16,8 @@
     "Vu+ Solo 4K",
     "Multibox SE",
     "Novaler SE",
-    "Novaler 4K Pro"
+    "Novaler 4K Pro",
+    "Novaler 4K"
   ],
   "models": [
     {
@@ -2110,6 +2111,101 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
               "asset_name": "OpenViX-6.9-novaler4kpro_01112026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenViX-6.9-novaler4kpro_01112026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Novaler 4K",
+      "tag": "o4t-device-novaler-4k-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups",
+      "source_records": 5,
+      "unique_assets": 5,
+      "bytes": 1148457503,
+      "files": [
+        {
+          "original_filename": "egami-11.0-r23-novaler4k-07112026.zip",
+          "asset_name": "egami-11.0-r23-novaler4k-07112026.zip",
+          "size_bytes": 236411992,
+          "sha256": "3df5b06af14f0d0d4870f617165399e43b0f644a5e4011d6ffa2efbb29e52277",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/egami-11.0-r23-novaler4k-07112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novaler4k",
+              "release_name": "Online4Tech backups - Novaler4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k",
+              "asset_name": "egami-11.0-r23-novaler4k-07112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/egami-11.0-r23-novaler4k-07112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openatv-8.1.0.beta-novaler4k-07112026.zip",
+          "asset_name": "openatv-8.1.0.beta-novaler4k-07112026.zip",
+          "size_bytes": 243465044,
+          "sha256": "44d85908647c58ebd92a7a6c633d21568c9d3fbd1245f4daad15b51dea3c7c05",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openatv-8.1.0.beta-novaler4k-07112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novaler4k",
+              "release_name": "Online4Tech backups - Novaler4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k",
+              "asset_name": "openatv-8.1.0.beta-novaler4k-07112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openatv-8.1.0.beta-novaler4k-07112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openbh-6.0.005-novaler4k_07112026.zip",
+          "asset_name": "openbh-6.0.005-novaler4k_07112026.zip",
+          "size_bytes": 210768715,
+          "sha256": "cdea6719f63a2c02b40315ba28afbd3d3cd885112cbec56b70e6cbad9ef5d3e7",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openbh-6.0.005-novaler4k_07112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novaler4k",
+              "release_name": "Online4Tech backups - Novaler4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k",
+              "asset_name": "openbh-6.0.005-novaler4k_07112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openbh-6.0.005-novaler4k_07112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openvix-6.9.006-novaler4k_07112026.zip",
+          "asset_name": "openvix-6.9.006-novaler4k_07112026.zip",
+          "size_bytes": 221806371,
+          "sha256": "91ca8e60f8c51aca43e45e6201a314eeb759aee05c3d052edd01ae15c577c8a2",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openvix-6.9.006-novaler4k_07112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novaler4k",
+              "release_name": "Online4Tech backups - Novaler4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k",
+              "asset_name": "openvix-6.9.006-novaler4k_07112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openvix-6.9.006-novaler4k_07112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "PurE2-7.6-novaler4k-07112026.zip",
+          "asset_name": "PurE2-7.6-novaler4k-07112026.zip",
+          "size_bytes": 236005381,
+          "sha256": "8edc95f88ecaae630c3b1286237045101d09cf8b626c05504d29203ef4619c6e",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/PurE2-7.6-novaler4k-07112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novaler4k",
+              "release_name": "Online4Tech backups - Novaler4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novaler4k",
+              "asset_name": "PurE2-7.6-novaler4k-07112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/PurE2-7.6-novaler4k-07112026.zip"
             }
           ]
         }

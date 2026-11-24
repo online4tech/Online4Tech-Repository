@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T17:36:49.617065+00:00",
+  "generated_at": "2026-11-24T17:37:35.664851+00:00",
   "items": [
     {
       "id": "aeonfhd",
@@ -23,6 +23,27 @@
       "supported_models": [],
       "compatibility_status": "unverified",
       "latest_manifest": "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/skins/aeonfhd/latest.json",
+      "install_url": ""
+    },
+    {
+      "id": "aglare-fhd-openatv",
+      "kind": "skin",
+      "name": "Aglare FHD OpenATV",
+      "description": "Skin Aglare FHD مع صور معاينة أصلية من مكتبة Online4Tech.",
+      "status": "published",
+      "latest_version": "source-release",
+      "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-small-first-20261124-034429/0002--8a5c66e73d69-aglare.ipk",
+      "package_format": "ipk",
+      "available_packages": [],
+      "icon": "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/assets/skins/aglare-fhd-openatv/1706864080519.jpg",
+      "screenshots": [
+        "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/assets/skins/aglare-fhd-openatv/1706864086499.jpg",
+        "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/assets/skins/aglare-fhd-openatv/1706864116867.jpg",
+        "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/assets/skins/aglare-fhd-openatv/1706864120392.jpg"
+      ],
+      "supported_models": [],
+      "compatibility_status": "unverified",
+      "latest_manifest": "",
       "install_url": ""
     },
     {

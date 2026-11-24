@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:45:30.095191+00:00",
+  "updated_at": "2026-11-24T13:46:32.609579+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
     "Vu+ Duo 4K",
-    "Vu+ Uno 4K SE"
+    "Vu+ Uno 4K SE",
+    "Vu+ Zero 4K"
   ],
   "models": [
     {
@@ -663,6 +664,118 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse",
               "asset_name": "PurE2-7.6_vuuno4kse-01112026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/PurE2-7.6_vuuno4kse-01112026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Vu+ Zero 4K",
+      "tag": "o4t-device-vu-zero-4k-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups",
+      "source_records": 6,
+      "unique_assets": 6,
+      "bytes": 1518260763,
+      "files": [
+        {
+          "original_filename": "bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+          "asset_name": "bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+          "size_bytes": 252724394,
+          "sha256": "bdca625aa91d8dd3d5165dd204163a17d97531429b5b102f7e3e1c5095b8c7f7",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "egami-11.0-r23-vuzero4k-03112026.zip",
+          "asset_name": "egami-11.0-r23-vuzero4k-03112026.zip",
+          "size_bytes": 274187897,
+          "sha256": "6361bd883c700d4ad64c93f28f02092595fd60be8bab85db56514f8bedbcd19a",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/egami-11.0-r23-vuzero4k-03112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-zero4k",
+              "release_name": "Online4Tech Backups - Vu+ Zero 4K",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k",
+              "asset_name": "egami-11.0-r23-vuzero4k-03112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/egami-11.0-r23-vuzero4k-03112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openatv-8.0.1-vuzero4k-03112026.zip",
+          "asset_name": "openatv-8.0.1-vuzero4k-03112026.zip",
+          "size_bytes": 251220439,
+          "sha256": "4581594f950b195c8f2cac5014ba07a755dce8482a8f6f333ab6bcd5cb58a86f",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openatv-8.0.1-vuzero4k-03112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-zero4k",
+              "release_name": "Online4Tech Backups - Vu+ Zero 4K",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k",
+              "asset_name": "openatv-8.0.1-vuzero4k-03112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openatv-8.0.1-vuzero4k-03112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openbh-6.0.005-vuzero4k-03112026.zip",
+          "asset_name": "openbh-6.0.005-vuzero4k-03112026.zip",
+          "size_bytes": 230983618,
+          "sha256": "d6622c2bc19c45332dc582ae1469796c762baa7421720e164a2cf0d6189e05dd",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openbh-6.0.005-vuzero4k-03112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-zero4k",
+              "release_name": "Online4Tech Backups - Vu+ Zero 4K",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k",
+              "asset_name": "openbh-6.0.005-vuzero4k-03112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openbh-6.0.005-vuzero4k-03112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openvix-6.9.003-vuzero4k_03112026.zip",
+          "asset_name": "openvix-6.9.003-vuzero4k_03112026.zip",
+          "size_bytes": 254121239,
+          "sha256": "f2c14d4d4a5ae7bec4880a87e95305a48b84d7e79e0c5b69304aba1e246cbb73",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openvix-6.9.003-vuzero4k_03112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-zero4k",
+              "release_name": "Online4Tech Backups - Vu+ Zero 4K",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k",
+              "asset_name": "openvix-6.9.003-vuzero4k_03112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openvix-6.9.003-vuzero4k_03112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "PurE2-7.6-vuzero4k_03112026.zip",
+          "asset_name": "PurE2-7.6-vuzero4k_03112026.zip",
+          "size_bytes": 255023176,
+          "sha256": "3a5192e6def2ab0f05060cd975ad365b7b8ef0793ada50482bc9e200eaaf4fca",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/PurE2-7.6-vuzero4k_03112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-zero4k",
+              "release_name": "Online4Tech Backups - Vu+ Zero 4K",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k",
+              "asset_name": "PurE2-7.6-vuzero4k_03112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/PurE2-7.6-vuzero4k_03112026.zip"
             }
           ]
         }

@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:43:56.904285+00:00",
+  "updated_at": "2026-11-24T13:45:30.095191+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
-    "Vu+ Duo 4K"
+    "Vu+ Duo 4K",
+    "Vu+ Uno 4K SE"
   ],
   "models": [
     {
@@ -516,6 +517,152 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuduo4k",
               "asset_name": "vuduo4k-PurE2-7.6-24092026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/vuduo4k-PurE2-7.6-24092026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Vu+ Uno 4K SE",
+      "tag": "o4t-device-vu-uno-4k-se-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+      "source_records": 8,
+      "unique_assets": 8,
+      "bytes": 2237406136,
+      "files": [
+        {
+          "original_filename": "8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+          "asset_name": "8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+          "size_bytes": 292270554,
+          "sha256": "8a584af4f32afb111931751828a4af20935bf9f4b3bd1048e41baad78c79aebf",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+          "asset_name": "963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+          "size_bytes": 224288883,
+          "sha256": "963370be28ebf8855927b1fe504097a4f6b825b3b04b9b40428fa5b8c4657c77",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+          "asset_name": "bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+          "size_bytes": 306293414,
+          "sha256": "bb90ccc567c253d45ddc48ca1ee463256dfad312ba19cfe16d3ed3937c8fdd17",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "egami-11.0-r23-vuuno4kse-01112026.zip",
+          "asset_name": "egami-11.0-r23-vuuno4kse-01112026.zip",
+          "size_bytes": 255104359,
+          "sha256": "5c8c26d3f310ef4bea9fab02ae21ca3859d5dfcb97d9578413a95c9d04ed3e78",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/egami-11.0-r23-vuuno4kse-01112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuuno4kse",
+              "release_name": "Online4Tech backups - Vuuno4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse",
+              "asset_name": "egami-11.0-r23-vuuno4kse-01112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/egami-11.0-r23-vuuno4kse-01112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openatv-8.0.1-vuuno4kse-01112026.zip",
+          "asset_name": "openatv-8.0.1-vuuno4kse-01112026.zip",
+          "size_bytes": 257776006,
+          "sha256": "73e89b505bbf63130e98e5f81fb2813f5b2eb34141cfc1ea9a7d6b2ca9cc3140",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openatv-8.0.1-vuuno4kse-01112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuuno4kse",
+              "release_name": "Online4Tech backups - Vuuno4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse",
+              "asset_name": "openatv-8.0.1-vuuno4kse-01112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openatv-8.0.1-vuuno4kse-01112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openbh-6.0.005-vuuno4kse-01112026.zip",
+          "asset_name": "openbh-6.0.005-vuuno4kse-01112026.zip",
+          "size_bytes": 253712451,
+          "sha256": "83f22abcdba5fd5dcbfcf6a5da9c4873625a0263aa752f97d4cafd3ed7f8a224",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openbh-6.0.005-vuuno4kse-01112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuuno4kse",
+              "release_name": "Online4Tech backups - Vuuno4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse",
+              "asset_name": "openbh-6.0.005-vuuno4kse-01112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openbh-6.0.005-vuuno4kse-01112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openvix-6.9.003-vuuno4kse_01112026.zip",
+          "asset_name": "openvix-6.9.003-vuuno4kse_01112026.zip",
+          "size_bytes": 393433400,
+          "sha256": "02a49ae27cf4ea8437abfe3ddc76f7213d90615eef532ed579a89454fa310a19",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openvix-6.9.003-vuuno4kse_01112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuuno4kse",
+              "release_name": "Online4Tech backups - Vuuno4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse",
+              "asset_name": "openvix-6.9.003-vuuno4kse_01112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openvix-6.9.003-vuuno4kse_01112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "PurE2-7.6_vuuno4kse-01112026.zip",
+          "asset_name": "PurE2-7.6_vuuno4kse-01112026.zip",
+          "size_bytes": 254527069,
+          "sha256": "72674541b06931aa94ba3a28ed07e53808242b66795a068f346156bab15c3043",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/PurE2-7.6_vuuno4kse-01112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vuuno4kse",
+              "release_name": "Online4Tech backups - Vuuno4kse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuuno4kse",
+              "asset_name": "PurE2-7.6_vuuno4kse-01112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/PurE2-7.6_vuuno4kse-01112026.zip"
             }
           ]
         }

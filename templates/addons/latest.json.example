@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "id": "example-addon",
+  "kind": "plugin",
+  "name": "Example Add-on",
+  "description": "",
+  "version": "1.0.0",
+  "package": "releases/1.0.0/example-addon_1.0.0_all.ipk",
+  "package_format": "ipk",
+  "sha256": null,
+  "size_bytes": null,
+  "install_method": "opkg",
+  "compatibility_status": "not_tested",
+  "supported_models": [],
+  "supported_images": [],
+  "license_review": "pending",
+  "source_url": null,
+  "release_notes": "",
+  "published_at": null
+}

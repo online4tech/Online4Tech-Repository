@@ -16,10 +16,11 @@
    Date: 2026-11-24
    Description: Clean image with basic setup
    Compatibility: Vu+ Zero 4K
+   ID: vu-zero-4k
    ```
 6. Publish the release. GitHub Actions generates the backup.json manifest and updates the website index.
 
-Name the cover image `cover.webp`, `cover.jpg`, `thumbnail.png`, or `poster.jpg`. Other image assets are treated as screenshots.
+Name the cover image `cover.webp`, `cover.jpg`, `thumbnail.png`, or `poster.jpg`. Other image assets are treated as screenshots. By default, the card ID is derived from brand + model, so a newer Release for the same model updates the existing card instead of adding a duplicate. Set a different `ID:` in the Release description only when you intentionally want a separate card for another backup line.
 
 ### 2. GitHub Desktop / Git
 - Use this for normal backup folders and files that fit GitHub's regular repository upload limits.

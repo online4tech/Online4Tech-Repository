@@ -24,3 +24,6 @@ These category indexes are generated from the source Release APIs. They retain o
 4. Bridge utilities separately from Enigma2 packages.
 
 For each transferred file, verify source and target byte size, compute SHA-256, preserve developer attribution/license and original URL, inspect archive paths, then set a validation status. Similar filenames are not proof of duplicate content.
+
+## فهرس الوصول حسب موديل الرسيفر
+- [نسخ الباك أب مرتبة حسب موديل الجهاز](RECEIVER-BACKUPS-BY-MODEL.md) — فهرس مباشر للتحميل من الـReleases المركزية، مع روابط المصدر الأصلي وملاحظات التصنيف.

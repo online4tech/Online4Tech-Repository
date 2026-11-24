@@ -24,7 +24,7 @@ Name the cover image `cover.webp`, `cover.jpg`, `thumbnail.png`, or `poster.jpg`
 ### 2. GitHub Desktop / Git
 - Use this for normal backup folders and files that fit GitHub's regular repository upload limits.
 - Keep the structure `backups/<brand>/<model>/<backup-id>/`; push to `main`.
-- Do not commit files larger than 100 MiB. For large archives, use the Releases website method. If you already use GitHub CLI, you can upload an asset to an existing Release with: `gh release upload backup-vu-zero-4k-2026 \"D:\\Backups\\fullbackup.zip\" --repo online4tech/Online4Tech-Repository`.
+- Do not commit files larger than 100 MiB. For large archives, use the Releases website method. If you already use GitHub CLI, you can upload an asset to an existing Release with: `gh release upload backup-vu-zero-4k-2026 "D:\Backups\fullbackup.zip" --repo online4tech/Online4Tech-Repository`.
 - Existing folder-based backups continue to use the existing `backup.json` workflow; Release uploads do not require a manually created JSON file.
 
 ### 3. GitHub Actions cloud upload

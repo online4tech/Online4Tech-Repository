@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:59:12.179299+00:00",
+  "updated_at": "2026-11-24T14:00:24.441078+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
@@ -13,7 +13,8 @@
     "Vu+ Zero",
     "Vu+ Uno 4K",
     "Vu+ Ultimo 4K",
-    "Vu+ Solo 4K"
+    "Vu+ Solo 4K",
+    "Multibox SE"
   ],
   "models": [
     {
@@ -1873,6 +1874,135 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
               "asset_name": "vusolo4k-PurE2-7.6-23092026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/vusolo4k-PurE2-7.6-23092026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Multibox SE",
+      "tag": "o4t-device-multibox-se-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+      "source_records": 7,
+      "unique_assets": 7,
+      "bytes": 1626581055,
+      "files": [
+        {
+          "original_filename": "EGAMI-11.0-multiboxse_06112026.zip",
+          "asset_name": "EGAMI-11.0-multiboxse_06112026.zip",
+          "size_bytes": 265450626,
+          "sha256": "4a8a743fbb9a9bd3430726c3693cf4814f86f45ce99ae1153b0334f1a25e5bef",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/EGAMI-11.0-multiboxse_06112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "EGAMI-11.0-multiboxse_06112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/EGAMI-11.0-multiboxse_06112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenATV-8.0.1-multiboxse_06112026.zip",
+          "asset_name": "OpenATV-8.0.1-multiboxse_06112026.zip",
+          "size_bytes": 250955975,
+          "sha256": "5ac4bcba1f6d134c5f8bb166e644e5ae6d8e81ac885a785d5944c21995320938",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenATV-8.0.1-multiboxse_06112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "OpenATV-8.0.1-multiboxse_06112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.0.1-multiboxse_06112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenATV-8.1.0_beta-multiboxse_06112026.zip",
+          "asset_name": "OpenATV-8.1.0_beta-multiboxse_06112026.zip",
+          "size_bytes": 257229709,
+          "sha256": "5f57ed75c90776df1103e1b2cc1002ae22eb2a874a0d19853c95c14b7769acfa",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenATV-8.1.0_beta-multiboxse_06112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "OpenATV-8.1.0_beta-multiboxse_06112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.1.0_beta-multiboxse_06112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenBh-6.0-multiboxse_06112026.zip",
+          "asset_name": "OpenBh-6.0-multiboxse_06112026.zip",
+          "size_bytes": 223147791,
+          "sha256": "f65ab62a2a620e0f08cebed75419b7f762c2490be1eed89d327ddb7128702ed3",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenBh-6.0-multiboxse_06112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "OpenBh-6.0-multiboxse_06112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenBh-6.0-multiboxse_06112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenPLi-9.2-multiboxse_06112026.zip",
+          "asset_name": "OpenPLi-9.2-multiboxse_06112026.zip",
+          "size_bytes": 144212364,
+          "sha256": "0ba94a2864f362741bb677988921e5101df07b808e3fee9fbbb129ca75107dff",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenPLi-9.2-multiboxse_06112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "OpenPLi-9.2-multiboxse_06112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenPLi-9.2-multiboxse_06112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenViX-6.9-multiboxse_06112026.zip",
+          "asset_name": "OpenViX-6.9-multiboxse_06112026.zip",
+          "size_bytes": 235364816,
+          "sha256": "d973df3da1da270e92ce633ee059919ab2a590610233c9e5d21c749f214de9c6",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenViX-6.9-multiboxse_06112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "OpenViX-6.9-multiboxse_06112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenViX-6.9-multiboxse_06112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "PurE2-7.6-multiboxse_06112026.zip",
+          "asset_name": "PurE2-7.6-multiboxse_06112026.zip",
+          "size_bytes": 250219774,
+          "sha256": "9e38037c4b2eb1c4d7c608e9239bc84b17d1afd1dcbf2c67a2ea58568e66e413",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/PurE2-7.6-multiboxse_06112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "PurE2-7.6-multiboxse_06112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/PurE2-7.6-multiboxse_06112026.zip"
             }
           ]
         }

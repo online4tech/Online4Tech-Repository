@@ -7,16 +7,15 @@ ADDON_BASE="https://raw.githubusercontent.com/online4tech/Online4Tech-Repository
 TMP_DIR="$(mktemp -d)"
 trap 'rm -rf "$TMP_DIR"' EXIT INT TERM
 
-command -v wget >/dev/null 2>&1 || { echo "ERROR: wget is required"; exit 1; }
-command -v python3 >/dev/null 2>&1 || { echo "ERROR: python3 is required to read the manifest safely"; exit 1; }
-command -v sha256sum >/dev/null 2>&1 || { echo "ERROR: sha256sum is required"; exit 1; }
-command -v opkg >/dev/null 2>&1 || { echo "ERROR: opkg is required on this receiver"; exit 1; }
+for cmd in wget python3 sha256sum opkg; do
+  command -v "$cmd" >/dev/null 2>&1 || { echo "ERROR: $cmd is required"; exit 1; }
+done
 
 wget -qO "$TMP_DIR/latest.json" "$ADDON_BASE/latest.json" || {
   echo "ERROR: could not download the Online4Tech add-on manifest"; exit 1;
 }
 
-python3 - "$TMP_DIR/latest.json" <<'PY'
+set -- $(python3 - "$TMP_DIR/latest.json" <<'PY'
 import json, sys
 with open(sys.argv[1], encoding="utf-8") as f:
     m = json.load(f)
@@ -33,8 +32,26 @@ if m["compatibility_status"] != "tested":
     raise SystemExit("ERROR: compatibility is not marked tested; refusing installation")
 if len(m["sha256"]) != 64 or any(c not in "0123456789abcdefABCDEF" for c in m["sha256"]):
     raise SystemExit("ERROR: invalid SHA-256 in manifest")
-if m["package"].startswith("/") or ".." in m["package"].split("/") or "://" in m["package"]:
+p = m["package"]
+if p.startswith("/") or ".." in p.split("/") or "://" in p or any(c.isspace() for c in p):
     raise SystemExit("ERROR: unsafe package path in manifest")
-print(m["package"])
+print(p)
 print(m["sha256"])
 PY
+) || { echo "ERROR: invalid or unsafe add-on manifest"; exit 1; }
+
+PACKAGE_PATH="$1"
+EXPECTED_SHA="$2"
+PACKAGE_URL="$ADDON_BASE/$PACKAGE_PATH"
+
+wget -qO "$TMP_DIR/package.ipk" "$PACKAGE_URL" || {
+  echo "ERROR: package download failed"; exit 1;
+}
+ACTUAL_SHA="$(sha256sum "$TMP_DIR/package.ipk" | awk '{print $1}')"
+[ "$ACTUAL_SHA" = "$EXPECTED_SHA" ] || {
+  echo "ERROR: SHA-256 mismatch; package will not be installed"; exit 1;
+}
+
+echo "Verified package. Installing with opkg..."
+opkg install "$TMP_DIR/package.ipk"
+echo "Online4Tech add-on installation finished."

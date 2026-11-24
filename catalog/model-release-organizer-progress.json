@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:00:48.580005+00:00",
+  "updated_at": "2026-11-24T14:01:21.002844+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
@@ -15,7 +15,8 @@
     "Vu+ Ultimo 4K",
     "Vu+ Solo 4K",
     "Multibox SE",
-    "Novaler SE"
+    "Novaler SE",
+    "Novaler 4K Pro"
   ],
   "models": [
     {
@@ -2048,6 +2049,67 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
               "asset_name": "openspa-8.7.003-novalerse-10112026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/openspa-8.7.003-novalerse-10112026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Novaler 4K Pro",
+      "tag": "o4t-device-novaler-4k-pro-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-pro-backups",
+      "source_records": 3,
+      "unique_assets": 3,
+      "bytes": 598702064,
+      "files": [
+        {
+          "original_filename": "novaler4kpro-3.53_recovery.zip",
+          "asset_name": "novaler4kpro-3.53_recovery.zip",
+          "size_bytes": 17632678,
+          "sha256": "5db0a6faa63bf36c0487c066d1498952e08691822110f82e639da88ba2ef63b8",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/novaler4kpro-3.53_recovery.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "novaler4kpro-3.53_recovery.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novaler4kpro-3.53_recovery.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
+          "asset_name": "openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
+          "size_bytes": 335085957,
+          "sha256": "7f9187b5c90fd933a4310330149fbebaacb51e8d69efc54ed908fc0dc57816d5",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openspa-8.7.002-OEA-novaler4kpro-06102026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenViX-6.9-novaler4kpro_01112026.zip",
+          "asset_name": "OpenViX-6.9-novaler4kpro_01112026.zip",
+          "size_bytes": 245983429,
+          "sha256": "6697c4492b4b10c91d49e8cde36b0df7d638da855d3f3aa6b40527a635594110",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/OpenViX-6.9-novaler4kpro_01112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "OpenViX-6.9-novaler4kpro_01112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenViX-6.9-novaler4kpro_01112026.zip"
             }
           ]
         }

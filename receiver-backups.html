@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Online4Tech | نسخ الرسيفرات حسب الموديل</title>
+<meta name="description" content="ابحث عن صور ونسخ Enigma2 حسب موديل الرسيفر وافتح Release المخصص له.">
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#0d1b2d;--line:#203750;--text:#e8f1fb;--muted:#9db0c6;--blue:#55a8ff;--cyan:#5ed5e5}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#102b49 0,transparent 34%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.7}
+main{width:min(1100px,94%);margin:38px auto 70px}.brand{color:var(--cyan);font-size:13px;letter-spacing:1px;font-weight:bold}
+h1{font-size:clamp(25px,4vw,38px);margin:8px 0}.intro{color:var(--muted);max-width:760px;margin:0 0 24px}
+.toolbar{display:grid;grid-template-columns:1fr 260px;gap:12px;background:#0b1929;border:1px solid var(--line);border-radius:16px;padding:14px;margin:24px 0}
+input,select{width:100%;background:#071321;border:1px solid #2a4561;border-radius:10px;color:var(--text);padding:13px 14px;font-size:15px;outline:none}
+input:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 3px #55a8ff22}
+.stats{color:var(--muted);font-size:13px;margin:10px 2px 18px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.card{background:linear-gradient(145deg,#102239,#0b1727);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
+.card h2{font-size:19px;margin:0 0 3px}.count{font-size:12px;color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+a.btn{display:inline-block;background:#1b5d9c;color:#fff;text-decoration:none;padding:8px 13px;border-radius:9px;font-size:13px;font-weight:bold}
+a.btn.secondary{background:#142b43;border:1px solid #2b4b6b;color:#cfe6ff}
+details{border-top:1px solid var(--line);padding-top:11px;margin-top:9px}summary{cursor:pointer;color:#b8d9fb;font-size:13px}
+ul.files{list-style:none;padding:0;margin:10px 0 0}ul.files li{padding:8px 0;border-bottom:1px solid #1b3045;font-size:12px;overflow-wrap:anywhere;display:flex;gap:10px;justify-content:space-between;align-items:center}
+ul.files li:last-child{border-bottom:0}.file{flex:1;color:#d8e6f5}.download{white-space:nowrap;color:var(--cyan);text-decoration:none;font-weight:bold}
+.empty,.error{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px;color:var(--muted)}
+footer{margin-top:30px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:12px}
+footer a{color:var(--cyan)}@media(max-width:650px){main{margin-top:22px}.toolbar{grid-template-columns:1fr}.card{padding:15px}}
+</style>
+</head>
+<body>
+<main>
+<div class="brand">ONLINE4TECH · RECEIVER BACKUPS</div>
+<h1>نسخ الرسيفرات حسب الموديل</h1>
+<p class="intro">اختار موديل جهازك أو اكتب اسم الصورة أو إصدارها. كل موديل له Release مستقل يحتوي على ملفاته فقط، مع الاحتفاظ بأسماء الملفات الأصلية وتواريخها.</p>
+<div class="toolbar">
+<input id="search" type="search" placeholder="ابحث باسم الجهاز أو الصورة أو الإصدار..." aria-label="ابحث عن موديل أو صورة">
+<select id="model" aria-label="اختار موديل الرسيفر"><option value="">كل الموديلات</option></select>
+</div>
+<div class="stats" id="stats">جاري تحميل الفهرس...</div>
+<section class="grid" id="results" aria-live="polite"></section>
+<footer>
+روابط المصادر الأصلية وبيانات المطورين وبصمات SHA-256 محفوظة داخل Manifest كل Release.
+<br>
+<a href="https://github.com/online4tech/Online4Tech-Repository/blob/main/catalog/RECEIVER-BACKUPS-BY-MODEL.md">الفهرس التفصيلي</a>
+ · <a href="https://github.com/online4tech/Online4Tech-Repository/releases">كل Releases المستودع</a>
+</footer>
+</main>
+<script>
+(function(){
+ const search=document.getElementById("search");
+ const select=document.getElementById("model");
+ const results=document.getElementById("results");
+ const stats=document.getElementById("stats");
+ let data=null;
+ function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
+ function render(){
+  if(!data)return;
+  const q=search.value.trim().toLowerCase();
+  const chosen=select.value;
+  const models=data.models.filter(function(m){
+   if(chosen && m.name!==chosen)return false;
+   if(!q)return true;
+   const names=data.assets.filter(function(a){return a.device_model===m.name;}).map(function(a){return a.name;}).join(" ").toLowerCase();
+   return (m.name+" "+names).toLowerCase().includes(q);
+  });
+  results.replaceChildren();
+  stats.textContent=models.length+" موديل ظاهر · "+data.asset_count+" سجل باك أب في الفهرس";
+  if(!models.length){results.appendChild(el("div","empty","مش لاقيين نتيجة مطابقة. جرّب اسم موديل أو إصدار مختلف."));return;}
+  models.forEach(function(m){
+   const card=el("article","card");
+   card.appendChild(el("h2","",m.name));
+   card.appendChild(el("div","count",m.asset_count+" ملفات في Release مستقل"));
+   const actions=el("div","actions");
+   const release=el("a","btn","فتح Release الموديل");release.href=m.release_url;release.target="_blank";release.rel="noopener";
+   actions.appendChild(release);
+   const files=data.assets.filter(function(a){return a.device_model===m.name;});
+   const dl=el("a","btn secondary","تحميل أول ملف");dl.href=files.length?files[0].model_download_url:m.release_url;dl.target="_blank";dl.rel="noopener";
+   actions.appendChild(dl);card.appendChild(actions);
+   const details=el("details","");
+   const summary=el("summary","", "عرض الملفات ("+files.length+")");details.appendChild(summary);
+   const list=el("ul","files");
+   files.forEach(function(f){
+    const li=el("li","");
+    li.appendChild(el("span","file",f.name));
+    const a=el("a","download","تحميل");a.href=f.model_download_url||m.release_url;a.target="_blank";a.rel="noopener";
+    li.appendChild(a);list.appendChild(li);
+   });
+   details.appendChild(list);card.appendChild(details);results.appendChild(card);
+  });
+ }
+ fetch("./catalog/releases/receiver_backups.json",{cache:"no-store"})
+ .then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
+ .then(function(j){
+  data=j;
+  j.models.forEach(function(m){const o=el("option","",m.name);o.value=m.name;select.appendChild(o);});
+  render();
+ })
+ .catch(function(){
+  stats.textContent="تعذر تحميل الفهرس تلقائيًا.";
+  const e=el("div","error","افتح الفهرس التفصيلي من الرابط أسفل الصفحة، أو أعد المحاولة بعد قليل.");
+  results.appendChild(e);
+ });
+ search.addEventListener("input",render);
+ select.addEventListener("change",render);
+})();
+</script>
+</body>
+</html>

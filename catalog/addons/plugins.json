@@ -1,7 +1,5 @@
 {
-  "schema_version": "1.0.0",
-  "kind": "plugin",
-  "repository": "online4tech/Online4Tech-Repository",
-  "generated_at": null,
+  "schema_version": 1,
+  "generated_at": "2026-11-24T17:22:48.313766+00:00",
   "items": []
 }

@@ -1741,7 +1741,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/01_openATV-8.0.1-dm520-internal.zip",
           "digest": "sha256:2ad56baa96929868bb2efac2eb3704d1351d9620b64855dcf44f4385793d01d6",
           "updated_at": "2026-11-21T21:55:22Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Dreambox DM520",
+          "model_release_tag": "o4t-device-dreambox-dm520-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/01_openATV-8.0.1-dm520-internal.zip",
+          "model_asset_name": "01_openATV-8.0.1-dm520-internal.zip",
+          "model_sha256": "2ad56baa96929868bb2efac2eb3704d1351d9620b64855dcf44f4385793d01d6"
         },
         {
           "name": "02_openATV-8.0.1-dm520-16112026.zip",
@@ -1750,7 +1756,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/02_openATV-8.0.1-dm520-16112026.zip",
           "digest": "sha256:1b41ed636d96b3e7d516cf5f0301f397e28a252512d4dddb715ab19240418eb6",
           "updated_at": "2026-11-21T21:55:24Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Dreambox DM520",
+          "model_release_tag": "o4t-device-dreambox-dm520-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/02_openATV-8.0.1-dm520-16112026.zip",
+          "model_asset_name": "02_openATV-8.0.1-dm520-16112026.zip",
+          "model_sha256": "1b41ed636d96b3e7d516cf5f0301f397e28a252512d4dddb715ab19240418eb6"
         },
         {
           "name": "03_openATV-8.1beta-dm520-16112026.zip",
@@ -1759,7 +1771,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/03_openATV-8.1beta-dm520-16112026.zip",
           "digest": "sha256:4a244d637029aba63f823bbc7aad0886baba9ba0d28b465bef7577295a2878e8",
           "updated_at": "2026-11-21T21:55:23Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Dreambox DM520",
+          "model_release_tag": "o4t-device-dreambox-dm520-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/03_openATV-8.1beta-dm520-16112026.zip",
+          "model_asset_name": "03_openATV-8.1beta-dm520-16112026.zip",
+          "model_sha256": "4a244d637029aba63f823bbc7aad0886baba9ba0d28b465bef7577295a2878e8"
         },
         {
           "name": "04_OpenBH-6.0-dm520-16112026.zip",
@@ -1768,7 +1786,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/04_OpenBH-6.0-dm520-16112026.zip",
           "digest": "sha256:e355664fac591f46dde969834e411512768cc03b3721fbcc65a619e23ac671b5",
           "updated_at": "2026-11-21T21:55:26Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Dreambox DM520",
+          "model_release_tag": "o4t-device-dreambox-dm520-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/04_OpenBH-6.0-dm520-16112026.zip",
+          "model_asset_name": "04_OpenBH-6.0-dm520-16112026.zip",
+          "model_sha256": "e355664fac591f46dde969834e411512768cc03b3721fbcc65a619e23ac671b5"
         },
         {
           "name": "05_OpenVix-6.9-dm520-16112026.zip",
@@ -1777,7 +1801,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/05_OpenVix-6.9-dm520-16112026.zip",
           "digest": "sha256:8de2a565565efd400a03b5cb0e0dcc2c82bf5906f983522d40c6354646dcee6f",
           "updated_at": "2026-11-21T21:55:26Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Dreambox DM520",
+          "model_release_tag": "o4t-device-dreambox-dm520-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/05_OpenVix-6.9-dm520-16112026.zip",
+          "model_asset_name": "05_OpenVix-6.9-dm520-16112026.zip",
+          "model_sha256": "8de2a565565efd400a03b5cb0e0dcc2c82bf5906f983522d40c6354646dcee6f"
         },
         {
           "name": "06_TSimage-13.0-dm520-17112026.zip",
@@ -1786,7 +1816,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/06_TSimage-13.0-dm520-17112026.zip",
           "digest": "sha256:9f09a8a5f27b6993af5a4a0c30fdf39f3f6df6f75ac87cd1dfae7601e586fba5",
           "updated_at": "2026-11-21T21:55:32Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Dreambox DM520",
+          "model_release_tag": "o4t-device-dreambox-dm520-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/06_TSimage-13.0-dm520-17112026.zip",
+          "model_asset_name": "06_TSimage-13.0-dm520-17112026.zip",
+          "model_sha256": "9f09a8a5f27b6993af5a4a0c30fdf39f3f6df6f75ac87cd1dfae7601e586fba5"
         }
       ]
     },
@@ -6730,7 +6766,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
           "digest": "sha256:5a4936532bbad6b1dbaa636f425b0cae5f9d70c56d8d4bc3ec04132f14632af2",
           "updated_at": "2026-11-20T21:33:22Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+          "model_asset_name": "5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+          "model_sha256": "5a4936532bbad6b1dbaa636f425b0cae5f9d70c56d8d4bc3ec04132f14632af2"
         },
         {
           "name": "5c4df64d5ca6-ciefp-E2-1sat-19E.sh",
@@ -6802,7 +6844,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
           "digest": "sha256:6c56c6aee3837044c74d7bc708146bf437c91440e5d3dbbc00902394d81744c0",
           "updated_at": "2026-11-20T21:33:56Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+          "model_asset_name": "6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+          "model_sha256": "6c56c6aee3837044c74d7bc708146bf437c91440e5d3dbbc00902394d81744c0"
         },
         {
           "name": "6e7c6d9245e7-AlternativeSoftcamManager.tar.gz",
@@ -6820,7 +6868,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
           "digest": "sha256:7627b95d6937409b790cbd854e45ddbd0da4bb15faef7fc9d0c06092cdc0edbb",
           "updated_at": "2026-11-21T10:54:08Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
+          "model_asset_name": "7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
+          "model_sha256": "7627b95d6937409b790cbd854e45ddbd0da4bb15faef7fc9d0c06092cdc0edbb"
         },
         {
           "name": "78e448d41aeb-Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
@@ -6883,7 +6937,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
           "digest": "sha256:8a584af4f32afb111931751828a4af20935bf9f4b3bd1048e41baad78c79aebf",
           "updated_at": "2026-11-21T10:55:06Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+          "model_asset_name": "8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+          "model_sha256": "8a584af4f32afb111931751828a4af20935bf9f4b3bd1048e41baad78c79aebf"
         },
         {
           "name": "963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
@@ -6892,7 +6952,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
           "digest": "sha256:963370be28ebf8855927b1fe504097a4f6b825b3b04b9b40428fa5b8c4657c77",
           "updated_at": "2026-11-20T21:33:36Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+          "model_asset_name": "963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+          "model_sha256": "963370be28ebf8855927b1fe504097a4f6b825b3b04b9b40428fa5b8c4657c77"
         },
         {
           "name": "99cce768604c-installer.sh",
@@ -6937,7 +7003,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
           "digest": "sha256:9a9127b41a486ef2f80f82ba7e6fd58bd3f462cf7c284d4f7bfc5ea294008175",
           "updated_at": "2026-11-21T10:55:26Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
+          "model_asset_name": "9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
+          "model_sha256": "9a9127b41a486ef2f80f82ba7e6fd58bd3f462cf7c284d4f7bfc5ea294008175"
         },
         {
           "name": "9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
@@ -6946,7 +7018,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
           "digest": "sha256:9f1f46073900bcbbd7ee745c450ea6bcf05e0c7e0ccddc96b6fb53e9f9d46df2",
           "updated_at": "2026-11-21T10:54:30Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+          "model_asset_name": "9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+          "model_sha256": "9f1f46073900bcbbd7ee745c450ea6bcf05e0c7e0ccddc96b6fb53e9f9d46df2"
         },
         {
           "name": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
@@ -6955,7 +7033,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
           "digest": "sha256:a9adb8a1b733db094a513de1b2052e48ec718813e81d989119499fa5a408b1b7",
           "updated_at": "2026-11-22T09:53:11Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026--source-online4tech-catalog-assets.zip",
+          "model_asset_name": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026--source-online4tech-catalog-assets.zip",
+          "model_sha256": "a9adb8a1b733db094a513de1b2052e48ec718813e81d989119499fa5a408b1b7"
         },
         {
           "name": "ae91e7d284d7-ncam_all.tar.gz",
@@ -7000,7 +7084,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
           "digest": "sha256:bb90ccc567c253d45ddc48ca1ee463256dfad312ba19cfe16d3ed3937c8fdd17",
           "updated_at": "2026-11-20T21:34:11Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+          "model_asset_name": "bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+          "model_sha256": "bb90ccc567c253d45ddc48ca1ee463256dfad312ba19cfe16d3ed3937c8fdd17"
         },
         {
           "name": "bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
@@ -7009,7 +7099,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
           "digest": "sha256:bdca625aa91d8dd3d5165dd204163a17d97531429b5b102f7e3e1c5095b8c7f7",
           "updated_at": "2026-11-21T10:54:51Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero 4K",
+          "model_release_tag": "o4t-device-vu-zero-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+          "model_asset_name": "bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+          "model_sha256": "bdca625aa91d8dd3d5165dd204163a17d97531429b5b102f7e3e1c5095b8c7f7"
         },
         {
           "name": "bfd32c2d37d8-enigma2-plugin-extensions-advancedscreenshot_all.ipk",
@@ -7135,7 +7231,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
           "digest": "sha256:e9a7fba53b2dd6747c64c2c82a6f1119111f0aec011c294fa120402538749208",
           "updated_at": "2026-11-21T10:55:51Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Dreambox Two",
+          "model_release_tag": "o4t-device-dreambox-two-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-two-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-two-backups/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+          "model_asset_name": "e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+          "model_sha256": "e9a7fba53b2dd6747c64c2c82a6f1119111f0aec011c294fa120402538749208"
         },
         {
           "name": "f1b4aadf69de-installer.sh",
@@ -7192,7 +7294,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/egami-11.0-r23-vuzero4k-03112026.zip",
           "digest": "sha256:6361bd883c700d4ad64c93f28f02092595fd60be8bab85db56514f8bedbcd19a",
           "updated_at": "2026-11-23T17:37:23Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero 4K",
+          "model_release_tag": "o4t-device-vu-zero-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/egami-11.0-r23-vuzero4k-03112026.zip",
+          "model_asset_name": "egami-11.0-r23-vuzero4k-03112026.zip",
+          "model_sha256": "6361bd883c700d4ad64c93f28f02092595fd60be8bab85db56514f8bedbcd19a"
         },
         {
           "name": "openatv-8.0.1-vuzero4k-03112026.zip",
@@ -7201,7 +7309,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openatv-8.0.1-vuzero4k-03112026.zip",
           "digest": "sha256:4581594f950b195c8f2cac5014ba07a755dce8482a8f6f333ab6bcd5cb58a86f",
           "updated_at": "2026-11-23T17:37:42Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero 4K",
+          "model_release_tag": "o4t-device-vu-zero-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openatv-8.0.1-vuzero4k-03112026.zip",
+          "model_asset_name": "openatv-8.0.1-vuzero4k-03112026.zip",
+          "model_sha256": "4581594f950b195c8f2cac5014ba07a755dce8482a8f6f333ab6bcd5cb58a86f"
         },
         {
           "name": "openbh-6.0.005-vuzero4k-03112026.zip",
@@ -7210,7 +7324,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openbh-6.0.005-vuzero4k-03112026.zip",
           "digest": "sha256:d6622c2bc19c45332dc582ae1469796c762baa7421720e164a2cf0d6189e05dd",
           "updated_at": "2026-11-23T17:37:59Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero 4K",
+          "model_release_tag": "o4t-device-vu-zero-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openbh-6.0.005-vuzero4k-03112026.zip",
+          "model_asset_name": "openbh-6.0.005-vuzero4k-03112026.zip",
+          "model_sha256": "d6622c2bc19c45332dc582ae1469796c762baa7421720e164a2cf0d6189e05dd"
         },
         {
           "name": "openvix-6.9.003-vuzero4k_03112026.zip",
@@ -7219,7 +7339,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openvix-6.9.003-vuzero4k_03112026.zip",
           "digest": "sha256:f2c14d4d4a5ae7bec4880a87e95305a48b84d7e79e0c5b69304aba1e246cbb73",
           "updated_at": "2026-11-23T17:38:17Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero 4K",
+          "model_release_tag": "o4t-device-vu-zero-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/openvix-6.9.003-vuzero4k_03112026.zip",
+          "model_asset_name": "openvix-6.9.003-vuzero4k_03112026.zip",
+          "model_sha256": "f2c14d4d4a5ae7bec4880a87e95305a48b84d7e79e0c5b69304aba1e246cbb73"
         },
         {
           "name": "PurE2-7.6-vuzero4k_03112026.zip",
@@ -7228,7 +7354,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/PurE2-7.6-vuzero4k_03112026.zip",
           "digest": "sha256:3a5192e6def2ab0f05060cd975ad365b7b8ef0793ada50482bc9e200eaaf4fca",
           "updated_at": "2026-11-23T17:38:37Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero 4K",
+          "model_release_tag": "o4t-device-vu-zero-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-4k-backups/PurE2-7.6-vuzero4k_03112026.zip",
+          "model_asset_name": "PurE2-7.6-vuzero4k_03112026.zip",
+          "model_sha256": "3a5192e6def2ab0f05060cd975ad365b7b8ef0793ada50482bc9e200eaaf4fca"
         }
       ]
     },
@@ -7249,7 +7381,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
           "digest": "sha256:08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997",
           "updated_at": "2026-11-20T21:13:16Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
+          "model_asset_name": "08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
+          "model_sha256": "08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997"
         },
         {
           "name": "162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
@@ -7258,7 +7396,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
           "digest": "sha256:162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a",
           "updated_at": "2026-11-20T21:11:49Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
+          "model_asset_name": "162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
+          "model_sha256": "162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a"
         },
         {
           "name": "162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
@@ -7267,7 +7411,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
           "digest": "sha256:162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a",
           "updated_at": "2026-11-21T09:57:11Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
+          "model_asset_name": "162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
+          "model_sha256": "162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a"
         },
         {
           "name": "18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
@@ -7276,7 +7426,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
           "digest": "sha256:18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003",
           "updated_at": "2026-11-20T21:13:02Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
+          "model_asset_name": "18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
+          "model_sha256": "18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003"
         },
         {
           "name": "269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
@@ -7285,7 +7441,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
           "digest": "sha256:269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3",
           "updated_at": "2026-11-20T21:12:50Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "model_asset_name": "269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "model_sha256": "269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3"
         },
         {
           "name": "269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
@@ -7294,7 +7456,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
           "digest": "sha256:269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3",
           "updated_at": "2026-11-21T09:58:22Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "model_asset_name": "269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "model_sha256": "269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3"
         },
         {
           "name": "33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
@@ -7303,7 +7471,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
           "digest": "sha256:33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01",
           "updated_at": "2026-11-20T21:11:25Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "model_asset_name": "33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "model_sha256": "33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01"
         },
         {
           "name": "33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
@@ -7312,7 +7486,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
           "digest": "sha256:33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01",
           "updated_at": "2026-11-21T09:56:39Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "model_asset_name": "33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "model_sha256": "33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01"
         },
         {
           "name": "35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
@@ -7321,7 +7501,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
           "digest": "sha256:35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24",
           "updated_at": "2026-11-20T21:11:38Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
+          "model_asset_name": "35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
+          "model_sha256": "35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24"
         },
         {
           "name": "35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
@@ -7330,7 +7516,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
           "digest": "sha256:35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24",
           "updated_at": "2026-11-21T09:56:56Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
+          "model_asset_name": "35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
+          "model_sha256": "35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24"
         },
         {
           "name": "3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
@@ -7339,7 +7531,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
           "digest": "sha256:3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69",
           "updated_at": "2026-11-20T21:13:24Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
+          "model_asset_name": "3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
+          "model_sha256": "3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69"
         },
         {
           "name": "588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
@@ -7348,7 +7546,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
           "digest": "sha256:588bea701aeccf47a9c117d768f49ef7fdf50b2e1bbd9ce58dc1f21368bcac2f",
           "updated_at": "2026-11-20T21:13:35Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
+          "model_asset_name": "588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
+          "model_sha256": "588bea701aeccf47a9c117d768f49ef7fdf50b2e1bbd9ce58dc1f21368bcac2f"
         },
         {
           "name": "6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
@@ -7357,7 +7561,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
           "digest": "sha256:6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38",
           "updated_at": "2026-11-20T21:12:22Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
+          "model_asset_name": "6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
+          "model_sha256": "6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38"
         },
         {
           "name": "6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
@@ -7366,7 +7576,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
           "digest": "sha256:6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38",
           "updated_at": "2026-11-21T09:58:01Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
+          "model_asset_name": "6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
+          "model_sha256": "6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38"
         },
         {
           "name": "6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
@@ -7375,7 +7591,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
           "digest": "sha256:6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17",
           "updated_at": "2026-11-20T21:12:38Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "model_asset_name": "6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "model_sha256": "6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17"
         },
         {
           "name": "6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
@@ -7384,7 +7606,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
           "digest": "sha256:6fba255c349b5f586b614fe6c596694c1cee6db5daf8aa5d8cda9ba66b70af38",
           "updated_at": "2026-11-21T09:55:36Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
+          "model_asset_name": "6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
+          "model_sha256": "6fba255c349b5f586b614fe6c596694c1cee6db5daf8aa5d8cda9ba66b70af38"
         },
         {
           "name": "8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
@@ -7393,7 +7621,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
           "digest": "sha256:8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb",
           "updated_at": "2026-11-20T21:12:08Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
+          "model_asset_name": "8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
+          "model_sha256": "8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb"
         },
         {
           "name": "8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
@@ -7402,7 +7636,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
           "digest": "sha256:8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb",
           "updated_at": "2026-11-21T09:57:46Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
+          "model_asset_name": "8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
+          "model_sha256": "8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb"
         },
         {
           "name": "959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
@@ -7411,7 +7651,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
           "digest": "sha256:959ccbffb7cf30edab5268aa4b7f1a8f628bed160258c55314c41d45cbd84569",
           "updated_at": "2026-11-21T09:55:58Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
+          "model_asset_name": "959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
+          "model_sha256": "959ccbffb7cf30edab5268aa4b7f1a8f628bed160258c55314c41d45cbd84569"
         },
         {
           "name": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
@@ -7420,7 +7666,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
           "digest": "sha256:a9adb8a1b733db094a513de1b2052e48ec718813e81d989119499fa5a408b1b7",
           "updated_at": "2026-11-22T20:05:20Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026--source-online4tech-catalog-assets.zip",
+          "model_asset_name": "a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026--source-online4tech-catalog-assets.zip",
+          "model_sha256": "a9adb8a1b733db094a513de1b2052e48ec718813e81d989119499fa5a408b1b7"
         },
         {
           "name": "b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
@@ -7429,7 +7681,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
           "digest": "sha256:b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6",
           "updated_at": "2026-11-20T21:11:12Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "model_asset_name": "b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "model_sha256": "b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6"
         },
         {
           "name": "b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
@@ -7438,7 +7696,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
           "digest": "sha256:b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6",
           "updated_at": "2026-11-21T09:56:18Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "model_asset_name": "b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "model_sha256": "b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6"
         },
         {
           "name": "f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
@@ -7447,7 +7711,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
           "digest": "sha256:f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8",
           "updated_at": "2026-11-20T21:11:58Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "model_asset_name": "f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "model_sha256": "f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8"
         },
         {
           "name": "f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
@@ -7456,7 +7726,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
           "digest": "sha256:f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8",
           "updated_at": "2026-11-21T09:57:28Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "model_asset_name": "f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "model_sha256": "f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8"
         }
       ]
     },
@@ -7528,7 +7804,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/egami-10.5.r10-vuzero-03102026.zip",
           "digest": "sha256:45560415e307a0c893aa79487603e57ca44099be18d8b66cd7c3b1cf61256717",
           "updated_at": "2026-11-17T20:35:03Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero",
+          "model_release_tag": "o4t-device-vu-zero-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/egami-10.5.r10-vuzero-03102026.zip",
+          "model_asset_name": "egami-10.5.r10-vuzero-03102026.zip",
+          "model_sha256": "45560415e307a0c893aa79487603e57ca44099be18d8b66cd7c3b1cf61256717"
         },
         {
           "name": "OpenATV-8.0.1-vuzero-02102026.zip",
@@ -7537,7 +7819,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/OpenATV-8.0.1-vuzero-02102026.zip",
           "digest": "sha256:df67a70a6c8a13a3368443c53a792b8ae727d62d95e5f38ae9c6d192e4406103",
           "updated_at": "2026-11-17T20:35:21Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero",
+          "model_release_tag": "o4t-device-vu-zero-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/OpenATV-8.0.1-vuzero-02102026.zip",
+          "model_asset_name": "OpenATV-8.0.1-vuzero-02102026.zip",
+          "model_sha256": "df67a70a6c8a13a3368443c53a792b8ae727d62d95e5f38ae9c6d192e4406103"
         },
         {
           "name": "openbh-6.0.004-vuzero-03102026.zip",
@@ -7546,7 +7834,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openbh-6.0.004-vuzero-03102026.zip",
           "digest": "sha256:1535eabd434c99364dcc99421adb25798c084c763d15e6360b3ff363928bdbb8",
           "updated_at": "2026-11-17T20:35:41Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero",
+          "model_release_tag": "o4t-device-vu-zero-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/openbh-6.0.004-vuzero-03102026.zip",
+          "model_asset_name": "openbh-6.0.004-vuzero-03102026.zip",
+          "model_sha256": "1535eabd434c99364dcc99421adb25798c084c763d15e6360b3ff363928bdbb8"
         },
         {
           "name": "openspa-8.7-vuzero-03102026.zip",
@@ -7555,7 +7849,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openspa-8.7-vuzero-03102026.zip",
           "digest": "sha256:1d48df11a574714c2f8012bda55f7118142154f51aedce2f79900c7cfab3127c",
           "updated_at": "2026-11-17T20:36:05Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero",
+          "model_release_tag": "o4t-device-vu-zero-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/openspa-8.7-vuzero-03102026.zip",
+          "model_asset_name": "openspa-8.7-vuzero-03102026.zip",
+          "model_sha256": "1d48df11a574714c2f8012bda55f7118142154f51aedce2f79900c7cfab3127c"
         },
         {
           "name": "openvix-6.9.002-vuzero-03102026.zip",
@@ -7564,7 +7864,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openvix-6.9.002-vuzero-03102026.zip",
           "digest": "sha256:b8ba445a3a36115f632e5c9d4f86255b52ebedfa9419dbe630f333796cecca68",
           "updated_at": "2026-11-17T20:36:23Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Zero",
+          "model_release_tag": "o4t-device-vu-zero-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-zero-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-zero-backups/openvix-6.9.002-vuzero-03102026.zip",
+          "model_asset_name": "openvix-6.9.002-vuzero-03102026.zip",
+          "model_sha256": "b8ba445a3a36115f632e5c9d4f86255b52ebedfa9419dbe630f333796cecca68"
         }
       ]
     },
@@ -7585,7 +7891,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/egami-11.0-r23-vuuno4kse-01112026.zip",
           "digest": "sha256:5c8c26d3f310ef4bea9fab02ae21ca3859d5dfcb97d9578413a95c9d04ed3e78",
           "updated_at": "2026-11-17T20:39:55Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/egami-11.0-r23-vuuno4kse-01112026.zip",
+          "model_asset_name": "egami-11.0-r23-vuuno4kse-01112026.zip",
+          "model_sha256": "5c8c26d3f310ef4bea9fab02ae21ca3859d5dfcb97d9578413a95c9d04ed3e78"
         },
         {
           "name": "openatv-8.0.1-vuuno4kse-01112026.zip",
@@ -7594,7 +7906,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openatv-8.0.1-vuuno4kse-01112026.zip",
           "digest": "sha256:73e89b505bbf63130e98e5f81fb2813f5b2eb34141cfc1ea9a7d6b2ca9cc3140",
           "updated_at": "2026-11-17T20:40:14Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openatv-8.0.1-vuuno4kse-01112026.zip",
+          "model_asset_name": "openatv-8.0.1-vuuno4kse-01112026.zip",
+          "model_sha256": "73e89b505bbf63130e98e5f81fb2813f5b2eb34141cfc1ea9a7d6b2ca9cc3140"
         },
         {
           "name": "openbh-6.0.005-vuuno4kse-01112026.zip",
@@ -7603,7 +7921,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openbh-6.0.005-vuuno4kse-01112026.zip",
           "digest": "sha256:83f22abcdba5fd5dcbfcf6a5da9c4873625a0263aa752f97d4cafd3ed7f8a224",
           "updated_at": "2026-11-17T20:40:30Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openbh-6.0.005-vuuno4kse-01112026.zip",
+          "model_asset_name": "openbh-6.0.005-vuuno4kse-01112026.zip",
+          "model_sha256": "83f22abcdba5fd5dcbfcf6a5da9c4873625a0263aa752f97d4cafd3ed7f8a224"
         },
         {
           "name": "openvix-6.9.003-vuuno4kse_01112026.zip",
@@ -7612,7 +7936,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openvix-6.9.003-vuuno4kse_01112026.zip",
           "digest": "sha256:02a49ae27cf4ea8437abfe3ddc76f7213d90615eef532ed579a89454fa310a19",
           "updated_at": "2026-11-17T20:40:58Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/openvix-6.9.003-vuuno4kse_01112026.zip",
+          "model_asset_name": "openvix-6.9.003-vuuno4kse_01112026.zip",
+          "model_sha256": "02a49ae27cf4ea8437abfe3ddc76f7213d90615eef532ed579a89454fa310a19"
         },
         {
           "name": "PurE2-7.6_vuuno4kse-01112026.zip",
@@ -7621,7 +7951,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/PurE2-7.6_vuuno4kse-01112026.zip",
           "digest": "sha256:72674541b06931aa94ba3a28ed07e53808242b66795a068f346156bab15c3043",
           "updated_at": "2026-11-17T20:41:13Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K SE",
+          "model_release_tag": "o4t-device-vu-uno-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-se-backups/PurE2-7.6_vuuno4kse-01112026.zip",
+          "model_asset_name": "PurE2-7.6_vuuno4kse-01112026.zip",
+          "model_sha256": "72674541b06931aa94ba3a28ed07e53808242b66795a068f346156bab15c3043"
         }
       ]
     },
@@ -7642,7 +7978,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/egami-10.6-r14-vuuno4k.zip",
           "digest": "sha256:1c2ce1d49261b8fb2abc4a51d894751c2b1106a0c27b0763432bc25ed77aa9b7",
           "updated_at": "2026-11-17T20:46:35Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K",
+          "model_release_tag": "o4t-device-vu-uno-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/egami-10.6-r14-vuuno4k.zip",
+          "model_asset_name": "egami-10.6-r14-vuuno4k.zip",
+          "model_sha256": "1c2ce1d49261b8fb2abc4a51d894751c2b1106a0c27b0763432bc25ed77aa9b7"
         },
         {
           "name": "openatv-8.0.1-vuuno4k-08112026.zip",
@@ -7651,7 +7993,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openatv-8.0.1-vuuno4k-08112026.zip",
           "digest": "sha256:607d7c9807abc88e9bf89524977008985a8fee80aaf4dc47fcf7349be6288c22",
           "updated_at": "2026-11-17T20:46:53Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K",
+          "model_release_tag": "o4t-device-vu-uno-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openatv-8.0.1-vuuno4k-08112026.zip",
+          "model_asset_name": "openatv-8.0.1-vuuno4k-08112026.zip",
+          "model_sha256": "607d7c9807abc88e9bf89524977008985a8fee80aaf4dc47fcf7349be6288c22"
         },
         {
           "name": "openbh-6.0.005-vuuno4k-08112026.zip",
@@ -7660,7 +8008,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openbh-6.0.005-vuuno4k-08112026.zip",
           "digest": "sha256:ebf95b237987403b5d197a45dd7b980be319be3594f785ac3aa680160ac5eacd",
           "updated_at": "2026-11-17T20:47:10Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K",
+          "model_release_tag": "o4t-device-vu-uno-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openbh-6.0.005-vuuno4k-08112026.zip",
+          "model_asset_name": "openbh-6.0.005-vuuno4k-08112026.zip",
+          "model_sha256": "ebf95b237987403b5d197a45dd7b980be319be3594f785ac3aa680160ac5eacd"
         },
         {
           "name": "openspa-8.7.003-vuuno4k-08112026.zip",
@@ -7669,7 +8023,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openspa-8.7.003-vuuno4k-08112026.zip",
           "digest": "sha256:d8558683f4326af432969dd048bab5c417d2921fa617178d4a293dca6d8d17de",
           "updated_at": "2026-11-17T20:47:35Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K",
+          "model_release_tag": "o4t-device-vu-uno-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openspa-8.7.003-vuuno4k-08112026.zip",
+          "model_asset_name": "openspa-8.7.003-vuuno4k-08112026.zip",
+          "model_sha256": "d8558683f4326af432969dd048bab5c417d2921fa617178d4a293dca6d8d17de"
         },
         {
           "name": "openvix-6.9.003-vuuno4k_08112026.zip",
@@ -7678,7 +8038,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openvix-6.9.003-vuuno4k_08112026.zip",
           "digest": "sha256:4365835c620a6ec2926a51f6cf13066f8d25a2543a518dc9f02cd3ee700ea88a",
           "updated_at": "2026-11-17T20:48:00Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K",
+          "model_release_tag": "o4t-device-vu-uno-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/openvix-6.9.003-vuuno4k_08112026.zip",
+          "model_asset_name": "openvix-6.9.003-vuuno4k_08112026.zip",
+          "model_sha256": "4365835c620a6ec2926a51f6cf13066f8d25a2543a518dc9f02cd3ee700ea88a"
         },
         {
           "name": "PurE2-7.6-vuuno4k-08112026.zip",
@@ -7687,7 +8053,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/PurE2-7.6-vuuno4k-08112026.zip",
           "digest": "sha256:6bb3c381dcbaf4d5b3007c209c813e495c83e6e2d5f7305cde27df7dcced6e55",
           "updated_at": "2026-11-17T20:48:20Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Uno 4K",
+          "model_release_tag": "o4t-device-vu-uno-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-uno-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-uno-4k-backups/PurE2-7.6-vuuno4k-08112026.zip",
+          "model_asset_name": "PurE2-7.6-vuuno4k-08112026.zip",
+          "model_sha256": "6bb3c381dcbaf4d5b3007c209c813e495c83e6e2d5f7305cde27df7dcced6e55"
         }
       ]
     },
@@ -7708,7 +8080,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/egami-11.0-r23-vuultimo4k-05112026.zip",
           "digest": "sha256:3f5eff2467702b522c8de767c0a7c23bec56e3f47a5862c2c70720f21480a1d0",
           "updated_at": "2026-11-17T20:50:11Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Ultimo 4K",
+          "model_release_tag": "o4t-device-vu-ultimo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-ultimo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/egami-11.0-r23-vuultimo4k-05112026.zip",
+          "model_asset_name": "egami-11.0-r23-vuultimo4k-05112026.zip",
+          "model_sha256": "3f5eff2467702b522c8de767c0a7c23bec56e3f47a5862c2c70720f21480a1d0"
         },
         {
           "name": "openatv-8.0.1-vuultimo4k-05112026.zip",
@@ -7717,7 +8095,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openatv-8.0.1-vuultimo4k-05112026.zip",
           "digest": "sha256:9c389f5c3e6ca2cbb594be2486e9d430899253ff5594f63e968f1a56598f72b7",
           "updated_at": "2026-11-17T20:50:22Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Ultimo 4K",
+          "model_release_tag": "o4t-device-vu-ultimo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-ultimo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/openatv-8.0.1-vuultimo4k-05112026.zip",
+          "model_asset_name": "openatv-8.0.1-vuultimo4k-05112026.zip",
+          "model_sha256": "9c389f5c3e6ca2cbb594be2486e9d430899253ff5594f63e968f1a56598f72b7"
         },
         {
           "name": "openbh-6.0.005-vuultimo4k-05112026.zip",
@@ -7726,7 +8110,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openbh-6.0.005-vuultimo4k-05112026.zip",
           "digest": "sha256:20e1f1958dcea58a484c4b97bbfd39ab53420ce0fc4a970336547bc7d529bd4e",
           "updated_at": "2026-11-17T20:50:36Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Ultimo 4K",
+          "model_release_tag": "o4t-device-vu-ultimo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-ultimo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/openbh-6.0.005-vuultimo4k-05112026.zip",
+          "model_asset_name": "openbh-6.0.005-vuultimo4k-05112026.zip",
+          "model_sha256": "20e1f1958dcea58a484c4b97bbfd39ab53420ce0fc4a970336547bc7d529bd4e"
         },
         {
           "name": "openvix-6.9.003-vuultimo4k_05112026.zip",
@@ -7735,7 +8125,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openvix-6.9.003-vuultimo4k_05112026.zip",
           "digest": "sha256:e21563a3257c66913fd6ae6e32e9346b45bb0b17ab6765ddd9a3c350a30c145d",
           "updated_at": "2026-11-17T20:50:46Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Ultimo 4K",
+          "model_release_tag": "o4t-device-vu-ultimo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-ultimo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/openvix-6.9.003-vuultimo4k_05112026.zip",
+          "model_asset_name": "openvix-6.9.003-vuultimo4k_05112026.zip",
+          "model_sha256": "e21563a3257c66913fd6ae6e32e9346b45bb0b17ab6765ddd9a3c350a30c145d"
         },
         {
           "name": "PurE2-7.6-vuultimo4k_05112026.zip",
@@ -7744,7 +8140,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/PurE2-7.6-vuultimo4k_05112026.zip",
           "digest": "sha256:00dda35f081c5404c47ca1f8cdee6cbc1b68670412ed4e24293c628ad3cdd6d9",
           "updated_at": "2026-11-17T20:50:58Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Ultimo 4K",
+          "model_release_tag": "o4t-device-vu-ultimo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-ultimo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-ultimo-4k-backups/PurE2-7.6-vuultimo4k_05112026.zip",
+          "model_asset_name": "PurE2-7.6-vuultimo4k_05112026.zip",
+          "model_sha256": "00dda35f081c5404c47ca1f8cdee6cbc1b68670412ed4e24293c628ad3cdd6d9"
         }
       ]
     },
@@ -7765,7 +8167,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r22-vusolo4k-23092026.zip",
           "digest": "sha256:e8690d264da8874b58ec3ea000e341574e4dc27b16d2110fcf334b6be1f1c845",
           "updated_at": "2026-11-17T20:59:20Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/egami-11.0-r22-vusolo4k-23092026.zip",
+          "model_asset_name": "egami-11.0-r22-vusolo4k-23092026.zip",
+          "model_sha256": "e8690d264da8874b58ec3ea000e341574e4dc27b16d2110fcf334b6be1f1c845"
         },
         {
           "name": "egami-11.0-r23-vusolo4k-19112026.zip",
@@ -7774,7 +8182,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r23-vusolo4k-19112026.zip",
           "digest": "sha256:b8f8fccae907e09c4e9c6fbf358a938a1d68051a43b818e9d66c15f2ec94511f",
           "updated_at": "2026-11-19T19:39:24Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/egami-11.0-r23-vusolo4k-19112026.zip",
+          "model_asset_name": "egami-11.0-r23-vusolo4k-19112026.zip",
+          "model_sha256": "b8f8fccae907e09c4e9c6fbf358a938a1d68051a43b818e9d66c15f2ec94511f"
         },
         {
           "name": "openatv-8.0.0-RC1-vusolo4k-23092026.zip",
@@ -7783,7 +8197,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.0-RC1-vusolo4k-23092026.zip",
           "digest": "sha256:79ffcd04734b90c7ee70cfd04edb82fd3d7bef8fe3cc1a85c10c1d59d31692d6",
           "updated_at": "2026-11-17T20:59:34Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openatv-8.0.0-RC1-vusolo4k-23092026.zip",
+          "model_asset_name": "openatv-8.0.0-RC1-vusolo4k-23092026.zip",
+          "model_sha256": "79ffcd04734b90c7ee70cfd04edb82fd3d7bef8fe3cc1a85c10c1d59d31692d6"
         },
         {
           "name": "openatv-8.0.1-vusolo4k-19112026.zip",
@@ -7792,7 +8212,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.1-vusolo4k-19112026.zip",
           "digest": "sha256:bbb50ae0b7f0d9f3efa82b48e05da7c0877c95807801bb42300682e22f23f112",
           "updated_at": "2026-11-19T19:39:43Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openatv-8.0.1-vusolo4k-19112026.zip",
+          "model_asset_name": "openatv-8.0.1-vusolo4k-19112026.zip",
+          "model_sha256": "bbb50ae0b7f0d9f3efa82b48e05da7c0877c95807801bb42300682e22f23f112"
         },
         {
           "name": "openbh-6.0.003-vusolo4k-23092026.zip",
@@ -7801,7 +8227,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.003-vusolo4k-23092026.zip",
           "digest": "sha256:cf7203765a060fb21e5652a94a36bb20013ca89acfef327d955318a666f79cbb",
           "updated_at": "2026-11-17T20:59:49Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openbh-6.0.003-vusolo4k-23092026.zip",
+          "model_asset_name": "openbh-6.0.003-vusolo4k-23092026.zip",
+          "model_sha256": "cf7203765a060fb21e5652a94a36bb20013ca89acfef327d955318a666f79cbb"
         },
         {
           "name": "openbh-6.0.005-vusolo4k-19112026.zip",
@@ -7810,7 +8242,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.005-vusolo4k-19112026.zip",
           "digest": "sha256:f60675779e509acf96550939945822f8936f86a0f6b774fa71f1a92680340d4e",
           "updated_at": "2026-11-19T19:39:56Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openbh-6.0.005-vusolo4k-19112026.zip",
+          "model_asset_name": "openbh-6.0.005-vusolo4k-19112026.zip",
+          "model_sha256": "f60675779e509acf96550939945822f8936f86a0f6b774fa71f1a92680340d4e"
         },
         {
           "name": "openvix-6.9.002-vusolo4k_23092026.zip",
@@ -7819,7 +8257,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.002-vusolo4k_23092026.zip",
           "digest": "sha256:4bc6ac39c37cf45c1f3efcf31f52967065a30721ef8e945582a5278ae22457d7",
           "updated_at": "2026-11-17T21:00:01Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openvix-6.9.002-vusolo4k_23092026.zip",
+          "model_asset_name": "openvix-6.9.002-vusolo4k_23092026.zip",
+          "model_sha256": "4bc6ac39c37cf45c1f3efcf31f52967065a30721ef8e945582a5278ae22457d7"
         },
         {
           "name": "openvix-6.9.007-vusolo4k_19112026.zip",
@@ -7828,7 +8272,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.007-vusolo4k_19112026.zip",
           "digest": "sha256:73c79c835f2bd936566bab06a3ac0ecea6ece9148158525df635d0549ff160db",
           "updated_at": "2026-11-19T19:40:14Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openvix-6.9.007-vusolo4k_19112026.zip",
+          "model_asset_name": "openvix-6.9.007-vusolo4k_19112026.zip",
+          "model_sha256": "73c79c835f2bd936566bab06a3ac0ecea6ece9148158525df635d0549ff160db"
         },
         {
           "name": "PurE2-7.6-vusolo4k_19112026.zip",
@@ -7837,7 +8287,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/PurE2-7.6-vusolo4k_19112026.zip",
           "digest": "sha256:73d3e7083b832e579aa65a2f17ad5e68aaa66d1d0e0d712327a351a84d833159",
           "updated_at": "2026-11-19T19:40:31Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/PurE2-7.6-vusolo4k_19112026.zip",
+          "model_asset_name": "PurE2-7.6-vusolo4k_19112026.zip",
+          "model_sha256": "73d3e7083b832e579aa65a2f17ad5e68aaa66d1d0e0d712327a351a84d833159"
         },
         {
           "name": "vusolo4k-PurE2-7.6-23092026.zip",
@@ -7846,7 +8302,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/vusolo4k-PurE2-7.6-23092026.zip",
           "digest": "sha256:02fb60d3af42f4b30b00d87ca13a923c4c0ac921b108b521c49111fd64def648",
           "updated_at": "2026-11-17T21:00:15Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Solo 4K",
+          "model_release_tag": "o4t-device-vu-solo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/vusolo4k-PurE2-7.6-23092026.zip",
+          "model_asset_name": "vusolo4k-PurE2-7.6-23092026.zip",
+          "model_sha256": "02fb60d3af42f4b30b00d87ca13a923c4c0ac921b108b521c49111fd64def648"
         }
       ]
     },
@@ -7867,7 +8329,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/egami-11.0-r23-vuduo4kse-02112026.zip",
           "digest": "sha256:ebb7bc1ae7fd8b29fb07b24a7e1b4eaaa96e37408055a8f7146d5e90794ae46b",
           "updated_at": "2026-11-17T21:02:08Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/egami-11.0-r23-vuduo4kse-02112026.zip",
+          "model_asset_name": "egami-11.0-r23-vuduo4kse-02112026.zip",
+          "model_sha256": "ebb7bc1ae7fd8b29fb07b24a7e1b4eaaa96e37408055a8f7146d5e90794ae46b"
         },
         {
           "name": "openatv-8.0.1-vuduo4kse-02112026.zip",
@@ -7876,7 +8344,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.0.1-vuduo4kse-02112026.zip",
           "digest": "sha256:5a3e33ee7ecf0580a22a27507539765ccd088d8c87f55f43f7c5e98bad2d92b5",
           "updated_at": "2026-11-17T21:02:20Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openatv-8.0.1-vuduo4kse-02112026.zip",
+          "model_asset_name": "openatv-8.0.1-vuduo4kse-02112026.zip",
+          "model_sha256": "5a3e33ee7ecf0580a22a27507539765ccd088d8c87f55f43f7c5e98bad2d92b5"
         },
         {
           "name": "openatv-8.1.0.beta-vuduo4kse-12112026.zip",
@@ -7885,7 +8359,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.1.0.beta-vuduo4kse-12112026.zip",
           "digest": "sha256:aaa5756b8bd4755e0247e4713f8559c3f8ac92c1a46140b9d0a754d420bab41e",
           "updated_at": "2026-11-17T21:02:35Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openatv-8.1.0.beta-vuduo4kse-12112026.zip",
+          "model_asset_name": "openatv-8.1.0.beta-vuduo4kse-12112026.zip",
+          "model_sha256": "aaa5756b8bd4755e0247e4713f8559c3f8ac92c1a46140b9d0a754d420bab41e"
         },
         {
           "name": "openbh-6.0.005-vuduo4kse-02112026.zip",
@@ -7894,7 +8374,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openbh-6.0.005-vuduo4kse-02112026.zip",
           "digest": "sha256:d38c4c1dc63c9abbee63ad029786a77d062f40f50035b63890344fb7c83759c4",
           "updated_at": "2026-11-17T21:02:46Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openbh-6.0.005-vuduo4kse-02112026.zip",
+          "model_asset_name": "openbh-6.0.005-vuduo4kse-02112026.zip",
+          "model_sha256": "d38c4c1dc63c9abbee63ad029786a77d062f40f50035b63890344fb7c83759c4"
         },
         {
           "name": "openvix-6.9.006-vuduo4kse_13112026.zip",
@@ -7903,7 +8389,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openvix-6.9.006-vuduo4kse_13112026.zip",
           "digest": "sha256:a8d81235f5056f75798699d04c3035133271ce79a8bf2a2740f9c52d533f7e97",
           "updated_at": "2026-11-17T21:02:58Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/openvix-6.9.006-vuduo4kse_13112026.zip",
+          "model_asset_name": "openvix-6.9.006-vuduo4kse_13112026.zip",
+          "model_sha256": "a8d81235f5056f75798699d04c3035133271ce79a8bf2a2740f9c52d533f7e97"
         },
         {
           "name": "PurE2-7.6-vuduo4kse-02112026.zip",
@@ -7912,7 +8404,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/PurE2-7.6-vuduo4kse-02112026.zip",
           "digest": "sha256:3f2bf70f79f2f54a2cf5def124f83b1da5a1e0342c2b153fa6c6350dc7291ff0",
           "updated_at": "2026-11-17T21:03:10Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K SE",
+          "model_release_tag": "o4t-device-vu-duo-4k-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-se-backups/PurE2-7.6-vuduo4kse-02112026.zip",
+          "model_asset_name": "PurE2-7.6-vuduo4kse-02112026.zip",
+          "model_sha256": "3f2bf70f79f2f54a2cf5def124f83b1da5a1e0342c2b153fa6c6350dc7291ff0"
         }
       ]
     },
@@ -7933,7 +8431,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r22-vuduo4k-24092026.zip",
           "digest": "sha256:c920afa6d6a2aeb55eb58b82e4b5b2bf80539e88a426beecd5726b14ef51617b",
           "updated_at": "2026-11-17T21:07:39Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/egami-11.0-r22-vuduo4k-24092026.zip",
+          "model_asset_name": "egami-11.0-r22-vuduo4k-24092026.zip",
+          "model_sha256": "c920afa6d6a2aeb55eb58b82e4b5b2bf80539e88a426beecd5726b14ef51617b"
         },
         {
           "name": "egami-11.0-r23-vuduo4k-19112026.zip",
@@ -7942,7 +8446,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r23-vuduo4k-19112026.zip",
           "digest": "sha256:a4d2238d75357a560bb4ac78412d41d0b2b214cc042b3df8ad008e4e4cd0be92",
           "updated_at": "2026-11-19T19:43:35Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/egami-11.0-r23-vuduo4k-19112026.zip",
+          "model_asset_name": "egami-11.0-r23-vuduo4k-19112026.zip",
+          "model_sha256": "a4d2238d75357a560bb4ac78412d41d0b2b214cc042b3df8ad008e4e4cd0be92"
         },
         {
           "name": "openatv-8.0.0-RC1-vuduo4k-24092026.zip",
@@ -7951,7 +8461,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.0-RC1-vuduo4k-24092026.zip",
           "digest": "sha256:f08fd86650fca1c9ae49cba9bf15b62b3ffd8c105fa60b48a66e4ba7691bb99c",
           "updated_at": "2026-11-17T21:08:04Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openatv-8.0.0-RC1-vuduo4k-24092026.zip",
+          "model_asset_name": "openatv-8.0.0-RC1-vuduo4k-24092026.zip",
+          "model_sha256": "f08fd86650fca1c9ae49cba9bf15b62b3ffd8c105fa60b48a66e4ba7691bb99c"
         },
         {
           "name": "openatv-8.0.1-vuduo4k-19112026.zip",
@@ -7960,7 +8476,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.1-vuduo4k-19112026.zip",
           "digest": "sha256:9c51365aa350f9af49da4e962a717f4af73a9035d71b1e869aa1e741c424a7e9",
           "updated_at": "2026-11-19T19:43:52Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openatv-8.0.1-vuduo4k-19112026.zip",
+          "model_asset_name": "openatv-8.0.1-vuduo4k-19112026.zip",
+          "model_sha256": "9c51365aa350f9af49da4e962a717f4af73a9035d71b1e869aa1e741c424a7e9"
         },
         {
           "name": "openbh-6.0.003-vuduo4k-24092026.zip",
@@ -7969,7 +8491,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.003-vuduo4k-24092026.zip",
           "digest": "sha256:80df90ea91e7cf8ee5c908b877c165611cb85ce72a7bdfaae8d8bf77b7c7838e",
           "updated_at": "2026-11-17T21:08:24Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openbh-6.0.003-vuduo4k-24092026.zip",
+          "model_asset_name": "openbh-6.0.003-vuduo4k-24092026.zip",
+          "model_sha256": "80df90ea91e7cf8ee5c908b877c165611cb85ce72a7bdfaae8d8bf77b7c7838e"
         },
         {
           "name": "openbh-6.0.005-vuduo4k-19112026.zip",
@@ -7978,7 +8506,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.005-vuduo4k-19112026.zip",
           "digest": "sha256:0051bb9eb5e07bb20bf01e9a00db4a9f6b6d6e9d121372e5fc06916d660542dd",
           "updated_at": "2026-11-19T19:44:04Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openbh-6.0.005-vuduo4k-19112026.zip",
+          "model_asset_name": "openbh-6.0.005-vuduo4k-19112026.zip",
+          "model_sha256": "0051bb9eb5e07bb20bf01e9a00db4a9f6b6d6e9d121372e5fc06916d660542dd"
         },
         {
           "name": "openvix-6.9.002-vuduo4k_24092026.zip",
@@ -7987,7 +8521,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openvix-6.9.002-vuduo4k_24092026.zip",
           "digest": "sha256:3ed53e172b985a8683060a5f405a840791790e466adba5ecf3cf8de945d7e9df",
           "updated_at": "2026-11-17T21:08:53Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/openvix-6.9.002-vuduo4k_24092026.zip",
+          "model_asset_name": "openvix-6.9.002-vuduo4k_24092026.zip",
+          "model_sha256": "3ed53e172b985a8683060a5f405a840791790e466adba5ecf3cf8de945d7e9df"
         },
         {
           "name": "PurE2-7.6-vuduo4k_19112026.zip",
@@ -7996,7 +8536,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/PurE2-7.6-vuduo4k_19112026.zip",
           "digest": "sha256:f730b468358092e6620d152bacd80e825f06406fdc0746bc0835af7259bbe875",
           "updated_at": "2026-11-19T19:43:19Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/PurE2-7.6-vuduo4k_19112026.zip",
+          "model_asset_name": "PurE2-7.6-vuduo4k_19112026.zip",
+          "model_sha256": "f730b468358092e6620d152bacd80e825f06406fdc0746bc0835af7259bbe875"
         },
         {
           "name": "vuduo4k-PurE2-7.6-24092026.zip",
@@ -8005,7 +8551,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/vuduo4k-PurE2-7.6-24092026.zip",
           "digest": "sha256:eec255690a9148d1f451396b82456063cc466efee8d29f8cd62be483f643ed5b",
           "updated_at": "2026-11-17T21:09:17Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Vu+ Duo 4K",
+          "model_release_tag": "o4t-device-vu-duo-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-duo-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-duo-4k-backups/vuduo4k-PurE2-7.6-24092026.zip",
+          "model_asset_name": "vuduo4k-PurE2-7.6-24092026.zip",
+          "model_sha256": "eec255690a9148d1f451396b82456063cc466efee8d29f8cd62be483f643ed5b"
         }
       ]
     },
@@ -8047,7 +8599,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/EGAMI-11.0-multiboxse_06112026.zip",
           "digest": "sha256:4a8a743fbb9a9bd3430726c3693cf4814f86f45ce99ae1153b0334f1a25e5bef",
           "updated_at": "2026-11-17T21:12:47Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox SE",
+          "model_release_tag": "o4t-device-multibox-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/EGAMI-11.0-multiboxse_06112026.zip",
+          "model_asset_name": "EGAMI-11.0-multiboxse_06112026.zip",
+          "model_sha256": "4a8a743fbb9a9bd3430726c3693cf4814f86f45ce99ae1153b0334f1a25e5bef"
         },
         {
           "name": "novalerSE_corvoboys_slot5.zip",
@@ -8056,7 +8614,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/novalerSE_corvoboys_slot5.zip",
           "digest": "sha256:228fc119a72a17dfc99db272c4312ed2f68efa0e73c7ceb3547d32b99cafcf16",
           "updated_at": "2026-11-17T21:12:57Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler SE",
+          "model_release_tag": "o4t-device-novaler-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-se-backups/novalerSE_corvoboys_slot5.zip",
+          "model_asset_name": "novalerSE_corvoboys_slot5.zip",
+          "model_sha256": "228fc119a72a17dfc99db272c4312ed2f68efa0e73c7ceb3547d32b99cafcf16"
         },
         {
           "name": "OpenATV-8.0.1-multiboxse_06112026.zip",
@@ -8065,7 +8629,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.0.1-multiboxse_06112026.zip",
           "digest": "sha256:5ac4bcba1f6d134c5f8bb166e644e5ae6d8e81ac885a785d5944c21995320938",
           "updated_at": "2026-11-17T21:13:15Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox SE",
+          "model_release_tag": "o4t-device-multibox-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenATV-8.0.1-multiboxse_06112026.zip",
+          "model_asset_name": "OpenATV-8.0.1-multiboxse_06112026.zip",
+          "model_sha256": "5ac4bcba1f6d134c5f8bb166e644e5ae6d8e81ac885a785d5944c21995320938"
         },
         {
           "name": "OpenATV-8.1.0_beta-multiboxse_06112026.zip",
@@ -8074,7 +8644,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.1.0_beta-multiboxse_06112026.zip",
           "digest": "sha256:5f57ed75c90776df1103e1b2cc1002ae22eb2a874a0d19853c95c14b7769acfa",
           "updated_at": "2026-11-17T21:13:36Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox SE",
+          "model_release_tag": "o4t-device-multibox-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenATV-8.1.0_beta-multiboxse_06112026.zip",
+          "model_asset_name": "OpenATV-8.1.0_beta-multiboxse_06112026.zip",
+          "model_sha256": "5f57ed75c90776df1103e1b2cc1002ae22eb2a874a0d19853c95c14b7769acfa"
         },
         {
           "name": "OpenBh-6.0-multiboxse_06112026.zip",
@@ -8083,7 +8659,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenBh-6.0-multiboxse_06112026.zip",
           "digest": "sha256:f65ab62a2a620e0f08cebed75419b7f762c2490be1eed89d327ddb7128702ed3",
           "updated_at": "2026-11-17T21:13:54Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox SE",
+          "model_release_tag": "o4t-device-multibox-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenBh-6.0-multiboxse_06112026.zip",
+          "model_asset_name": "OpenBh-6.0-multiboxse_06112026.zip",
+          "model_sha256": "f65ab62a2a620e0f08cebed75419b7f762c2490be1eed89d327ddb7128702ed3"
         },
         {
           "name": "OpenPLi-9.2-multiboxse_06112026.zip",
@@ -8092,7 +8674,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenPLi-9.2-multiboxse_06112026.zip",
           "digest": "sha256:0ba94a2864f362741bb677988921e5101df07b808e3fee9fbbb129ca75107dff",
           "updated_at": "2026-11-17T21:14:07Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox SE",
+          "model_release_tag": "o4t-device-multibox-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenPLi-9.2-multiboxse_06112026.zip",
+          "model_asset_name": "OpenPLi-9.2-multiboxse_06112026.zip",
+          "model_sha256": "0ba94a2864f362741bb677988921e5101df07b808e3fee9fbbb129ca75107dff"
         },
         {
           "name": "openspa-8.7.003-novalerse-10112026.zip",
@@ -8101,7 +8689,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/openspa-8.7.003-novalerse-10112026.zip",
           "digest": "sha256:22e68db4f85dd34c15a2ef95bd4dcd86f16c9d5e7b214890acc899f276d7d9de",
           "updated_at": "2026-11-17T21:14:28Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler SE",
+          "model_release_tag": "o4t-device-novaler-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-se-backups/openspa-8.7.003-novalerse-10112026.zip",
+          "model_asset_name": "openspa-8.7.003-novalerse-10112026.zip",
+          "model_sha256": "22e68db4f85dd34c15a2ef95bd4dcd86f16c9d5e7b214890acc899f276d7d9de"
         },
         {
           "name": "OpenViX-6.9-multiboxse_06112026.zip",
@@ -8110,7 +8704,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenViX-6.9-multiboxse_06112026.zip",
           "digest": "sha256:d973df3da1da270e92ce633ee059919ab2a590610233c9e5d21c749f214de9c6",
           "updated_at": "2026-11-17T21:14:45Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox SE",
+          "model_release_tag": "o4t-device-multibox-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/OpenViX-6.9-multiboxse_06112026.zip",
+          "model_asset_name": "OpenViX-6.9-multiboxse_06112026.zip",
+          "model_sha256": "d973df3da1da270e92ce633ee059919ab2a590610233c9e5d21c749f214de9c6"
         },
         {
           "name": "PurE2-7.6-multiboxse_06112026.zip",
@@ -8119,7 +8719,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/PurE2-7.6-multiboxse_06112026.zip",
           "digest": "sha256:9e38037c4b2eb1c4d7c608e9239bc84b17d1afd1dcbf2c67a2ea58568e66e413",
           "updated_at": "2026-11-17T21:15:03Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox SE",
+          "model_release_tag": "o4t-device-multibox-se-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-se-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-se-backups/PurE2-7.6-multiboxse_06112026.zip",
+          "model_asset_name": "PurE2-7.6-multiboxse_06112026.zip",
+          "model_sha256": "9e38037c4b2eb1c4d7c608e9239bc84b17d1afd1dcbf2c67a2ea58568e66e413"
         }
       ]
     },
@@ -8140,7 +8746,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/EGAMI-11.0-multiboxpro_10112026.zip",
           "digest": "sha256:35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24",
           "updated_at": "2026-11-17T21:16:41Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/EGAMI-11.0-multiboxpro_10112026.zip",
+          "model_asset_name": "EGAMI-11.0-multiboxpro_10112026.zip",
+          "model_sha256": "35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24"
         },
         {
           "name": "Hyperion-X3-novalerpro_18102026.zip",
@@ -8149,7 +8761,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Hyperion-X3-novalerpro_18102026.zip",
           "digest": "sha256:08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997",
           "updated_at": "2026-11-17T21:17:07Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/Hyperion-X3-novalerpro_18102026.zip",
+          "model_asset_name": "Hyperion-X3-novalerpro_18102026.zip",
+          "model_sha256": "08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997"
         },
         {
           "name": "novaler4kpro-3.53_recovery.zip",
@@ -8158,7 +8776,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novaler4kpro-3.53_recovery.zip",
           "digest": "sha256:5db0a6faa63bf36c0487c066d1498952e08691822110f82e639da88ba2ef63b8",
           "updated_at": "2026-11-17T21:17:11Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K Pro",
+          "model_release_tag": "o4t-device-novaler-4k-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/novaler4kpro-3.53_recovery.zip",
+          "model_asset_name": "novaler4kpro-3.53_recovery.zip",
+          "model_sha256": "5db0a6faa63bf36c0487c066d1498952e08691822110f82e639da88ba2ef63b8"
         },
         {
           "name": "novalerpro_corvoboys_slot5.zip",
@@ -8167,7 +8791,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novalerpro_corvoboys_slot5.zip",
           "digest": "sha256:3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69",
           "updated_at": "2026-11-17T21:17:22Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/novalerpro_corvoboys_slot5.zip",
+          "model_asset_name": "novalerpro_corvoboys_slot5.zip",
+          "model_sha256": "3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69"
         },
         {
           "name": "OpenATV-8.0.1-multiboxpro_10112026.zip",
@@ -8176,7 +8806,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.0.1-multiboxpro_10112026.zip",
           "digest": "sha256:2c0f02f13e8e8007488f36e756b9ceeb359f8ea81dc695a6632b9c34d5d2db26",
           "updated_at": "2026-11-17T21:17:39Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenATV-8.0.1-multiboxpro_10112026.zip",
+          "model_asset_name": "OpenATV-8.0.1-multiboxpro_10112026.zip",
+          "model_sha256": "2c0f02f13e8e8007488f36e756b9ceeb359f8ea81dc695a6632b9c34d5d2db26"
         },
         {
           "name": "OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
@@ -8185,7 +8821,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
           "digest": "sha256:6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17",
           "updated_at": "2026-11-17T21:17:57Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "model_asset_name": "OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "model_sha256": "6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17"
         },
         {
           "name": "OpenBh-6.0-multiboxpro_08112026.zip",
@@ -8194,7 +8836,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenBh-6.0-multiboxpro_08112026.zip",
           "digest": "sha256:6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38",
           "updated_at": "2026-11-17T21:18:15Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenBh-6.0-multiboxpro_08112026.zip",
+          "model_asset_name": "OpenBh-6.0-multiboxpro_08112026.zip",
+          "model_sha256": "6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38"
         },
         {
           "name": "openHDF-8.0-multiboxpro_09112026.zip",
@@ -8203,7 +8851,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openHDF-8.0-multiboxpro_09112026.zip",
           "digest": "sha256:162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a",
           "updated_at": "2026-11-17T21:18:31Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/openHDF-8.0-multiboxpro_09112026.zip",
+          "model_asset_name": "openHDF-8.0-multiboxpro_09112026.zip",
+          "model_sha256": "162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a"
         },
         {
           "name": "OpenPLi-GCC-16.1-novalerpro_19102026.zip",
@@ -8212,7 +8866,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-GCC-16.1-novalerpro_19102026.zip",
           "digest": "sha256:269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3",
           "updated_at": "2026-11-17T21:18:53Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "model_asset_name": "OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "model_sha256": "269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3"
         },
         {
           "name": "OpenPLi-wrynose-multiboxpro_09112026.zip",
@@ -8221,7 +8881,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-wrynose-multiboxpro_09112026.zip",
           "digest": "sha256:f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8",
           "updated_at": "2026-11-17T21:19:14Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "model_asset_name": "OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "model_sha256": "f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8"
         },
         {
           "name": "openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
@@ -8230,7 +8896,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
           "digest": "sha256:7f9187b5c90fd933a4310330149fbebaacb51e8d69efc54ed908fc0dc57816d5",
           "updated_at": "2026-11-17T21:19:37Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K Pro",
+          "model_release_tag": "o4t-device-novaler-4k-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
+          "model_asset_name": "openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
+          "model_sha256": "7f9187b5c90fd933a4310330149fbebaacb51e8d69efc54ed908fc0dc57816d5"
         },
         {
           "name": "OpenViX-6.9-novaler4kpro_01112026.zip",
@@ -8239,7 +8911,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenViX-6.9-novaler4kpro_01112026.zip",
           "digest": "sha256:6697c4492b4b10c91d49e8cde36b0df7d638da855d3f3aa6b40527a635594110",
           "updated_at": "2026-11-17T21:19:53Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K Pro",
+          "model_release_tag": "o4t-device-novaler-4k-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-pro-backups/OpenViX-6.9-novaler4kpro_01112026.zip",
+          "model_asset_name": "OpenViX-6.9-novaler4kpro_01112026.zip",
+          "model_sha256": "6697c4492b4b10c91d49e8cde36b0df7d638da855d3f3aa6b40527a635594110"
         },
         {
           "name": "PurE2-7.6-novalerpro_18102026.zip",
@@ -8248,7 +8926,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/PurE2-7.6-novalerpro_18102026.zip",
           "digest": "sha256:18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003",
           "updated_at": "2026-11-17T21:20:09Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler Pro",
+          "model_release_tag": "o4t-device-novaler-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/PurE2-7.6-novalerpro_18102026.zip",
+          "model_asset_name": "PurE2-7.6-novalerpro_18102026.zip",
+          "model_sha256": "18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003"
         },
         {
           "name": "Teamblue-8.0-multiboxpro_08112026.zip",
@@ -8257,7 +8941,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Teamblue-8.0-multiboxpro_08112026.zip",
           "digest": "sha256:8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb",
           "updated_at": "2026-11-17T21:20:30Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Multibox Pro",
+          "model_release_tag": "o4t-device-multibox-pro-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/Teamblue-8.0-multiboxpro_08112026.zip",
+          "model_asset_name": "Teamblue-8.0-multiboxpro_08112026.zip",
+          "model_sha256": "8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb"
         }
       ]
     },
@@ -8278,7 +8968,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/egami-11.0-r23-novaler4k-07112026.zip",
           "digest": "sha256:3df5b06af14f0d0d4870f617165399e43b0f644a5e4011d6ffa2efbb29e52277",
           "updated_at": "2026-11-17T21:32:40Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K",
+          "model_release_tag": "o4t-device-novaler-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/egami-11.0-r23-novaler4k-07112026.zip",
+          "model_asset_name": "egami-11.0-r23-novaler4k-07112026.zip",
+          "model_sha256": "3df5b06af14f0d0d4870f617165399e43b0f644a5e4011d6ffa2efbb29e52277"
         },
         {
           "name": "openatv-8.1.0.beta-novaler4k-07112026.zip",
@@ -8287,7 +8983,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openatv-8.1.0.beta-novaler4k-07112026.zip",
           "digest": "sha256:44d85908647c58ebd92a7a6c633d21568c9d3fbd1245f4daad15b51dea3c7c05",
           "updated_at": "2026-11-17T21:32:53Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K",
+          "model_release_tag": "o4t-device-novaler-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openatv-8.1.0.beta-novaler4k-07112026.zip",
+          "model_asset_name": "openatv-8.1.0.beta-novaler4k-07112026.zip",
+          "model_sha256": "44d85908647c58ebd92a7a6c633d21568c9d3fbd1245f4daad15b51dea3c7c05"
         },
         {
           "name": "openbh-6.0.005-novaler4k_07112026.zip",
@@ -8296,7 +8998,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openbh-6.0.005-novaler4k_07112026.zip",
           "digest": "sha256:cdea6719f63a2c02b40315ba28afbd3d3cd885112cbec56b70e6cbad9ef5d3e7",
           "updated_at": "2026-11-17T21:33:07Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K",
+          "model_release_tag": "o4t-device-novaler-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openbh-6.0.005-novaler4k_07112026.zip",
+          "model_asset_name": "openbh-6.0.005-novaler4k_07112026.zip",
+          "model_sha256": "cdea6719f63a2c02b40315ba28afbd3d3cd885112cbec56b70e6cbad9ef5d3e7"
         },
         {
           "name": "openvix-6.9.006-novaler4k_07112026.zip",
@@ -8305,7 +9013,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openvix-6.9.006-novaler4k_07112026.zip",
           "digest": "sha256:91ca8e60f8c51aca43e45e6201a314eeb759aee05c3d052edd01ae15c577c8a2",
           "updated_at": "2026-11-17T21:33:20Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K",
+          "model_release_tag": "o4t-device-novaler-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/openvix-6.9.006-novaler4k_07112026.zip",
+          "model_asset_name": "openvix-6.9.006-novaler4k_07112026.zip",
+          "model_sha256": "91ca8e60f8c51aca43e45e6201a314eeb759aee05c3d052edd01ae15c577c8a2"
         },
         {
           "name": "PurE2-7.6-novaler4k-07112026.zip",
@@ -8314,7 +9028,13 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/PurE2-7.6-novaler4k-07112026.zip",
           "digest": "sha256:8edc95f88ecaae630c3b1286237045101d09cf8b626c05504d29203ef4619c6e",
           "updated_at": "2026-11-17T21:33:34Z",
-          "category": "receiver_backups"
+          "category": "receiver_backups",
+          "device_model": "Novaler 4K",
+          "model_release_tag": "o4t-device-novaler-4k-backups",
+          "model_release_url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-4k-backups",
+          "model_download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-4k-backups/PurE2-7.6-novaler4k-07112026.zip",
+          "model_asset_name": "PurE2-7.6-novaler4k-07112026.zip",
+          "model_sha256": "8edc95f88ecaae630c3b1286237045101d09cf8b626c05504d29203ef4619c6e"
         }
       ]
     },

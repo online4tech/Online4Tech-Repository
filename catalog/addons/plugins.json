@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T17:37:35.653617+00:00",
+  "generated_at": "2026-11-24T17:38:19.721651+00:00",
   "items": [
     {
       "id": "advancedscreenshot",
@@ -156,8 +156,11 @@
           "sha256": "2c107bf8637df74086adc2945e7986f5e6c592a4470b8ae7084a2e85f7369121"
         }
       ],
-      "icon": "",
-      "screenshots": [],
+      "icon": "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/assets/plugins/epg-import/screenshot-1.webp",
+      "screenshots": [
+        "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/assets/plugins/epg-import/screenshot-2.webp",
+        "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/assets/plugins/epg-import/screenshot-3.webp"
+      ],
       "supported_models": [],
       "compatibility_status": "unverified",
       "latest_manifest": "https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/plugins/epgimport/latest.json",

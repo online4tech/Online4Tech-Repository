@@ -70,23 +70,23 @@ jobs:
       - name: Upload cloud source when requested
         if: github.event_name == 'workflow_dispatch' && inputs.source_url != ''
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REPO: online4tech/Online4Tech-Repository
-          SOURCE_URL: \${{ inputs.source_url }}
-          TAG_NAME: \${{ inputs.tag_name }}
-          RELEASE_NAME: \${{ inputs.release_name }}
-          FILE_NAME: \${{ inputs.file_name }}
-          BRAND: \${{ inputs.brand }}
-          DEVICE_MODEL: \${{ inputs.device_model }}
-          VERSION: \${{ inputs.version }}
-          BACKUP_DATE: \${{ inputs.backup_date }}
-          DESCRIPTION: \${{ inputs.description }}
-          COMPATIBILITY: \${{ inputs.compatibility }}
+          SOURCE_URL: ${{ inputs.source_url }}
+          TAG_NAME: ${{ inputs.tag_name }}
+          RELEASE_NAME: ${{ inputs.release_name }}
+          FILE_NAME: ${{ inputs.file_name }}
+          BRAND: ${{ inputs.brand }}
+          DEVICE_MODEL: ${{ inputs.device_model }}
+          VERSION: ${{ inputs.version }}
+          BACKUP_DATE: ${{ inputs.backup_date }}
+          DESCRIPTION: ${{ inputs.description }}
+          COMPATIBILITY: ${{ inputs.compatibility }}
         run: python tools/catalog/publish_release_backup.py
       - name: Index manually published GitHub Release
         if: github.event_name == 'release'
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REPO: online4tech/Online4Tech-Repository
         run: python tools/catalog/publish_release_backup.py
       - name: Rebuild public indexes
@@ -97,10 +97,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git reset --hard origin/main
-          if [ "\${{ github.event_name }}" = "release" ]; then
-            GITHUB_TOKEN="\${{ secrets.GITHUB_TOKEN }}" TARGET_REPO="online4tech/Online4Tech-Repository" python tools/catalog/publish_release_backup.py
+          if [ "${{ github.event_name }}" = "release" ]; then
+            GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" TARGET_REPO="online4tech/Online4Tech-Repository" python tools/catalog/publish_release_backup.py
           else
-            GITHUB_TOKEN="\${{ secrets.GITHUB_TOKEN }}" TARGET_REPO="online4tech/Online4Tech-Repository" python tools/catalog/publish_release_backup.py --index-tag "\${{ inputs.tag_name }}"
+            GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" TARGET_REPO="online4tech/Online4Tech-Repository" python tools/catalog/publish_release_backup.py --index-tag "${{ inputs.tag_name }}"
           fi
           python tools/catalog/build_upload_indexes.py
           git add catalog/uploads/backups.json catalog/uploads/release-backups

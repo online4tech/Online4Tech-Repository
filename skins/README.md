@@ -1,12 +1,30 @@
 # Skins
 
-Each skin gets its own folder: `skins/<skin-id>/`.
+ارفع كل Skin داخل مجلد مستقل باسم ثابت:
 
-Expected files:
-- `latest.json` — current release metadata and stable package pointer.
-- `install.sh` — stable installation entry point for the skin.
-- `icon.png` — card icon (recommended square PNG, 512×512).
-- `screenshots/` — preview images used by the website and panel.
-- `releases/<version>/` — immutable versioned ZIP, TAR, IPK, or other approved payloads.
+`skins/<skin-id>/`
 
-Do not overwrite old release payloads. Publish a new version directory and update only the `latest.json` pointer after review. A skin is not marked compatible until tested on the stated image/device.
+التركيب المقترح:
+
+```text
+skins/
+  sample-skin/
+    addon.json
+    icon.png
+    install.sh
+    screenshots/
+      01.webp
+      02.webp
+    releases/
+      1.0.0/
+        skin.ipk
+```
+
+- استخدم `templates/addons/addon.json.example` كقالب بيانات.
+- ارفع الحزمة بصيغة IPK أو DEB أو ZIP أو TAR أو غيرها من الصيغ المدعومة.
+- أضف الأيقونة والصور داخل نفس مجلد السكين.
+- لا ترفع ملفًا أكبر من 80 MiB داخل Git؛ للحزم الأكبر استخدم GitHub Release وضع رابطها في `package_url`.
+- لا تضع حالة التوافق `tested` إلا بعد تجربة فعلية على صورة Enigma2 والجهاز المحددين.
+- احتفظ بكل إصدار في مجلد مستقل ولا تستبدل الحزم المنشورة.
+
+بعد الرفع، GitHub Actions يحدث فهرس الاسكينات تلقائيًا، وتظهر بطاقة السكين وصورها في صفحة `addons.html`.

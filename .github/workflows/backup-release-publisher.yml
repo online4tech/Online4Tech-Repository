@@ -1,0 +1,112 @@
+name: Online4Tech Backup Release Publisher
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: "Direct downloadable URL of a cloud-hosted backup archive"
+        required: false
+        type: string
+      tag_name:
+        description: "Unique Release tag, e.g. backup-vu-zero-4k-openatv-2026"
+        required: false
+        type: string
+      release_name:
+        description: "Release title (optional)"
+        required: false
+        type: string
+      file_name:
+        description: "Archive filename with extension (optional)"
+        required: false
+        type: string
+      brand:
+        description: "Receiver brand, e.g. Vu+"
+        required: false
+        type: string
+      device_model:
+        description: "Exact receiver model"
+        required: false
+        type: string
+      version:
+        description: "Image / backup version"
+        required: false
+        type: string
+      backup_date:
+        description: "Backup date YYYY-MM-DD (optional)"
+        required: false
+        type: string
+      description:
+        description: "Short description"
+        required: false
+        type: string
+      compatibility:
+        description: "Compatibility notes"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: online4tech-backup-release-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish-and-index:
+    if: github.event_name == 'release' || inputs.source_url != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install HTTP client
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Upload cloud source when requested
+        if: github.event_name == 'workflow_dispatch' && inputs.source_url != ''
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: online4tech/Online4Tech-Repository
+          SOURCE_URL: \${{ inputs.source_url }}
+          TAG_NAME: \${{ inputs.tag_name }}
+          RELEASE_NAME: \${{ inputs.release_name }}
+          FILE_NAME: \${{ inputs.file_name }}
+          BRAND: \${{ inputs.brand }}
+          DEVICE_MODEL: \${{ inputs.device_model }}
+          VERSION: \${{ inputs.version }}
+          BACKUP_DATE: \${{ inputs.backup_date }}
+          DESCRIPTION: \${{ inputs.description }}
+          COMPATIBILITY: \${{ inputs.compatibility }}
+        run: python tools/catalog/publish_release_backup.py
+      - name: Index manually published GitHub Release
+        if: github.event_name == 'release'
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: online4tech/Online4Tech-Repository
+        run: python tools/catalog/publish_release_backup.py
+      - name: Rebuild public indexes
+        run: python tools/catalog/build_upload_indexes.py
+      - name: Commit generated backup metadata and indexes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --hard origin/main
+          if [ "\${{ github.event_name }}" = "release" ]; then
+            GITHUB_TOKEN="\${{ secrets.GITHUB_TOKEN }}" TARGET_REPO="online4tech/Online4Tech-Repository" python tools/catalog/publish_release_backup.py
+          else
+            GITHUB_TOKEN="\${{ secrets.GITHUB_TOKEN }}" TARGET_REPO="online4tech/Online4Tech-Repository" python tools/catalog/publish_release_backup.py --index-tag "\${{ inputs.tag_name }}"
+          fi
+          python tools/catalog/build_upload_indexes.py
+          git add catalog/uploads/backups.json catalog/uploads/release-backups
+          if git diff --cached --quiet; then
+            echo "No backup index changes."
+          else
+            git commit -m "Auto-index receiver backup release"
+            git push origin HEAD:main
+          fi

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T17:33:27.618629+00:00",
+  "generated_at": "2026-11-24T17:36:49.602821+00:00",
   "items": [
     {
       "id": "advancedscreenshot",
@@ -11,6 +11,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/advancedscreenshot--downloads__online4tech__plugins__community__advancedscreenshot__enigma2-plugin-extensions-advancedscreenshot_all.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/advancedscreenshot--downloads__online4tech__plugins__community__advancedscreenshot__enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+          "sha256": "bfd32c2d37d8baab469350722d295e8b5b9e8971f2da80ed5073ff79459b3f4e"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -27,6 +34,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/astra-sm--downloads__online4tech__plugins__community__astra-sm__astra-sm.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "astra-sm.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/astra-sm--downloads__online4tech__plugins__community__astra-sm__astra-sm.ipk",
+          "sha256": "04b3812a2afd1006fa499202b273c27c62cf1040dc7025f6d7291d3cee14188b"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -43,6 +57,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/chocholousek-picons--downloads__online4tech__plugins__community__enigma2-plugin-extensions-chocholousek-picons_5.0.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-chocholousek-picons_5.0.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/chocholousek-picons--downloads__online4tech__plugins__community__enigma2-plugin-extensions-chocholousek-picons_5.0.ipk",
+          "sha256": "5dffcfbd5994c6d3ca5143fa57ad6ac0ddb72c7a83130a13f050a861ecfc321f"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -59,6 +80,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/cutsclear--downloads__online4tech__plugins__community__cutsclear__enigma2-plugin-extensions-cutsclear_all.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-cutsclear_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/cutsclear--downloads__online4tech__plugins__community__cutsclear__enigma2-plugin-extensions-cutsclear_all.ipk",
+          "sha256": "4f5a2d9b13feb841792de7c19708b11b3ee085bf21ab48dab3e633e0aa00db35"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -75,6 +103,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/devicemanager-arm--downloads__online4tech__plugins__community__devicemanager-arm.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "devicemanager-arm.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/devicemanager-arm--downloads__online4tech__plugins__community__devicemanager-arm.ipk",
+          "sha256": "fef984f67d2a12dfc55f62a2dbe681192ceaa8df78baffb7b90be3308b1a7cca"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -91,6 +126,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/dreambox-ntp-sync--downloads__online4tech__plugins__ipk__dreambox-ntp-sync_all.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "dreambox-ntp-sync_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/dreambox-ntp-sync--downloads__online4tech__plugins__ipk__dreambox-ntp-sync_all.ipk",
+          "sha256": "a711556a3ee5034a23adfa06e3d1aaa32264f95f9aab94c69b9ee47194c282ab"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -107,6 +149,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/epgimport--downloads__online4tech__plugins__community__enigma2-plugin-extensions-epgimport_1.0.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-epgimport_1.0.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/epgimport--downloads__online4tech__plugins__community__enigma2-plugin-extensions-epgimport_1.0.ipk",
+          "sha256": "2c107bf8637df74086adc2945e7986f5e6c592a4470b8ae7084a2e85f7369121"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -123,6 +172,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/epgtranslator--downloads__online4tech__plugins__community__enigma2-plugin-extensions-epgtranslator_7.5.1.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-epgtranslator_7.5.1.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/epgtranslator--downloads__online4tech__plugins__community__enigma2-plugin-extensions-epgtranslator_7.5.1.ipk",
+          "sha256": "f4b654eea6b7a6d383c7320475d020adee168954277fe26b90b83c37fd646575"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -139,6 +195,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/hardwareinfo--downloads__online4tech__plugins__community__hardwareinfo_5.2_all.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "hardwareinfo_5.2_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/hardwareinfo--downloads__online4tech__plugins__community__hardwareinfo_5.2_all.ipk",
+          "sha256": "b88d4f03fbd03d16fd2ca99484d28839dd262e4ebe39c1e8db91ba3ca814f32b"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -155,6 +218,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/internet-speedtest--downloads__online4tech__plugins__community__enigma2-plugin-extensions-internet-speedtest_1.8_all.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-internet-speedtest_1.8_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/internet-speedtest--downloads__online4tech__plugins__community__enigma2-plugin-extensions-internet-speedtest_1.8_all.ipk",
+          "sha256": "ad6627e0c649c157c934ccd19f6c89c137fa72fd4bf52e6ca36570b11e90a828"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -171,6 +241,33 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-screenrecorder_1.0_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_1.0_all.ipk",
+          "sha256": "f65c2cc8b51ecd32e59a61ff67dca91c1133f37fea81a700faf4d1df1e784946"
+        },
+        {
+          "filename": "enigma2-plugin-extensions-screenrecorder_2.0_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_2.0_all.ipk",
+          "sha256": "6f0edcd6b22948c59887e4e028480dab14f14476b75b5b5d99c3811f20590982"
+        },
+        {
+          "filename": "enigma2-plugin-extensions-screenrecorder_3.0_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_3.0_all.ipk",
+          "sha256": "cf95f5aeebe4baa7cf0097431974562ba3496004c70a97fd62938be061e62504"
+        },
+        {
+          "filename": "enigma2-plugin-extensions-screenrecorder_4.0.0_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_4.0.0_all.ipk",
+          "sha256": "bb83f97b2f3308af7f589f85fb3fb80c7edaca5b5c36173abf418f8df1cab942"
+        },
+        {
+          "filename": "enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
+          "sha256": "0f6a72eb6c62a6f99cbcdc5624d9bd3393a69f8ab5a20f93dcfca8eef7e2f230"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -187,6 +284,18 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/setpicon--downloads__online4tech__plugins__community__setpicon__enigma2-plugin-extensions-setpicon_v3.0_all.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "enigma2-plugin-extensions-setpicon_v2.0_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/setpicon--downloads__online4tech__plugins__community__setpicon__enigma2-plugin-extensions-setpicon_v2.0_all.ipk",
+          "sha256": "5852fcf638e4b7f939b214c47ca132f1da10927e8874b7411c63157651db70cd"
+        },
+        {
+          "filename": "enigma2-plugin-extensions-setpicon_v3.0_all.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/setpicon--downloads__online4tech__plugins__community__setpicon__enigma2-plugin-extensions-setpicon_v3.0_all.ipk",
+          "sha256": "4f852e5052d5c662f5b410989f59ff18acd8182391dad7ee88a3ff36252949e3"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -203,6 +312,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/signalfinder--downloads__online4tech__plugins__community__signalfinder.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "signalfinder.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/signalfinder--downloads__online4tech__plugins__community__signalfinder.ipk",
+          "sha256": "53c4fc694bb0ff6dfe6ddd35706c7458b51229528071e95756e9f0862b646a68"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],
@@ -219,6 +335,13 @@
       "latest_version": "source-import-2026-11-24",
       "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/softwaremanager--downloads__online4tech__plugins__community__softwaremanager.ipk",
       "package_format": "ipk",
+      "available_packages": [
+        {
+          "filename": "softwaremanager.ipk",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/softwaremanager--downloads__online4tech__plugins__community__softwaremanager.ipk",
+          "sha256": "4b6011eb8d5ff1e45a046e3151de073db22128a516e628dc56ee7a966387effa"
+        }
+      ],
       "icon": "",
       "screenshots": [],
       "supported_models": [],

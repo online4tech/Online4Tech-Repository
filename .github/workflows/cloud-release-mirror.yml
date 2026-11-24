@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - cloud-mirror-start.flag
+      - cloud-mirror-stop.flag
   workflow_dispatch:
     inputs:
       dry_run:
@@ -33,7 +34,7 @@ permissions:
 
 concurrency:
   group: online4tech-cloud-release-mirror
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   mirror:
@@ -53,7 +54,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REPO: online4tech/Online4Tech-Repository
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
+          if [ -f cloud-mirror-stop.flag ]; then
+            python tools/release-mirror/cloud_mirror.py --dry-run --category all
+          elif [ "${{ github.event_name }}" = "push" ]; then
             python tools/release-mirror/cloud_mirror.py --category all
           elif [ "${{ inputs.dry_run }}" = "true" ]; then
             python tools/release-mirror/cloud_mirror.py --dry-run --category "${{ inputs.category }}"

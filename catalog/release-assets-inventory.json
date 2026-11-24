@@ -28,28 +28,28 @@
       "bytes": 131801799
     },
     "skins": {
-      "assets": 198,
-      "bytes": 1368612928
+      "assets": 200,
+      "bytes": 1385608548
     },
     "plugins": {
-      "assets": 311,
-      "bytes": 808451372
-    },
-    "receiver_backups": {
-      "assets": 210,
-      "bytes": 31407080623
+      "assets": 320,
+      "bytes": 824699763
     },
     "picons": {
       "assets": 23,
       "bytes": 368828932
     },
+    "receiver_backups": {
+      "assets": 120,
+      "bytes": 31325722550
+    },
     "scripts": {
-      "assets": 125,
-      "bytes": 431233
+      "assets": 202,
+      "bytes": 577942
     },
     "other": {
-      "assets": 16,
-      "bytes": 21870053
+      "assets": 18,
+      "bytes": 69837406
     }
   },
   "releases": [
@@ -832,7 +832,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-20261122/enigma2-plugin-extensions-novalerstore.zip",
           "digest": "sha256:0d9d27e56137c05b5acf2c9bbf90982b2eca80207fe6a74afda62fb5b4ebbc97",
           "updated_at": "2026-11-22T17:25:56Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "enigma2-plugin-extensions-novatv.zip",
@@ -958,7 +958,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-20261122/enigma2-plugin-softcams-novaler4k-1.2.zip",
           "digest": "sha256:aca3dc4a10996598ca6a8a1b8886c1d8416e0c6783e83e447cacf38cf0741769",
           "updated_at": "2026-11-22T17:23:38Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "enigma2-plugin-xstreamity_4.02.20230510_all.zip",
@@ -976,7 +976,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-20261122/enigma2_plugin_python2_feeds%2Bbiss_novaler2022.zip",
           "digest": "sha256:ae9156940a166167c88f3765fd5e69ba05b951b074ab300547bd1350707f8b14",
           "updated_at": "2026-11-22T17:24:35Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "feeds-finder_20201016-V1.6-momi133-OE2_all.zip",
@@ -1003,7 +1003,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-20261122/novaler-wifi-driver.zip",
           "digest": "sha256:225db2999584059cae5d6b0208bbf146cbce8c61e1176d91864e488c0d454aff",
           "updated_at": "2026-11-22T17:22:55Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "RaedQuickSignal-12.0.tar.gz",
@@ -1834,7 +1834,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/07ae583cd7dd-Backup-Backup_image_PLUGIN-Raedquicksignal.sh",
           "digest": "sha256:07ae583cd7dd871c24d8a3be9de8e8fb22ab7c3728ea4c9b4f0046d305e11489",
           "updated_at": "2026-11-20T21:26:46Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "07ae583cd7dd-Channels-PLUGIN-Raedquicksignal.sh",
@@ -1852,7 +1852,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/07ea5a55ddd6-Channels-khaled_universal_full_backup.sh",
           "digest": "sha256:07ea5a55ddd61133ad34af07ce8636ba99c1267457ebf325e2b635681435c7e4",
           "updated_at": "2026-11-20T21:29:54Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "08ae5454f635-Channels-EMU-ncam_subcam.sh",
@@ -1879,7 +1879,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0acaf697d49e-Backup-Backup_image_PLUGIN-E2BissKeyEditor.sh",
           "digest": "sha256:0acaf697d49e9700945f9028e23792e64d25a6a3e05f23c584c2c5527341aefe",
           "updated_at": "2026-11-20T21:26:08Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "0acaf697d49e-Channels-PLUGIN-E2BissKeyEditor.sh",
@@ -1960,7 +1960,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/12499a6cfc6e-Backup-Backup_image_PLUGIN-XKlass.sh",
           "digest": "sha256:12499a6cfc6eec3748165f1108a2ec2f4e14ee2d52671399fa78a6be1abaa090",
           "updated_at": "2026-11-20T21:27:06Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "12499a6cfc6e-Channels-PLUGIN-XKlass.sh",
@@ -1978,7 +1978,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/13fdbb614e5f-Backup-Backup_image_TOOL-Satellites_org.sh",
           "digest": "sha256:13fdbb614e5fa766194fd61ded0355968539fdbf1389d8036195145acbfb9200",
           "updated_at": "2026-11-20T21:27:46Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "13fdbb614e5f-Channels-TOOL-Satellites_org.sh",
@@ -2014,7 +2014,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/15c3a4bbc0fe-Backup-Backup_image_install_khaled_pro.sh",
           "digest": "sha256:15c3a4bbc0fe635f8343e5eb7770af17b57ae564b2c14e60a23ec8b3f2e5abc8",
           "updated_at": "2026-11-20T21:25:31Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "15c3a4bbc0fe-Channels-install_khaled_pro.sh",
@@ -2032,7 +2032,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/162b4db864c8-Backup-Backup_image_PLUGIN-Ipaudio_pro.sh",
           "digest": "sha256:162b4db864c862828568e1619367626f0bc211ffd0ebc6f5a113ce871d744ac4",
           "updated_at": "2026-11-20T21:26:29Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "162b4db864c8-Channels-PLUGIN-Ipaudio_pro.sh",
@@ -2068,7 +2068,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17540b16493a-Slot-backup-pro.txt",
           "digest": "sha256:17540b16493ae7570202f8eb7f1d7a6a326cabed2ceab9899fb81fffa1e0d175",
           "updated_at": "2026-11-23T10:52:08Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "189149d4e676-Channels-PLUGIN-UltraStalker.sh",
@@ -2095,7 +2095,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1dc76aa587cd-Backup-backup-se.txt",
           "digest": "sha256:1dc76aa587cdbb5c9521ad4c16d4a65fc057e55845b92aad4e6e0218795fe219",
           "updated_at": "2026-11-20T21:25:10Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "1de7ece0d2c9-books-whitelist.txt",
@@ -2122,7 +2122,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1ef1b9cbb596-Channels-TOOL-Mymetrix_backup.sh",
           "digest": "sha256:1ef1b9cbb59628db5a266f2da1090acd1e85183886ee1574b2b26dc987457778",
           "updated_at": "2026-11-20T21:34:11Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "1f9007d925e9-Channels-SKIN-beta_pro.sh",
@@ -2140,7 +2140,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fb29ac8290b-Backup-Backup_image_Khaled_Uninstaller.sh",
           "digest": "sha256:1fb29ac8290b6cda664e91f89b0135eecbb63b6e3094af691c15ac1aa7637049",
           "updated_at": "2026-11-20T21:25:39Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "1fb29ac8290b-Channels-Khaled_Uninstaller.sh",
@@ -2158,7 +2158,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fbc60d45026-Backup-Backup_image_XtreamAndroid.sh",
           "digest": "sha256:1fbc60d450261d80a82ee8a0a2343e5d6c3e537560a51213ea70a7fadf6ec7fe",
           "updated_at": "2026-11-20T21:27:51Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "1fbc60d45026-Channels-XtreamAndroid.sh",
@@ -2203,7 +2203,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2689def13e71-Backup-Backup_image_PLUGIN-Epggrabber.sh",
           "digest": "sha256:2689def13e71fa2de24820f7357ea15f82915830758e9517c3b2256280e8e44a",
           "updated_at": "2026-11-20T21:26:11Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "2689def13e71-Channels-PLUGIN-Epggrabber.sh",
@@ -2257,7 +2257,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/29ce37bb1a75-Backup-Backup_image_PLUGIN-FuryBissPro.sh",
           "digest": "sha256:29ce37bb1a75527f3eae0220a9aa6268e6c74d9c8f0f759b935af8047ddd3903",
           "updated_at": "2026-11-20T21:26:19Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "29ce37bb1a75-Channels-PLUGIN-FuryBissPro.sh",
@@ -2338,7 +2338,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2e574e85f2ef-Backup-Backup_image_PLUGIN-MultiCamAdd.sh",
           "digest": "sha256:2e574e85f2ef47b96f2e374148b13ffa2ce3584ad8095cbfef689ac1bc390dba",
           "updated_at": "2026-11-20T21:26:41Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "2e574e85f2ef-Channels-PLUGIN-MultiCamAdd.sh",
@@ -2428,7 +2428,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/366c5734d5d4-Backup-Backup_image_PANEL-Levi45.sh",
           "digest": "sha256:366c5734d5d4ce675ef2329bdec7d0a292cefd61c0cc9519450de6ca366795ee",
           "updated_at": "2026-11-20T21:25:50Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "366c5734d5d4-Channels-PANEL-Levi45.sh",
@@ -2446,7 +2446,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/36968d1dd949-Backup-Backup_image_PLUGIN-Xportal.sh",
           "digest": "sha256:36968d1dd949d38be813a748deb56347ac243935c2769f30f18ffd8485585e35",
           "updated_at": "2026-11-20T21:27:12Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "36968d1dd949-Channels-PLUGIN-Xportal.sh",
@@ -2518,7 +2518,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3c27a6bfc94c-Channels-Novaler_MultiBoot_USB.sh",
           "digest": "sha256:3c27a6bfc94c19b43c6f1c2a6ad8e2af4e21ddb1c6b9dba49016b01ea4cd4842",
           "updated_at": "2026-11-20T21:30:07Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "3df6cc4085ed-Channels-PLUGIN-Visual_Weather.sh",
@@ -2536,7 +2536,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e68a81ae19e-Backup-Backup_image_TOOL-KhaledEpg.sh",
           "digest": "sha256:3e68a81ae19e8c1fb249aeb045b71635408ef9647d82b052dc66a8dd57ca0f8f",
           "updated_at": "2026-11-20T21:27:44Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "3e68a81ae19e-Channels-TOOL-KhaledEpg.sh",
@@ -2563,7 +2563,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e972caa2cbf-Backup-Backup_image_khaled_free_server.sh",
           "digest": "sha256:3e972caa2cbf6efd35f2c5c2fa06572b0ccd284da5cdb37342c18427851251d3",
           "updated_at": "2026-11-20T21:25:37Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "3e972caa2cbf-Channels-khaled_free_server.sh",
@@ -2599,7 +2599,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/412a323d51cf-Backup-Backup_image_PLUGIN-Xstreamity.sh",
           "digest": "sha256:412a323d51cf97416e276deb567541945d13864d3f0d87cce5d4d83031daa7e7",
           "updated_at": "2026-11-20T21:27:15Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "412a323d51cf-Channels-PLUGIN-Xstreamity.sh",
@@ -2617,7 +2617,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4695c9c8ebfb-Backup-Backup_image_PLUGIN-AutoDcwKeyAdd.sh",
           "digest": "sha256:4695c9c8ebfbbd84f4c057f9e0dc4d890134be75509bf63196b89263f8887eda",
           "updated_at": "2026-11-20T21:26:01Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "4695c9c8ebfb-Channels-PLUGIN-AutoDcwKeyAdd.sh",
@@ -2635,7 +2635,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/46bec90f9467-Backup-Backup_image_PLUGIN-ButtonPatcher.sh",
           "digest": "sha256:46bec90f94670755bdf9890c622d163e044d25b18bc1e59a345ffc0ae8a8b00a",
           "updated_at": "2026-11-20T21:26:04Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "46bec90f9467-Channels-PLUGIN-ButtonPatcher.sh",
@@ -2680,7 +2680,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4b2550dbb27d-Backup-Backup_image_PANEL-Ciefp.sh",
           "digest": "sha256:4b2550dbb27df0228b25c2e9e936ff3c4558c6293caee2c3d09e36a42811c03b",
           "updated_at": "2026-11-20T21:25:45Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "4b2550dbb27d-Channels-PANEL-Ciefp.sh",
@@ -2716,7 +2716,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4bfe849997c7-Backup-Backup_image_Cloud_More_Panel.sh",
           "digest": "sha256:4bfe849997c75105dc46bae103db775a7394c82d8bb5c0bc9343101d5df6100c",
           "updated_at": "2026-11-20T21:25:13Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "4bfe849997c7-Channels-Cloud_More_Panel.sh",
@@ -2743,7 +2743,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4da8cf6c6701-Channels-TOOL-Full_backup_image.sh",
           "digest": "sha256:4da8cf6c6701e91a3237e48316b59c970dadeccaec82aef36bb6c8a5be6c92c6",
           "updated_at": "2026-11-20T21:33:55Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "4ea1a32c1ec8-Channels-PLUGIN-Bootlogo_swap_SPA.sh",
@@ -2770,7 +2770,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/513ce11d7e63-Backup-Backup_image_PLUGIN-Estalker.sh",
           "digest": "sha256:513ce11d7e63ea5c9f66798017e8c2017e14382e323798704ffd8a3f1fc498c3",
           "updated_at": "2026-11-20T21:26:14Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "513ce11d7e63-Channels-PLUGIN-Estalker.sh",
@@ -2869,7 +2869,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5fb0ff6c0c7b-Channels-Global_Channels_Backup.sh",
           "digest": "sha256:5fb0ff6c0c7bfd53cdcabf64fcbe0f75859088cb1b4060a7f1d45dbcdea7f50e",
           "updated_at": "2026-11-20T21:29:36Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "5fc6825946bc-Channels-EMU-oscam_supcam.sh",
@@ -2914,7 +2914,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/624732506eba-Channels-PANEL-Dbackup.sh",
           "digest": "sha256:624732506eba56af162d38ba48fb5ef5a94bda211fc9f414108ce8dc4e546cc2",
           "updated_at": "2026-11-20T21:30:17Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "6484c92376ce-Backup-Backup_image_SKIN-xdreamy.sh",
@@ -2941,7 +2941,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/649ecfe1b00a-Channels-PLUGIN-BackupSuite.sh",
           "digest": "sha256:649ecfe1b00ad326fec837b408569708128f5ca3e040ee8838cd6711f94ca1b5",
           "updated_at": "2026-11-20T21:31:12Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "64f54f751b78-Channels-full_image_BH.sh",
@@ -3013,7 +3013,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/68eafdb4a15d-Backup-Backup_image_PLUGIN-Xtraevent.sh",
           "digest": "sha256:68eafdb4a15d4ef57826f55d17aab73adda3f3ee3b219141f795c9414eabf0f2",
           "updated_at": "2026-11-20T21:27:17Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "68eafdb4a15d-Channels-PLUGIN-Xtraevent.sh",
@@ -3049,7 +3049,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6ea9e15e8b7a-Backup-Backup_image_PLUGIN-Iptosat.sh",
           "digest": "sha256:6ea9e15e8b7a48839d2a4e7a294a4d6a26dc83d0a86c1e12a5c23d9d209bc3bd",
           "updated_at": "2026-11-20T21:26:31Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "6ea9e15e8b7a-Channels-PLUGIN-Iptosat.sh",
@@ -3076,7 +3076,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/720b74070d87-Backup-Backup_image_TOOL-Khaled_Channels_fullsat.sh",
           "digest": "sha256:720b74070d874654b0140b5c0e39d145f127e1eb13347c11e121a6ce3712eeea",
           "updated_at": "2026-11-20T21:27:41Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "720cf7511291-Channels-SKIN-mx_maestra_gray.sh",
@@ -3121,7 +3121,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/74ecf76fb3af-Backup-Backup_image_install_khaled_manager.sh",
           "digest": "sha256:74ecf76fb3af7a15c7e677d1667173d776301d61f6940b970eca908739c54d04",
           "updated_at": "2026-11-20T21:25:26Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "74ecf76fb3af-Channels-install_khaled_manager.sh",
@@ -3184,7 +3184,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7ccc679029db-Channels-Novaler_MultiBoot_HDD.sh",
           "digest": "sha256:7ccc679029db4161ce1d4d21ff937c1737ca02ebc707438f8adda8c0335bb4fa",
           "updated_at": "2026-11-20T21:30:05Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "7dd557402a3e-Channels-TOOL-Mymetrix_neo.sh",
@@ -3238,7 +3238,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8000a43c7a5a-Backup-Backup_image_PLUGIN-XmlSatellitesUpdates.sh",
           "digest": "sha256:8000a43c7a5ac5463281c89404f13e625555509793a7da0114afe74cde2a3665",
           "updated_at": "2026-11-20T21:27:09Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "8000a43c7a5a-Channels-PLUGIN-XmlSatellitesUpdates.sh",
@@ -3265,7 +3265,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/817eb6015237-Backup-Backup_image_PLUGIN-Jedimakerxtream.sh",
           "digest": "sha256:817eb601523799f34b0d9076c950d8001d4a4e49d3ef38b0d97ab61df9794484",
           "updated_at": "2026-11-20T21:26:36Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "817eb6015237-Channels-PLUGIN-Jedimakerxtream.sh",
@@ -3292,7 +3292,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/843655f701c2-Channels-Novaler_MultiBoot.sh",
           "digest": "sha256:843655f701c26f7a7b11aadbc7cb71c09cc91ade8f40e4056866ff0ea7540068",
           "updated_at": "2026-11-20T21:30:01Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "84e2bc9d1022-Channels-SKIN-metrix_xp.sh",
@@ -3319,7 +3319,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/85ad7ccac38a-Backup-Backup_image_PLUGIN-Supssupport.sh",
           "digest": "sha256:85ad7ccac38a70e58f63ec71167afb8afc74f7d7376a7baee72f2c28aceb85ac",
           "updated_at": "2026-11-20T21:26:56Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "85ad7ccac38a-Channels-PLUGIN-Supssupport.sh",
@@ -3355,7 +3355,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8950a61e5cc2-Channels-PLUGIN-Autofullbackup.sh",
           "digest": "sha256:8950a61e5cc2f3533ec29e8dd2cd2d0736c811193c1f5284f8300d20cc527fa5",
           "updated_at": "2026-11-20T21:31:02Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "8a3a039fce76-Channels-PLUGIN-Movies_Manager.sh",
@@ -3463,7 +3463,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/91b65da8b764-Backup-Backup_image_PANEL-Ajpanel.sh",
           "digest": "sha256:91b65da8b76442c4bf0b25d24743fc2e589e5a11af697f9be93d08678f148f6a",
           "updated_at": "2026-11-20T21:25:42Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "91b65da8b764-Channels-PANEL-Ajpanel.sh",
@@ -3490,7 +3490,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/921a120f331b-Backup-Backup_image_FREE-Free_audio.sh",
           "digest": "sha256:921a120f331be8cb3ff576168c46c22401a4d1137bf98be801953abd48b75e49",
           "updated_at": "2026-11-20T21:25:21Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "921a120f331b-Channels-FREE-Free_audio.sh",
@@ -3535,7 +3535,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/99249143b8f9-Backup-Backup_image_PLUGIN-Getiptvpro.sh",
           "digest": "sha256:99249143b8f9d7d89b3ddf70735e20cc3fe9a7a857012bba445087f1f39ca650",
           "updated_at": "2026-11-20T21:26:21Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "99249143b8f9-Channels-PLUGIN-Getiptvpro.sh",
@@ -3571,7 +3571,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b76ea8c2f26-Backup-Backup_image_PLUGIN-Sherlock.sh",
           "digest": "sha256:9b76ea8c2f26c9f447b4274e80376bbe12246b825dbaef402dbb8509deb80da6",
           "updated_at": "2026-11-20T21:26:51Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "9b76ea8c2f26-Channels-PLUGIN-Sherlock.sh",
@@ -3616,7 +3616,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9e8596c7dbad-Channels-TOOL-NovalerDownloader.sh",
           "digest": "sha256:9e8596c7dbad2c4c5b66b4ed6359e97291f507e53e49af1cd56c1b9c2cebb26e",
           "updated_at": "2026-11-21T09:54:54Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "9ea287546959-Backup-Backup_image_install_KhaledCamManager.sh",
@@ -3625,7 +3625,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9ea287546959-Backup-Backup_image_install_KhaledCamManager.sh",
           "digest": "sha256:9ea28754695935c0ad3054ee219d0e9bbd9cb56bf66625123905d5625ba9ce57",
           "updated_at": "2026-11-20T21:25:34Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "9ea287546959-Backup-install_KhaledCamManager.sh",
@@ -3634,7 +3634,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9ea287546959-Backup-install_KhaledCamManager.sh",
           "digest": "sha256:9ea28754695935c0ad3054ee219d0e9bbd9cb56bf66625123905d5625ba9ce57",
           "updated_at": "2026-11-20T21:27:59Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "9ea287546959-Channels-install_KhaledCamManager.sh",
@@ -3652,7 +3652,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9f023b3b6d1b-Backup-Backup_image_PLUGIN-Footonsat.sh",
           "digest": "sha256:9f023b3b6d1b5413e20edeb99b7730b12694164b4b5d55e5856944d31f8f6cdc",
           "updated_at": "2026-11-20T21:26:16Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "9f023b3b6d1b-Channels-PLUGIN-Footonsat.sh",
@@ -3688,7 +3688,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a37a085c8c40-Backup-Backup_image_PLUGIN-Arabicsavior.sh",
           "digest": "sha256:a37a085c8c4081caa5c9f1bf30db209668a43a3eddb5b69bb54dfb0bd6171976",
           "updated_at": "2026-11-20T21:25:58Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "a37a085c8c40-Channels-PLUGIN-Arabicsavior.sh",
@@ -3715,7 +3715,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a5ab411bfee1-Backup-Backup_image_PLUGIN-UltraStalker.sh",
           "digest": "sha256:a5ab411bfee1b4a285fe95e820c1096ff33fa48dc9ae43491e7ce67bed47e915",
           "updated_at": "2026-11-20T21:27:01Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "a5caa9956841-Channels-TOOL-Epggrabber_auto.sh",
@@ -3814,7 +3814,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/adfc30f8d79e-Backup-Backup_image_install_khaled_panel.sh",
           "digest": "sha256:adfc30f8d79e21b5e89f50e8947eca4c5331738f72a5c09f6f3c2d64c91bdfec",
           "updated_at": "2026-11-20T21:25:29Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "adfc30f8d79e-Channels-install_khaled_panel.sh",
@@ -3850,7 +3850,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b0d666550772-Backup-Backup_image_full_image_BH.sh",
           "digest": "sha256:b0d666550772b2c0556202b7068d5de943ee5775a3e3905991c78737a3867c78",
           "updated_at": "2026-11-20T21:25:23Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "b12eb796a433-Channels-SKIN-CineView.sh",
@@ -3877,7 +3877,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b2c5a73318d2-Backup-Backup_image_PLUGIN-SimplySports.sh",
           "digest": "sha256:b2c5a73318d22e49c50e8f58a3a138da52182ff6decf2a73271561ef3895e1f8",
           "updated_at": "2026-11-20T21:26:53Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "b2c5a73318d2-Channels-PLUGIN-SimplySports.sh",
@@ -3904,7 +3904,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b4b3858647d3-novaler-playlists.txt",
           "digest": "sha256:b4b3858647d3f38a0d371ae0b86dc217a0a8c88008788d42c97c073c90174047",
           "updated_at": "2026-11-21T09:55:35Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "b60c41ed5934-Channels-PLUGIN-E2iplayer.sh",
@@ -4012,7 +4012,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c02429402cf0-Backup-Backup_image_TOOL-Curl.sh",
           "digest": "sha256:c02429402cf0642403573f1444160b1948b57bc946af722b2ff207eb2ecda2c1",
           "updated_at": "2026-11-20T21:27:37Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "c02429402cf0-Channels-TOOL-Curl.sh",
@@ -4030,7 +4030,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c025c1b15c86-Backup-Backup_image_PLUGIN-Supssupport_Pro.sh",
           "digest": "sha256:c025c1b15c863a0bea266e28eedc75ba2f47b6bf423e58064df4360cafd38bc8",
           "updated_at": "2026-11-20T21:26:58Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "c025c1b15c86-Channels-PLUGIN-Supssupport_Pro.sh",
@@ -4066,7 +4066,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c46b545d9890-Backup-Backup_image_EMU-oscam.sh",
           "digest": "sha256:c46b545d9890c6be557386e8aaa6fc90ad377edd10e7bf525425b6a6e779faa3",
           "updated_at": "2026-11-20T21:25:18Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "c46b545d9890-Channels-EMU-oscam.sh",
@@ -4084,7 +4084,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c49208ee5193-Backup-Backup_image_PLUGIN-XtreamNew.sh",
           "digest": "sha256:c49208ee519309e72cd588dc31bff34c3187b3f442869a2dfcab946bd8c4b6f7",
           "updated_at": "2026-11-20T21:27:22Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "c49208ee5193-Channels-PLUGIN-XtreamNew.sh",
@@ -4138,7 +4138,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cc6705498ada-Backup-Backup_image_PANEL-IraqiPanel.sh",
           "digest": "sha256:cc6705498ada37b42d32fb6b72457cd9492aff6b51cd0323a6a319ef528516cc",
           "updated_at": "2026-11-20T21:25:47Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "cc6705498ada-Channels-PANEL-IraqiPanel.sh",
@@ -4165,7 +4165,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cebaa11fa1b3-emu-backup-4k.txt",
           "digest": "sha256:cebaa11fa1b3c1402bee4d7be047f2427002040020971b32ac6dbbff033f5201",
           "updated_at": "2026-11-21T09:55:29Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "cfcc2cc3f1a5-Channels-full_image_ATV.sh",
@@ -4183,7 +4183,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d0897bbada7e-Backup-Backup_image_PLUGIN-Keyadder.sh",
           "digest": "sha256:d0897bbada7e5ee3b8c39872aa23354717ab969225a9888f481cfb9eeeb3700c",
           "updated_at": "2026-11-20T21:26:38Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "d0897bbada7e-Channels-PLUGIN-Keyadder.sh",
@@ -4201,7 +4201,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d0c22123dd57-Backup-Backup_image_TOOL-DNS_google.sh",
           "digest": "sha256:d0c22123dd5766715a069fa30a35ffcd4e9836caba34dc0b6fbe1f92ecb94d80",
           "updated_at": "2026-11-20T21:27:39Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "d0c22123dd57-Channels-TOOL-DNS_google.sh",
@@ -4228,7 +4228,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d50efe4e0dbd-Backup-Backup_image_PLUGIN-AIsubtitle.sh",
           "digest": "sha256:d50efe4e0dbd1deed88e6be1bf42b6ca5010625aa45fb47efd4561779ffeecff",
           "updated_at": "2026-11-20T21:25:55Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "d50efe4e0dbd-Channels-PLUGIN-AIsubtitle.sh",
@@ -4372,7 +4372,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e62267ff3146-Channels-TOOL-BackupSettings.sh",
           "digest": "sha256:e62267ff31469a6afca50e7f6cce76e8e14ca7b36a4697101f2296666f69e043",
           "updated_at": "2026-11-20T21:33:46Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "e6d17aeb4022-Channels-PLUGIN-Spinner.sh",
@@ -4390,7 +4390,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e70a4cfcf858-Backup-Backup_image_PLUGIN-Xcpluginforever.sh",
           "digest": "sha256:e70a4cfcf858089a0a735b2ba0d5dd9690f2e1473c8744d9cfc7ec18ba5de22e",
           "updated_at": "2026-11-20T21:27:04Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "e70a4cfcf858-Channels-PLUGIN-Xcpluginforever.sh",
@@ -4426,7 +4426,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e79db9b3bc69-Backup-Backup_image_PLUGIN-Historyzapselector.sh",
           "digest": "sha256:e79db9b3bc69c5442d767d9e0c1ce1ffe4f71af706c411126f4b69bd469f3008",
           "updated_at": "2026-11-20T21:26:24Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "e79db9b3bc69-Channels-PLUGIN-Historyzapselector.sh",
@@ -4444,7 +4444,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e7cd526d2a8e-Backup-Backup_image_PLUGIN-IptvAdder.sh",
           "digest": "sha256:e7cd526d2a8e6ef793741b2a5353f73430cbdd80d0b2e218bdc4950ff084cd77",
           "updated_at": "2026-11-20T21:26:34Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "e7cd526d2a8e-Channels-PLUGIN-IptvAdder.sh",
@@ -4480,7 +4480,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ebb7a37e9150-Backup-download_channels.sh",
           "digest": "sha256:ebb7a37e91506037de70e2a3bcc651f6095babab105367cfb0da6f9826cc0bb2",
           "updated_at": "2026-11-20T21:27:53Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "eca3e9b9d72b-Channels-SKIN-flatui.sh",
@@ -4498,7 +4498,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ecb68af454b7-novaler-install.sh",
           "digest": "sha256:ecb68af454b7a75da7b65061940ae40503a576dbe1e2f278aa642a500ff13249",
           "updated_at": "2026-11-21T09:55:33Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "ed25d422e3ac-Channels-PLUGIN-E2iplayer_Patch.sh",
@@ -4534,7 +4534,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ee371b3e5017-Channels-master_backup.sh",
           "digest": "sha256:ee371b3e50171aedb7e9e33b2360e7afefe7b012b20bb1bbc50f8df19c845258",
           "updated_at": "2026-11-20T21:29:59Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "ee51fcdbb5e5-Backup-Backup_image_EMU-ncam.sh",
@@ -4543,7 +4543,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ee51fcdbb5e5-Backup-Backup_image_EMU-ncam.sh",
           "digest": "sha256:ee51fcdbb5e5569caeffcdb6e36db2dee994822723b11a615519c640295c6df7",
           "updated_at": "2026-11-20T21:25:16Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "ee51fcdbb5e5-Channels-EMU-ncam.sh",
@@ -4588,7 +4588,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/efec2bb1657a-Backup-Backup_image_PLUGIN-Ipaudio_nasr.sh",
           "digest": "sha256:efec2bb1657a148fb906dc7f76250de99980e0956a2116ddee61b6b2eac0a6d6",
           "updated_at": "2026-11-20T21:26:26Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "efec2bb1657a-Channels-PLUGIN-Ipaudio_nasr.sh",
@@ -4615,7 +4615,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f1b4aadf69de-Backup-Backup_image_PLUGIN-OrangeAudio.sh",
           "digest": "sha256:f1b4aadf69dedecbc3585cbbe9c41715d6daafad911443e6e33c161b17ead72a",
           "updated_at": "2026-11-20T21:26:44Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "f1b4aadf69de-Channels-PLUGIN-OrangeAudio.sh",
@@ -4633,7 +4633,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f20739b35c9b-Backup-Backup_image_update_channels.sh",
           "digest": "sha256:f20739b35c9b337162d7f50cd8e19e93c4217c6468c607c68905b1c31e975566",
           "updated_at": "2026-11-20T21:27:49Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "f20739b35c9b-Channels-update_channels.sh",
@@ -4660,7 +4660,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f2fd8a031ac7-Backup-Backup_image_PLUGIN-Youtube.sh",
           "digest": "sha256:f2fd8a031ac7d594b1d30c54c1e3486094e71fff55261e6c26a70dd202951075",
           "updated_at": "2026-11-20T21:27:24Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "f2fd8a031ac7-Channels-PLUGIN-Youtube.sh",
@@ -4732,7 +4732,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f8c13119760f-Backup-Backup_image_PLUGIN-Xtream2audio.sh",
           "digest": "sha256:f8c13119760f39868a50f36360cfed53ce6b15c39ff417587938868a768d97c5",
           "updated_at": "2026-11-20T21:27:20Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "f8c13119760f-Channels-PLUGIN-Xtream2audio.sh",
@@ -4759,7 +4759,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/fd0140050779-Backup-Backup_image_PLUGIN-ClouringServer.sh",
           "digest": "sha256:fd01400507794279f7ff67e0c8d745f6df093d3830774f7d85ff7bde09262279",
           "updated_at": "2026-11-20T21:26:06Z",
-          "category": "receiver_backups"
+          "category": "scripts"
         },
         {
           "name": "fd0140050779-Channels-PLUGIN-ClouringServer.sh",
@@ -4843,7 +4843,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/08af1c7389ea-backupsuite.ipk",
           "digest": "sha256:08af1c7389ea230e34260877a417764880c9a007d7efca6644b05dadc395c664",
           "updated_at": "2026-11-20T21:11:49Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "0a9aa7c9bdca-novalermultiboot.ipk",
@@ -4852,7 +4852,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/0a9aa7c9bdca-novalermultiboot.ipk",
           "digest": "sha256:0a9aa7c9bdca0c12704341a6ccf22544099317953173405b11f05f331f0dd835",
           "updated_at": "2026-11-20T21:13:09Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "0c3d4ce086bd-ozeta.ipk",
@@ -4951,7 +4951,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1d0bd979c5f6-novaler-s-fhd.ipk",
           "digest": "sha256:1d0bd979c5f6eb2236cf0bd23323c82608c2d65ca02977840c70b02129e4aff9",
           "updated_at": "2026-11-20T21:17:29Z",
-          "category": "receiver_backups"
+          "category": "skins"
         },
         {
           "name": "1d0bd979c5f6-novaler-s.ipk",
@@ -4960,7 +4960,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1d0bd979c5f6-novaler-s.ipk",
           "digest": "sha256:1d0bd979c5f6eb2236cf0bd23323c82608c2d65ca02977840c70b02129e4aff9",
           "updated_at": "2026-11-20T21:17:32Z",
-          "category": "receiver_backups"
+          "category": "skins"
         },
         {
           "name": "1f25e90fe585-subextractorlite.ipk",
@@ -5698,7 +5698,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b3cafe73ff1e-novalermultiboothdd.ipk",
           "digest": "sha256:b3cafe73ff1e06e5c3f4717c39e902a68c5e590aa5a7965fbc461cf53d328ae5",
           "updated_at": "2026-11-20T21:13:11Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "b52c8cf6ef0f-enigma2-plugin-softcams-ncam.ipk",
@@ -5797,7 +5797,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c5700e82827b-novalermultibootusb.ipk",
           "digest": "sha256:c5700e82827b0e77a3e03937896ad835a8295468ed59cc44d7ca03a5f78ab612",
           "updated_at": "2026-11-20T21:13:13Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "c5ca2558a347-enigma2-plugin-softcams-gosatplus-oscam.ipk",
@@ -5977,7 +5977,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f3e337a0a876-backupsuite.ipk",
           "digest": "sha256:f3e337a0a87637254b0154aa9487ac584f138bf9d3c25d97802bbbc9bf96ef90",
           "updated_at": "2026-11-20T21:14:30Z",
-          "category": "receiver_backups"
+          "category": "plugins"
         },
         {
           "name": "f42fd2a2eaa8-libasound.ipk",
@@ -7027,7 +7027,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
           "digest": "sha256:c2b23973eae0df47f3af6166261de63b379b9ec1f7879a2056132618efdc66e2",
           "updated_at": "2026-11-20T21:32:06Z",
-          "category": "receiver_backups"
+          "category": "other"
         },
         {
           "name": "c965943b1a1b-ZSkin-FHD.tar.gz",
@@ -8026,7 +8026,7 @@
           "download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-twin/RX-Launcher-v2.41.apk",
           "digest": "sha256:323c2c5673ce50b7c1d0035e98a7b82ae466c0ec243c31fa79618ba2abb827dd",
           "updated_at": "2026-11-17T21:10:26Z",
-          "category": "receiver_backups"
+          "category": "other"
         }
       ]
     },

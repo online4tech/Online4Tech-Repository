@@ -91,6 +91,11 @@ def upload_from_url(args):
         body = "\n".join([f"Brand: {args.brand}",f"Model: {args.device_model}",f"Version: {args.version}",f"Date: {args.backup_date or date.today().isoformat()}",f"Description: {args.description}",f"Compatibility: {args.compatibility}"])
         release = api("POST", "releases", json={"tag_name":tag,"name":title,"body":body,"draft":True,"prerelease":False})
     name = args.file_name or args.source_url.split("?")[0].rstrip("/").split("/")[-1] or f"{slug(tag)}.zip"
+    # Make workflow retries safe: do not upload a duplicate asset with the same name.
+    if any(a.get("name") == name for a in release.get("assets", [])):
+        print(f"Asset {name} already exists on release {tag}; indexing the existing asset.")
+        index_release(tag)
+        return
     if not any(name.lower().endswith(ext) for ext in ARCHIVES):
         raise RuntimeError("File name must end with a supported archive extension.")
     with tempfile.TemporaryDirectory() as tmp:

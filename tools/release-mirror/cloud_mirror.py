@@ -56,9 +56,21 @@ def read_progress():
                 try:
                     raw=requests.get(asset["browser_download_url"],timeout=(20,120))
                     raw.raise_for_status()
-                    m=raw.json()
-                    if m.get("verification")=="PASS":
+                    m=json.loads(raw.content.decode("utf-8-sig"))
+                    if isinstance(m,list):
+                        # Legacy PowerShell manifests are arrays of records.
+                        for entry in m:
+                            if str(entry.get("verification","")).startswith("PASS"):
+                                k="|".join([str(entry.get("original_repository","")),
+                                            str(entry.get("original_release_tag","")),
+                                            str(entry.get("original_asset_name",""))])
+                                if k.count("|")==2 and not k.startswith("|"):
+                                    done.add(k)
+                    elif isinstance(m,dict) and m.get("verification")=="PASS":
                         done.update(m.get("completed_keys",[]))
+                        # Support manifests that record keys only in their file entries.
+                        for entry in m.get("files",[]):
+                            if entry.get("completed_key"): done.add(entry["completed_key"])
                 except Exception as e:
                     print(f"NOTICE: couldn't read old manifest {rel.get('tag_name')}: {e}",flush=True)
         if len(releases)<100: break

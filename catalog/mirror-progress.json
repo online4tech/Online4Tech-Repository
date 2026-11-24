@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:26:43.287621+00:00",
-  "completed_count": 909,
+  "updated_at": "2026-11-24T12:27:49.692196+00:00",
+  "completed_count": 911,
   "completed_keys": [
     "online4tech/Smart-Manager|bridge-10|Online4Tech-Bridge-Windows.zip",
     "online4tech/Smart-Manager|bridge-10|SHA256SUMS.txt",
@@ -275,6 +275,7 @@
     "online4tech/online4Tech|online4tech-backups-vuuno4kse|egami-11.0-r23-vuuno4kse-01112026.zip",
     "online4tech/online4Tech|online4tech-backups-vuuno4kse|openatv-8.0.1-vuuno4kse-01112026.zip",
     "online4tech/online4Tech|online4tech-backups-vuuno4kse|openbh-6.0.005-vuuno4kse-01112026.zip",
+    "online4tech/online4Tech|online4tech-backups-vuuno4kse|openvix-6.9.003-vuuno4kse_01112026.zip",
     "online4tech/online4Tech|online4tech-backups-vuuno4k|PurE2-7.6-vuuno4k-08112026.zip",
     "online4tech/online4Tech|online4tech-backups-vuuno4k|egami-10.6-r14-vuuno4k.zip",
     "online4tech/online4Tech|online4tech-backups-vuuno4k|openatv-8.0.1-vuuno4k-08112026.zip",
@@ -350,6 +351,7 @@
     "online4tech/online4Tech|online4tech-catalog-assets|6a6ae2615144-Brushedalu-HD.tar.gz",
     "online4tech/online4Tech|online4tech-catalog-assets|6b8ab8b7255a-installer.sh",
     "online4tech/online4Tech|online4tech-catalog-assets|6bafe9c4763b-E2_Morph883_Settings.sh",
+    "online4tech/online4Tech|online4tech-catalog-assets|6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
     "online4tech/online4Tech|online4tech-catalog-assets|6e7c6d9245e7-AlternativeSoftcamManager.tar.gz",
     "online4tech/online4Tech|online4tech-catalog-assets|7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
     "online4tech/online4Tech|online4tech-catalog-assets|78e448d41aeb-Skin-MX_Maestra_Black-weather_py3.13.tar.gz",

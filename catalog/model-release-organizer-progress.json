@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:48:32.648663+00:00",
+  "updated_at": "2026-11-24T13:53:36.085487+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
@@ -8,7 +8,8 @@
     "Vu+ Uno 4K SE",
     "Vu+ Zero 4K",
     "Dreambox Two",
-    "Novaler Pro"
+    "Novaler Pro",
+    "Multibox Pro"
   ],
   "models": [
     {
@@ -968,6 +969,424 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
               "asset_name": "PurE2-7.6-novalerpro_18102026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/PurE2-7.6-novalerpro_18102026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Multibox Pro",
+      "tag": "o4t-device-multibox-pro-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-multibox-pro-backups",
+      "source_records": 24,
+      "unique_assets": 24,
+      "bytes": 6083502872,
+      "files": [
+        {
+          "original_filename": "162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
+          "asset_name": "162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
+          "size_bytes": 226095129,
+          "sha256": "162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
+          "asset_name": "162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
+          "size_bytes": 226095129,
+          "sha256": "162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "asset_name": "33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "size_bytes": 301141032,
+          "sha256": "33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "asset_name": "33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "size_bytes": 301141032,
+          "sha256": "33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
+          "asset_name": "35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
+          "size_bytes": 251271032,
+          "sha256": "35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
+          "asset_name": "35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
+          "size_bytes": 251271032,
+          "sha256": "35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
+          "asset_name": "6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
+          "size_bytes": 237738588,
+          "sha256": "6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
+          "asset_name": "6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
+          "size_bytes": 237738588,
+          "sha256": "6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "asset_name": "6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "size_bytes": 258894327,
+          "sha256": "6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
+          "asset_name": "6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
+          "size_bytes": 297562418,
+          "sha256": "6fba255c349b5f586b614fe6c596694c1cee6db5daf8aa5d8cda9ba66b70af38",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
+          "asset_name": "8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
+          "size_bytes": 225086419,
+          "sha256": "8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
+          "asset_name": "8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
+          "size_bytes": 225086419,
+          "sha256": "8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
+          "asset_name": "959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
+          "size_bytes": 315909206,
+          "sha256": "959ccbffb7cf30edab5268aa4b7f1a8f628bed160258c55314c41d45cbd84569",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "asset_name": "b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "size_bytes": 316942952,
+          "sha256": "b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "asset_name": "b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "size_bytes": 316942952,
+          "sha256": "b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "EGAMI-11.0-multiboxpro_10112026.zip",
+          "asset_name": "EGAMI-11.0-multiboxpro_10112026.zip",
+          "size_bytes": 251271032,
+          "sha256": "35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/EGAMI-11.0-multiboxpro_10112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "EGAMI-11.0-multiboxpro_10112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/EGAMI-11.0-multiboxpro_10112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "asset_name": "f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "size_bytes": 217268146,
+          "sha256": "f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "asset_name": "f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "size_bytes": 217268146,
+          "sha256": "f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenATV-8.0.1-multiboxpro_10112026.zip",
+          "asset_name": "OpenATV-8.0.1-multiboxpro_10112026.zip",
+          "size_bytes": 243696684,
+          "sha256": "2c0f02f13e8e8007488f36e756b9ceeb359f8ea81dc695a6632b9c34d5d2db26",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenATV-8.0.1-multiboxpro_10112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "OpenATV-8.0.1-multiboxpro_10112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.0.1-multiboxpro_10112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "asset_name": "OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "size_bytes": 258894327,
+          "sha256": "6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.1.0_beta-multiboxpro_08112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenBh-6.0-multiboxpro_08112026.zip",
+          "asset_name": "OpenBh-6.0-multiboxpro_08112026.zip",
+          "size_bytes": 237738588,
+          "sha256": "6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenBh-6.0-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "OpenBh-6.0-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenBh-6.0-multiboxpro_08112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openHDF-8.0-multiboxpro_09112026.zip",
+          "asset_name": "openHDF-8.0-multiboxpro_09112026.zip",
+          "size_bytes": 226095129,
+          "sha256": "162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/openHDF-8.0-multiboxpro_09112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "openHDF-8.0-multiboxpro_09112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openHDF-8.0-multiboxpro_09112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "asset_name": "OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "size_bytes": 217268146,
+          "sha256": "f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/OpenPLi-wrynose-multiboxpro_09112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "OpenPLi-wrynose-multiboxpro_09112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-wrynose-multiboxpro_09112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "Teamblue-8.0-multiboxpro_08112026.zip",
+          "asset_name": "Teamblue-8.0-multiboxpro_08112026.zip",
+          "size_bytes": 225086419,
+          "sha256": "8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-multibox-pro-backups/Teamblue-8.0-multiboxpro_08112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "Teamblue-8.0-multiboxpro_08112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Teamblue-8.0-multiboxpro_08112026.zip"
             }
           ]
         }

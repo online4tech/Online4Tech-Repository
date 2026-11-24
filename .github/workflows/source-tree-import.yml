@@ -1,0 +1,47 @@
+name: Online4Tech Source Tree IPK and Artwork Import
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "source-tree-import-start.flag"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: online4tech-source-tree-import
+  cancel-in-progress: false
+
+jobs:
+  import-source-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install transfer client
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Import source IPK packages and artwork
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: online4tech/Online4Tech-Repository
+        run: python tools/catalog/import_source_tree_ipks.py
+      - name: Rebuild plugin, skin and backup indexes
+        run: python tools/catalog/build_upload_indexes.py
+      - name: Commit imported metadata, artwork and indexes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/plugins assets/skins plugins skins catalog/source-tree-ipk-import.json catalog/addons/plugins.json catalog/addons/skins.json catalog/uploads/backups.json
+          if git diff --cached --quiet; then
+            echo "No source import changes."
+          else
+            git commit -m "Import source-tree IPKs and artwork"
+            git push
+          fi

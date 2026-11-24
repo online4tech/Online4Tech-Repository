@@ -25,14 +25,14 @@ Name the cover image `cover.webp`, `cover.jpg`, `thumbnail.png`, or `poster.jpg`
 ### 2. GitHub Desktop / Git
 - Use this for normal backup folders and files that fit GitHub's regular repository upload limits.
 - Keep the structure `backups/<brand>/<model>/<backup-id>/`; push to `main`.
-- Do not commit files larger than 100 MiB. For large archives, use the Releases website method. If you already use GitHub CLI, you can upload an asset to an existing Release with: `gh release upload backup-vu-zero-4k-2026 "D:\Backups\fullbackup.zip" --repo online4tech/Online4Tech-Repository`.
+- Do not commit files larger than 100 MiB. For large archives, use the Releases website method. If you already use GitHub CLI, you can upload an asset with: `gh release upload backup-vu-zero-4k-2026 "D:\Backups\fullbackup.zip" --repo online4tech/Online4Tech-Repository`. If that Release was already published, run the workflow below with only its `tag_name` to refresh the index.
 - Existing folder-based backups continue to use the existing `backup.json` workflow; Release uploads do not require a manually created JSON file.
 
 ### 3. GitHub Actions cloud upload
 1. Open https://github.com/online4tech/Online4Tech-Repository/actions/workflows/backup-release-publisher.yml
 2. Choose **Run workflow**.
 3. Enter a direct-download URL to a cloud-hosted archive, a unique tag, and the model details.
-4. Run the workflow. The runner downloads the file and attaches it to a Release; it is not downloaded to your PC.
+4. Run the workflow. The runner downloads the file and attaches it to a Release; it is not downloaded to your PC. To refresh a Release after adding assets to an already-published Release, leave `source_url` blank and enter only `tag_name`.
 
 The source URL must be directly downloadable without interactive login. Files must be smaller than 2 GiB. If the URL does not end in a supported archive extension, enter the original archive name in `file_name`.
 

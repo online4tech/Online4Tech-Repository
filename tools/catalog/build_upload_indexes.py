@@ -113,7 +113,37 @@ def build_backups():
                 "cover": cover, "screenshots": shots, "compatibility": str(meta.get("compatibility") or ""),
                 "source_url": str(meta.get("source_url") or ""), "status": str(meta.get("status") or "published")
             })
-    return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(), "items": items}
+    # Merge manifests generated from GitHub Release assets. These are separate from
+    # folder-based backups, so existing backup.json folders remain untouched.
+    release_root = ROOT / "catalog/uploads/release-backups"
+    if release_root.exists():
+        for manifest in sorted(release_root.rglob("backup.json")):
+            meta = read_json(manifest)
+            if not meta or meta.get("status") != "published":
+                continue
+            items.append({
+                "id": str(meta.get("id") or manifest.parent.name),
+                "name": str(meta.get("name") or manifest.parent.name),
+                "device_model": str(meta.get("device_model") or ""),
+                "brand": str(meta.get("brand") or ""),
+                "version": str(meta.get("version") or ""),
+                "date": str(meta.get("date") or ""),
+                "description": str(meta.get("description") or ""),
+                "package_url": str(meta.get("package_url") or ""),
+                "cover": str(meta.get("cover") or ""),
+                "screenshots": meta.get("screenshots") if isinstance(meta.get("screenshots"), list) else [],
+                "compatibility": str(meta.get("compatibility") or ""),
+                "source_url": str(meta.get("source_url") or ""),
+                "status": "published",
+                "release_url": str(meta.get("release_url") or ""),
+                "release_tag": str(meta.get("release_tag") or "")
+            })
+    # Stable deduplication: a Release tag identifies one published backup entry.
+    deduped = {}
+    for item in items:
+        key = ("release:" + item["release_tag"]) if item.get("release_tag") else ("folder:" + item["id"])
+        deduped[key] = item
+    return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(), "items": list(deduped.values())}
 
 def write(path: str, data: dict):
     p = ROOT / path

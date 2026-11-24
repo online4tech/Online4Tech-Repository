@@ -1,0 +1,22 @@
+{
+  "id": "nitro-fhd-all",
+  "name": "Nitro Fhd All",
+  "description": "ملفات Nitro Fhd All المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/nitro-fhd-all--downloads__online4tech__skins__skins-openatv__skins-nitro-fhd-all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skins-nitro-fhd-all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/nitro-fhd-all--downloads__online4tech__skins__skins-openatv__skins-nitro-fhd-all.ipk",
+      "sha256": "95b27cc1d6820141163397090c2e5ac2e063e098b71fd1440b388c951fddd748"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

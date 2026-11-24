@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/froid--downloads__online4tech__skins__skins-openatv__skins-froid_all.ipk",
+  "sha256": "9b10884bb26bcd72206a828e4531a76a775efbea3df815dfa48ad0c0461e40c5",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

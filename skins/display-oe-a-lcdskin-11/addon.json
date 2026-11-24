@@ -1,0 +1,22 @@
+{
+  "id": "display-oe-a-lcdskin-11",
+  "name": "Display Oe A Lcdskin 11",
+  "description": "ملفات Display Oe A Lcdskin 11 المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-oe-a-lcdskin-11--downloads__online4tech__skins__community__enigma2-plugin-display-oe-a-lcdskin-11.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-11.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-oe-a-lcdskin-11--downloads__online4tech__skins__community__enigma2-plugin-display-oe-a-lcdskin-11.ipk",
+      "sha256": "b8de6dd493c24f03b1f89dee97b42383527aa525f86f071b1bf6a0647ad2d28b"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

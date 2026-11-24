@@ -1,0 +1,22 @@
+{
+  "id": "batman-fhd",
+  "name": "Batman Fhd",
+  "description": "ملفات Batman Fhd المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/batman-fhd--downloads__online4tech__skins__skins-openatv__skin-batman-fhd_v1.0_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skin-batman-fhd_v1.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/batman-fhd--downloads__online4tech__skins__skins-openatv__skin-batman-fhd_v1.0_all.ipk",
+      "sha256": "38e88c48d480f76b805400c2080567a3255ab8fa5f587d896d2232bb3998a259"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

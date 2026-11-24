@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/nacht--downloads__online4tech__skins__skins-openatv__skins-nacht_1.7.3_DunkelHD_all.ipk",
+  "sha256": "7922f240574d1df814af98de729ba1d9554eabc61db5233595ea259e4e2ee45c",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/litehd--downloads__online4tech__skins__skins-openatv__skins-litehd_1.6_all.ipk",
+  "sha256": "811bd8aa13c82bb285c4d3ef26daff24e6727db2a50024030de59f1dabb236b9",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

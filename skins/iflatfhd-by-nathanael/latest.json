@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/iflatfhd-by-nathanael--downloads__online4tech__skins__skins-openatv__Skin-iFlatFHD-By-Nathanael.ipk",
+  "sha256": "f1433317c96e4fcb18d88f766748c161e9bf4baaa0dbef5c4015feb1ee2f7e83",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

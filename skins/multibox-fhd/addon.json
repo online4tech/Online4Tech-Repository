@@ -1,0 +1,22 @@
+{
+  "id": "multibox-fhd",
+  "name": "Multibox Fhd",
+  "description": "ملفات Multibox Fhd المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/multibox-fhd--downloads__online4tech__skins__skins-openatv__skins-Multibox-FHD.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skins-Multibox-FHD.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/multibox-fhd--downloads__online4tech__skins__skins-openatv__skins-Multibox-FHD.ipk",
+      "sha256": "cdc9ebc9e62277a21b662df74fd225a1b3451c71dfabbffdd913cd0c459a5db6"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

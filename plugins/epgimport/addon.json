@@ -1,0 +1,22 @@
+{
+  "id": "epgimport",
+  "name": "Epgimport",
+  "description": "ملفات Epgimport المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/epgimport--downloads__online4tech__plugins__community__enigma2-plugin-extensions-epgimport_1.0.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "enigma2-plugin-extensions-epgimport_1.0.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/epgimport--downloads__online4tech__plugins__community__enigma2-plugin-extensions-epgimport_1.0.ipk",
+      "sha256": "2c107bf8637df74086adc2945e7986f5e6c592a4470b8ae7084a2e85f7369121"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

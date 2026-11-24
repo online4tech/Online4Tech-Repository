@@ -1,0 +1,92 @@
+{
+  "id": "display-skin",
+  "name": "Display Skin",
+  "description": "ملفات Display Skin المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-9.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "enigma2-display-skins.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-display-skins.ipk",
+      "sha256": "ac3e4ed9420f691813e4ca0313a506c978e061e36e5ff29961c23492a257ce78"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-1.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-1.ipk",
+      "sha256": "0d1b82e92d8bf953637f6835b623cfddb65837038bdd6c764bdac9224c7e6065"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-10.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-10.ipk",
+      "sha256": "46ec8ab92b5d69e9e48ae315a02a3192ddcffa40ae918b50538e240a7c1447e0"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-11.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-11.ipk",
+      "sha256": "b8de6dd493c24f03b1f89dee97b42383527aa525f86f071b1bf6a0647ad2d28b"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-12.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-12.ipk",
+      "sha256": "d67cb7c424003e4c1632d407c915e430e8cb4ba1e4cf94a3bc531a193f24c285"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-13.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-13.ipk",
+      "sha256": "58651460f0eddcb26c799137b33fe51644426be48d8d576ae655aa9d8e471bde"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-2.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-2.ipk",
+      "sha256": "9650c0fa39b6741c848ced9a90bab9de10b99a03ec509ca91dbc32c384339c77"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-3.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-3.ipk",
+      "sha256": "cbf45a9d15ed1b26ad778c3d50da1640f42116b331778e6260cbf344f73072f3"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-4.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-4.ipk",
+      "sha256": "91a45df7c45c1a1ee4bd771430ae305afa3efd96fa1fb9d64b5e86d3ff5d0b8c"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-5.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-5.ipk",
+      "sha256": "8155c7d6cdd2bd45930640a3ed694962b843b7f86c16be80ed1f6362e15b5c2a"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-6.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-6.ipk",
+      "sha256": "793b8ccc34483b48c3ab2f9019b3cf8a6a02c6a7fef5de73ed196f2aedb42073"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-7.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-7.ipk",
+      "sha256": "217e149430557c892254b839bada3fa2ba2920b6c419a2b23740d1c6bf4b4817"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-8.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-8.ipk",
+      "sha256": "1110c00862a0a1a93724cbe59f487f01f5e555d55b18344275d68cd59599f851"
+    },
+    {
+      "filename": "enigma2-plugin-display-oe-a-lcdskin-9.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__Display-Skin__enigma2-plugin-display-oe-a-lcdskin-9.ipk",
+      "sha256": "e4c255ee7b16ef7839c5722322a56edd1153c40a963875fa6507fcc8facb4f20"
+    },
+    {
+      "filename": "enigma2-display-skins.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-skin--downloads__online4tech__skins__community__enigma2-display-skins.ipk",
+      "sha256": "ac3e4ed9420f691813e4ca0313a506c978e061e36e5ff29961c23492a257ce78"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

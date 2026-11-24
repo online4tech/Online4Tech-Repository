@@ -1,0 +1,22 @@
+{
+  "id": "astra-sm",
+  "name": "Astra Sm",
+  "description": "ملفات Astra Sm المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/astra-sm--downloads__online4tech__plugins__community__astra-sm__astra-sm.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "astra-sm.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/astra-sm--downloads__online4tech__plugins__community__astra-sm__astra-sm.ipk",
+      "sha256": "04b3812a2afd1006fa499202b273c27c62cf1040dc7025f6d7291d3cee14188b"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

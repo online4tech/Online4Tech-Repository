@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
+  "sha256": "0f6a72eb6c62a6f99cbcdc5624d9bd3393a69f8ab5a20f93dcfca8eef7e2f230",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

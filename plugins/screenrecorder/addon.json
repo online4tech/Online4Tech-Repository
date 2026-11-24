@@ -1,0 +1,42 @@
+{
+  "id": "screenrecorder",
+  "name": "Screenrecorder",
+  "description": "ملفات Screenrecorder المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "enigma2-plugin-extensions-screenrecorder_1.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_1.0_all.ipk",
+      "sha256": "f65c2cc8b51ecd32e59a61ff67dca91c1133f37fea81a700faf4d1df1e784946"
+    },
+    {
+      "filename": "enigma2-plugin-extensions-screenrecorder_2.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_2.0_all.ipk",
+      "sha256": "6f0edcd6b22948c59887e4e028480dab14f14476b75b5b5d99c3811f20590982"
+    },
+    {
+      "filename": "enigma2-plugin-extensions-screenrecorder_3.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_3.0_all.ipk",
+      "sha256": "cf95f5aeebe4baa7cf0097431974562ba3496004c70a97fd62938be061e62504"
+    },
+    {
+      "filename": "enigma2-plugin-extensions-screenrecorder_4.0.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_4.0.0_all.ipk",
+      "sha256": "bb83f97b2f3308af7f589f85fb3fb80c7edaca5b5c36173abf418f8df1cab942"
+    },
+    {
+      "filename": "enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/screenrecorder--downloads__online4tech__plugins__community__screenrecorder__enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
+      "sha256": "0f6a72eb6c62a6f99cbcdc5624d9bd3393a69f8ab5a20f93dcfca8eef7e2f230"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

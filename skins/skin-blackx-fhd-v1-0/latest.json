@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/skin-blackx-fhd-v1-0--downloads__online4tech__skins__skins-openatv__skin.BlackX.FHD-V1.0_all.ipk",
+  "sha256": "4fee500d73dd3b7fc6849afaea6f49da3c70d55410ae94f3b30420101ce99a87",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

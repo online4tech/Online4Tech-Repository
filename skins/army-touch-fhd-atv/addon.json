@@ -1,0 +1,22 @@
+{
+  "id": "army-touch-fhd-atv",
+  "name": "Army Touch Fhd Atv",
+  "description": "ملفات Army Touch Fhd Atv المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/army-touch-fhd-atv--downloads__online4tech__skins__skins-openatv__skins-army-touch-fhd-atv_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skins-army-touch-fhd-atv_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/army-touch-fhd-atv--downloads__online4tech__skins__skins-openatv__skins-army-touch-fhd-atv_all.ipk",
+      "sha256": "28fb0069d4b06386061512375efa9bf70c7f8771163b2b634b855fe476f66aea"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/materialdesignfhd--downloads__online4tech__skins__skins-openatv__skins-materialdesignfhd_all.ipk",
+  "sha256": "72e3fdf734db076713c5d11e23ebbffbf5defb112565fd941954ef8871583006",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

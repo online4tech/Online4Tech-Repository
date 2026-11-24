@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/orange-sky-fhd-by-muaath--downloads__online4tech__skins__skins-openatv__Skin-ORANGE-SKY-FHD-By-Muaath.ipk",
+  "sha256": "528ea1aa15e0b8851247d7cb320839115667747bb3b6fc632b1365cbeed914d6",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

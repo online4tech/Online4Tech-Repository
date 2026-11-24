@@ -1,0 +1,27 @@
+{
+  "id": "bluemetalfhd",
+  "name": "Bluemetalfhd",
+  "description": "ملفات Bluemetalfhd المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/bluemetalfhd--downloads__online4tech__skins__skins-openatv__skins-bluemetalfhd_2.10_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skins-bluemetalfhd_2.08a_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/bluemetalfhd--downloads__online4tech__skins__skins-openatv__skins-bluemetalfhd_2.08a_all.ipk",
+      "sha256": "a1698e75a92ac07beaf3e8292ce5c26b254fc5851fe66affd48559dbb86e2be7"
+    },
+    {
+      "filename": "skins-bluemetalfhd_2.10_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/bluemetalfhd--downloads__online4tech__skins__skins-openatv__skins-bluemetalfhd_2.10_all.ipk",
+      "sha256": "654c3c5c1a8f07525aaa9355a99c4da3b309bf210c1c39da3419c37720d9bcf8"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

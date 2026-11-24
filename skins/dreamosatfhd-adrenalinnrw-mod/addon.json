@@ -1,0 +1,22 @@
+{
+  "id": "dreamosatfhd-adrenalinnrw-mod",
+  "name": "Dreamosatfhd Adrenalinnrw Mod",
+  "description": "ملفات Dreamosatfhd Adrenalinnrw Mod المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/dreamosatfhd-adrenalinnrw-mod--downloads__online4tech__skins__skins-openatv__skins-dreamosatfhd-adrenalinnrw-mod_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skins-dreamosatfhd-adrenalinnrw-mod_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/dreamosatfhd-adrenalinnrw-mod--downloads__online4tech__skins__skins-openatv__skins-dreamosatfhd-adrenalinnrw-mod_all.ipk",
+      "sha256": "f7565a18e779f3308a1ec27cfbed11d21ac3dc167577451acec684e618a09b03"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

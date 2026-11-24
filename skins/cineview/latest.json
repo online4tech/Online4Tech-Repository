@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/cineview--downloads__online4tech__skins__community__skin-cineview__enigma2-plugin-skins-cineview-fhd-mla_1.1.3-openatv_all.ipk",
+  "sha256": "3ee218d5603e49542be1eaddc9dede24a9bef06f8672fd81412838d11a1293f8",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

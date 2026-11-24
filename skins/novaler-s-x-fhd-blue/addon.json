@@ -1,0 +1,22 @@
+{
+  "id": "novaler-s-x-fhd-blue",
+  "name": "Novaler S X Fhd Blue",
+  "description": "ملفات Novaler S X Fhd Blue المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/novaler-s-x-fhd-blue--downloads__online4tech__skins__skins-openatv__skins-novaler-s-x-fhd-blue_3.1_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skins-novaler-s-x-fhd-blue_3.1_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/novaler-s-x-fhd-blue--downloads__online4tech__skins__skins-openatv__skins-novaler-s-x-fhd-blue_3.1_all.ipk",
+      "sha256": "22ca8adf9fcb07a22ae8acaf124ca3906f6e03650b1b18c3ec2463090ab9f75d"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

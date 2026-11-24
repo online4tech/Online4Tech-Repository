@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/duskyfhd--downloads__online4tech__skins__skins-openatv__skins-duskyfhd_all.ipk",
+  "sha256": "b56bc4f4138a55e64ae6d239bd9303578be377add88e91a443b1c7154d8f3af9",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

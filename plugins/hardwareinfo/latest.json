@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/hardwareinfo--downloads__online4tech__plugins__community__hardwareinfo_5.2_all.ipk",
+  "sha256": "b88d4f03fbd03d16fd2ca99484d28839dd262e4ebe39c1e8db91ba3ca814f32b",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

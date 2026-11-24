@@ -1,0 +1,22 @@
+{
+  "id": "universe-master",
+  "name": "Universe Master",
+  "description": "ملفات Universe Master المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/universe-master--downloads__online4tech__skins__skins-openatv__skin-universe-master_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skin-universe-master_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/universe-master--downloads__online4tech__skins__skins-openatv__skin-universe-master_all.ipk",
+      "sha256": "d244c79d59779ec2e85cb5a4fddfe42df280f1b2da84034a785d2a86c228441a"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

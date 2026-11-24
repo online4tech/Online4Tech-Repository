@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/dreambox-ntp-sync--downloads__online4tech__plugins__ipk__dreambox-ntp-sync_all.ipk",
+  "sha256": "a711556a3ee5034a23adfa06e3d1aaa32264f95f9aab94c69b9ee47194c282ab",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

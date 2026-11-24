@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/cerxfhd-mod--downloads__online4tech__skins__skins-openatv__skin-cerxfhd-mod_all.ipk",
+  "sha256": "3a805f122a880c2e1b58f966b73b021d927f7b93935daeee1b354eb12bf5647a",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

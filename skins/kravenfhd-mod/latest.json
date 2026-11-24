@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/kravenfhd-mod--downloads__online4tech__skins__skins-openatv__skins-kravenfhd-mod_all.ipk",
+  "sha256": "03b6ca5dc62f8d881ccc9b5e14b179da0c994dbf6876e205976f97067542104e",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

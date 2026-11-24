@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/display-oe-a-lcdskin-9--downloads__online4tech__skins__community__enigma2-plugin-display-oe-a-lcdskin-9.ipk",
+  "sha256": "bcdcdc13dab1469d48d8a7a8a87bc78a66c3cfaf7247f24e62376a8128a7a411",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

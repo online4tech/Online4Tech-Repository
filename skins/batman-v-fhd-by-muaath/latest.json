@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/batman-v-fhd-by-muaath--downloads__online4tech__skins__skins-openatv__SKIN-BATMAN-V-FHD-By-Muaath.ipk",
+  "sha256": "b761487d96be2bacf6aa978815b65dae096726fb09c3cd9443e029d767137174",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

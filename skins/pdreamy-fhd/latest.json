@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/pdreamy-fhd--downloads__online4tech__skins__skins-openatv__skins-pdreamy-fhd_all.ipk",
+  "sha256": "15ef566063f4001fb407a9543ecd61a249e400cfa29c1eca195f3713b48c7650",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

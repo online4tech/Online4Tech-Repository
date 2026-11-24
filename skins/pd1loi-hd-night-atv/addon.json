@@ -1,0 +1,22 @@
+{
+  "id": "pd1loi-hd-night-atv",
+  "name": "Pd1Loi Hd Night Atv",
+  "description": "ملفات Pd1Loi Hd Night Atv المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/pd1loi-hd-night-atv--downloads__online4tech__skins__skins-openatv__skins-pd1loi-hd-night-atv_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "skins-pd1loi-hd-night-atv_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/pd1loi-hd-night-atv--downloads__online4tech__skins__skins-openatv__skins-pd1loi-hd-night-atv_all.ipk",
+      "sha256": "00c28528e8f60f357029f8ec82e82069fbc45a1c93d563a17214a14ca2cc47c3"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

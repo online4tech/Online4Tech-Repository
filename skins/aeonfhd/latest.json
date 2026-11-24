@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/aeonfhd--downloads__online4tech__skins__skins-openatv__skins-aeonfhd_all.ipk",
+  "sha256": "f4f95e07204e7fd51843855d6b5d95b4d7166f5832bb584bced0b2da0961e1bb",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

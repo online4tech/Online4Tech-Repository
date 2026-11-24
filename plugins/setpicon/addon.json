@@ -1,0 +1,27 @@
+{
+  "id": "setpicon",
+  "name": "Setpicon",
+  "description": "ملفات Setpicon المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/setpicon--downloads__online4tech__plugins__community__setpicon__enigma2-plugin-extensions-setpicon_v3.0_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "enigma2-plugin-extensions-setpicon_v2.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/setpicon--downloads__online4tech__plugins__community__setpicon__enigma2-plugin-extensions-setpicon_v2.0_all.ipk",
+      "sha256": "5852fcf638e4b7f939b214c47ca132f1da10927e8874b7411c63157651db70cd"
+    },
+    {
+      "filename": "enigma2-plugin-extensions-setpicon_v3.0_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/setpicon--downloads__online4tech__plugins__community__setpicon__enigma2-plugin-extensions-setpicon_v3.0_all.ipk",
+      "sha256": "4f852e5052d5c662f5b410989f59ff18acd8182391dad7ee88a3ff36252949e3"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

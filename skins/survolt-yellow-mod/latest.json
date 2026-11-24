@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/survolt-yellow-mod--downloads__online4tech__skins__skins-openatv__skins-survolt-yellow-mod_all.ipk",
+  "sha256": "32b49f5f44ceb1759e18f578c6b937a52f9f2aa95c8d6942006a17d46c0323c5",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

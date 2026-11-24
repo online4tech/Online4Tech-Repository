@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-skin-ipk-library-20261124/steampunk--downloads__online4tech__skins__skins-openatv__skins-steampunk_all.ipk",
+  "sha256": "a88bb3110a7e2758d4ae36559846e68641336070f37707878d88bc9fee694df9",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

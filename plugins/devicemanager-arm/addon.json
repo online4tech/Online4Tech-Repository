@@ -1,0 +1,22 @@
+{
+  "id": "devicemanager-arm",
+  "name": "Devicemanager Arm",
+  "description": "ملفات Devicemanager Arm المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/devicemanager-arm--downloads__online4tech__plugins__community__devicemanager-arm.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "devicemanager-arm.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/devicemanager-arm--downloads__online4tech__plugins__community__devicemanager-arm.ipk",
+      "sha256": "fef984f67d2a12dfc55f62a2dbe681192ceaa8df78baffb7b90be3308b1a7cca"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

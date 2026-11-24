@@ -1,0 +1,22 @@
+{
+  "id": "cutsclear",
+  "name": "Cutsclear",
+  "description": "ملفات Cutsclear المستوردة من مكتبة Online4Tech.",
+  "version": "source-import-2026-11-24",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/cutsclear--downloads__online4tech__plugins__community__cutsclear__enigma2-plugin-extensions-cutsclear_all.ipk",
+  "package_format": "ipk",
+  "icon": "",
+  "screenshots": [],
+  "supported_models": [],
+  "compatibility_status": "unverified",
+  "available_packages": [
+    {
+      "filename": "enigma2-plugin-extensions-cutsclear_all.ipk",
+      "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/cutsclear--downloads__online4tech__plugins__community__cutsclear__enigma2-plugin-extensions-cutsclear_all.ipk",
+      "sha256": "4f5a2d9b13feb841792de7c19708b11b3ee085bf21ab48dab3e633e0aa00db35"
+    }
+  ],
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

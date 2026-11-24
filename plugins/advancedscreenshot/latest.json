@@ -1,0 +1,10 @@
+{
+  "status": "published",
+  "version": "source-import-2026-11-24",
+  "package_format": "ipk",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-source-tree-plugin-ipk-library-20261124/advancedscreenshot--downloads__online4tech__plugins__community__advancedscreenshot__enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+  "sha256": "bfd32c2d37d8baab469350722d295e8b5b9e8971f2da80ed5073ff79459b3f4e",
+  "compatibility_status": "unverified",
+  "source_repository": "online4tech/online4Tech",
+  "source_commit": "465b4576366508899be88bd9bae2801bd4233818"
+}

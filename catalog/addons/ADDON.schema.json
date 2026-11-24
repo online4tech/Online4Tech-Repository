@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Online4Tech Add-on Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "kind",
+    "name",
+    "status",
+    "latest_version",
+    "latest_manifest",
+    "icon",
+    "screenshots",
+    "install_url"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    },
+    "kind": {
+      "enum": [
+        "plugin",
+        "skin"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "developer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "original_author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license_review": {
+      "enum": [
+        "pending",
+        "approved",
+        "not_redistributable",
+        "unknown"
+      ]
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "pending_review",
+        "published",
+        "deprecated",
+        "withdrawn"
+      ]
+    },
+    "latest_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latest_manifest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "screenshots": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supported_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supported_images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "compatibility_status": {
+      "enum": [
+        "not_tested",
+        "partially_tested",
+        "tested",
+        "incompatible"
+      ]
+    },
+    "install_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,40 @@
+#!/bin/sh
+# Online4Tech stable IPK installer template.
+# Copy into plugins/<id>/install.sh or skins/<id>/install.sh and set ADDON_BASE.
+set -eu
+
+ADDON_BASE="https://raw.githubusercontent.com/online4tech/Online4Tech-Repository/main/plugins/ADDON_ID"
+TMP_DIR="$(mktemp -d)"
+trap 'rm -rf "$TMP_DIR"' EXIT INT TERM
+
+command -v wget >/dev/null 2>&1 || { echo "ERROR: wget is required"; exit 1; }
+command -v python3 >/dev/null 2>&1 || { echo "ERROR: python3 is required to read the manifest safely"; exit 1; }
+command -v sha256sum >/dev/null 2>&1 || { echo "ERROR: sha256sum is required"; exit 1; }
+command -v opkg >/dev/null 2>&1 || { echo "ERROR: opkg is required on this receiver"; exit 1; }
+
+wget -qO "$TMP_DIR/latest.json" "$ADDON_BASE/latest.json" || {
+  echo "ERROR: could not download the Online4Tech add-on manifest"; exit 1;
+}
+
+python3 - "$TMP_DIR/latest.json" <<'PY'
+import json, sys
+with open(sys.argv[1], encoding="utf-8") as f:
+    m = json.load(f)
+required = ("id", "kind", "version", "package", "package_format", "sha256",
+            "install_method", "compatibility_status", "status")
+missing = [k for k in required if not m.get(k)]
+if missing:
+    raise SystemExit("ERROR: incomplete manifest: " + ", ".join(missing))
+if m["status"] != "published":
+    raise SystemExit("ERROR: this add-on is not published")
+if m["package_format"].lower() != "ipk" or m["install_method"] != "opkg":
+    raise SystemExit("ERROR: this installer only supports reviewed IPK/opkg packages")
+if m["compatibility_status"] != "tested":
+    raise SystemExit("ERROR: compatibility is not marked tested; refusing installation")
+if len(m["sha256"]) != 64 or any(c not in "0123456789abcdefABCDEF" for c in m["sha256"]):
+    raise SystemExit("ERROR: invalid SHA-256 in manifest")
+if m["package"].startswith("/") or ".." in m["package"].split("/") or "://" in m["package"]:
+    raise SystemExit("ERROR: unsafe package path in manifest")
+print(m["package"])
+print(m["sha256"])
+PY

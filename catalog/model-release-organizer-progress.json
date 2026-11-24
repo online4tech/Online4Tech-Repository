@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-24T13:39:18.511862+00:00",
+  "completed_models": [
+    "Dreambox DM520"
+  ],
+  "models": [
+    {
+      "model": "Dreambox DM520",
+      "tag": "o4t-device-dreambox-dm520-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-dm520-backups",
+      "source_records": 6,
+      "unique_assets": 6,
+      "bytes": 1319956079,
+      "files": [
+        {
+          "original_filename": "01_openATV-8.0.1-dm520-internal.zip",
+          "asset_name": "01_openATV-8.0.1-dm520-internal.zip",
+          "size_bytes": 128138391,
+          "sha256": "2ad56baa96929868bb2efac2eb3704d1351d9620b64855dcf44f4385793d01d6",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/01_openATV-8.0.1-dm520-internal.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "o4t-dm520-dm525-backups-20261121",
+              "release_name": "Dreambox DM520 + DM525 Backup Images",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121",
+              "asset_name": "01_openATV-8.0.1-dm520-internal.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/01_openATV-8.0.1-dm520-internal.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "02_openATV-8.0.1-dm520-16112026.zip",
+          "asset_name": "02_openATV-8.0.1-dm520-16112026.zip",
+          "size_bytes": 227038718,
+          "sha256": "1b41ed636d96b3e7d516cf5f0301f397e28a252512d4dddb715ab19240418eb6",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/02_openATV-8.0.1-dm520-16112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "o4t-dm520-dm525-backups-20261121",
+              "release_name": "Dreambox DM520 + DM525 Backup Images",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121",
+              "asset_name": "02_openATV-8.0.1-dm520-16112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/02_openATV-8.0.1-dm520-16112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "03_openATV-8.1beta-dm520-16112026.zip",
+          "asset_name": "03_openATV-8.1beta-dm520-16112026.zip",
+          "size_bytes": 241812415,
+          "sha256": "4a244d637029aba63f823bbc7aad0886baba9ba0d28b465bef7577295a2878e8",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/03_openATV-8.1beta-dm520-16112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "o4t-dm520-dm525-backups-20261121",
+              "release_name": "Dreambox DM520 + DM525 Backup Images",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121",
+              "asset_name": "03_openATV-8.1beta-dm520-16112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/03_openATV-8.1beta-dm520-16112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "04_OpenBH-6.0-dm520-16112026.zip",
+          "asset_name": "04_OpenBH-6.0-dm520-16112026.zip",
+          "size_bytes": 227154651,
+          "sha256": "e355664fac591f46dde969834e411512768cc03b3721fbcc65a619e23ac671b5",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/04_OpenBH-6.0-dm520-16112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "o4t-dm520-dm525-backups-20261121",
+              "release_name": "Dreambox DM520 + DM525 Backup Images",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121",
+              "asset_name": "04_OpenBH-6.0-dm520-16112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/04_OpenBH-6.0-dm520-16112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "05_OpenVix-6.9-dm520-16112026.zip",
+          "asset_name": "05_OpenVix-6.9-dm520-16112026.zip",
+          "size_bytes": 214880648,
+          "sha256": "8de2a565565efd400a03b5cb0e0dcc2c82bf5906f983522d40c6354646dcee6f",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/05_OpenVix-6.9-dm520-16112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "o4t-dm520-dm525-backups-20261121",
+              "release_name": "Dreambox DM520 + DM525 Backup Images",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121",
+              "asset_name": "05_OpenVix-6.9-dm520-16112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/05_OpenVix-6.9-dm520-16112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "06_TSimage-13.0-dm520-17112026.zip",
+          "asset_name": "06_TSimage-13.0-dm520-17112026.zip",
+          "size_bytes": 280931256,
+          "sha256": "9f09a8a5f27b6993af5a4a0c30fdf39f3f6df6f75ac87cd1dfae7601e586fba5",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-dm520-backups/06_TSimage-13.0-dm520-17112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "o4t-dm520-dm525-backups-20261121",
+              "release_name": "Dreambox DM520 + DM525 Backup Images",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/o4t-dm520-dm525-backups-20261121",
+              "asset_name": "06_TSimage-13.0-dm520-17112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/06_TSimage-13.0-dm520-17112026.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_records": 120,
+  "total_models": 16
+}

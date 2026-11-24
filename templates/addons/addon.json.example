@@ -1,0 +1,20 @@
+{
+  "id": "sample-plugin",
+  "name": "اسم البلجن",
+  "description": "وصف مختصر للبلجن ووظيفته.",
+  "version": "1.0.0",
+  "status": "published",
+  "package_path": "plugins/sample-plugin/releases/1.0.0/package.ipk",
+  "package_format": "ipk",
+  "icon": "icon.png",
+  "screenshots": [
+    "screenshots/01.webp",
+    "screenshots/02.webp"
+  ],
+  "supported_models": [
+    "Vu+ Zero 4K",
+    "Vu+ Duo 4K SE"
+  ],
+  "compatibility_status": "unverified",
+  "install_url": "install.sh"
+}

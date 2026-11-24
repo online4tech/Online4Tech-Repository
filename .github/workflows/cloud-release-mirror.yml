@@ -1,0 +1,56 @@
+name: Online4Tech Cloud Release Mirror
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only; no asset transfer"
+        required: true
+        type: boolean
+        default: true
+      category:
+        description: "Select category"
+        required: true
+        type: choice
+        options:
+          - all
+          - small-first
+          - skins
+          - plugins
+          - picons
+          - scripts
+          - other
+          - bridge_tools
+          - receiver_backups
+        default: all
+
+permissions:
+  contents: write
+
+concurrency:
+  group: online4tech-cloud-release-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install HTTP client
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Run cloud mirror
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: online4tech/Online4Tech-Repository
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python tools/release-mirror/cloud_mirror.py --dry-run --category "${{ inputs.category }}"
+          else
+            python tools/release-mirror/cloud_mirror.py --category "${{ inputs.category }}"
+          fi

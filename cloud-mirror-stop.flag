@@ -1,2 +1,0 @@
-Temporary stop switch. Cancel active cloud run while the legacy completion ledger format is reconciled. No source or existing mirror releases are modified.
-Dry-run checkpoint reconciliation after legacy manifest parser update.

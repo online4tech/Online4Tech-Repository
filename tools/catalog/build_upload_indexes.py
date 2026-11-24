@@ -57,8 +57,8 @@ def build_addons(kind: str):
         else:
             shots = [x if str(x).startswith("http") else str(x).replace("\\","/") for x in shots]
         # Paths in metadata are repository-relative unless already absolute.
-        icon = icon if icon.startswith("http") or not icon else (icon if icon.startswith("plugins/") or icon.startswith("skins/") else rel(folder / icon))
-        shots = [x if x.startswith("http") or x.startswith("plugins/") or x.startswith("skins/") else rel(folder / x) for x in shots]
+        icon = icon if icon.startswith("http") or not icon else (icon if icon.startswith(("plugins/","skins/","assets/")) else rel(folder / icon))
+        shots = [x if x.startswith("http") or x.startswith(("plugins/","skins/","assets/")) else rel(folder / x) for x in shots]
         install_file = folder / "install.sh"
         install_value = str(meta.get("install_url") or "")
         install_url = install_value if install_value.startswith("http") else (public(install_value if install_value.startswith(("plugins/","skins/")) else rel(folder / install_value)) if install_value else (public(rel(install_file)) if install_file.is_file() else ""))

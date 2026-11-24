@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:46:32.609579+00:00",
+  "updated_at": "2026-11-24T13:46:48.832336+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
     "Vu+ Duo 4K",
     "Vu+ Uno 4K SE",
-    "Vu+ Zero 4K"
+    "Vu+ Zero 4K",
+    "Dreambox Two"
   ],
   "models": [
     {
@@ -776,6 +777,33 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k",
               "asset_name": "PurE2-7.6-vuzero4k_03112026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/PurE2-7.6-vuzero4k_03112026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Dreambox Two",
+      "tag": "o4t-device-dreambox-two-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-dreambox-two-backups",
+      "source_records": 1,
+      "unique_assets": 1,
+      "bytes": 308651776,
+      "files": [
+        {
+          "original_filename": "e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+          "asset_name": "e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+          "size_bytes": 308651776,
+          "sha256": "e9a7fba53b2dd6747c64c2c82a6f1119111f0aec011c294fa120402538749208",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-dreambox-two-backups/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-catalog-assets",
+              "release_name": "Online4Tech Catalog Assets",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+              "asset_name": "e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz"
             }
           ]
         }

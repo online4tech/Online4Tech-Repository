@@ -69,6 +69,7 @@ def build_addons(kind: str):
             "status": str(meta.get("status") or "published"),
             "latest_version": str(meta.get("version") or meta.get("latest_version") or ""),
             "package_url": package_url, "package_format": str(meta.get("package_format") or (package.suffix.lstrip(".") if package else "")),
+            "available_packages": meta.get("available_packages") if isinstance(meta.get("available_packages"), list) else [],
             "icon": icon if icon.startswith("http") or not icon else public(icon),
             "screenshots": [x if x.startswith("http") else public(x) for x in shots],
             "supported_models": meta.get("supported_models") if isinstance(meta.get("supported_models"), list) else [],

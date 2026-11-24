@@ -1,0 +1,18 @@
+{
+  "id": "luka-fhd-openatv",
+  "name": "Luka FHD OpenATV",
+  "description": "Skin Luka FHD مع صور معاينة أصلية من مكتبة Online4Tech.",
+  "version": "source-release",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-small-first-20261124-041328/0008--6d52c7fea4ba-luka.ipk",
+  "package_format": "ipk",
+  "icon": "assets/skins/luka-fhd-openatv/luka-fhd-openatv.png",
+  "screenshots": [
+    "assets/skins/luka-fhd-openatv/luka-fhd-openatv6.png",
+    "assets/skins/luka-fhd-openatv/1111111111111.jpg",
+    "assets/skins/luka-fhd-openatv/2222222.jpg",
+    "assets/skins/luka-fhd-openatv/1749218139720.png"
+  ],
+  "supported_models": [],
+  "compatibility_status": "unverified"
+}

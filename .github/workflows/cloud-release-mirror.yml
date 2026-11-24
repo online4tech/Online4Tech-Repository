@@ -1,6 +1,10 @@
 name: Online4Tech Cloud Release Mirror
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - cloud-mirror-start.flag
   workflow_dispatch:
     inputs:
       dry_run:
@@ -49,7 +53,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REPO: online4tech/Online4Tech-Repository
         run: |
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python tools/release-mirror/cloud_mirror.py --category all
+          elif [ "${{ inputs.dry_run }}" = "true" ]; then
             python tools/release-mirror/cloud_mirror.py --dry-run --category "${{ inputs.category }}"
           else
             python tools/release-mirror/cloud_mirror.py --category "${{ inputs.category }}"

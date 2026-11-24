@@ -1,0 +1,43 @@
+name: Online4Tech Auto Upload Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "plugins/**"
+      - "skins/**"
+      - "backups/**"
+      - "tools/catalog/build_upload_indexes.py"
+      - ".github/workflows/auto-upload-index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: online4tech-auto-upload-index
+  cancel-in-progress: false
+
+jobs:
+  build-indexes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build plugin, skin and backup indexes
+        run: python tools/catalog/build_upload_indexes.py
+      - name: Commit generated indexes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/addons/plugins.json catalog/addons/skins.json catalog/uploads/backups.json
+          if git diff --cached --quiet; then
+            echo "No index changes."
+          else
+            git commit -m "Auto-update plugin, skin and backup catalogs"
+            git push
+          fi

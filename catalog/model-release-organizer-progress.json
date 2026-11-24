@@ -1,13 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:46:48.832336+00:00",
+  "updated_at": "2026-11-24T13:48:32.648663+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
     "Vu+ Duo 4K",
     "Vu+ Uno 4K SE",
     "Vu+ Zero 4K",
-    "Dreambox Two"
+    "Dreambox Two",
+    "Novaler Pro"
   ],
   "models": [
     {
@@ -804,6 +805,169 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
               "asset_name": "e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Novaler Pro",
+      "tag": "o4t-device-novaler-pro-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-pro-backups",
+      "source_records": 9,
+      "unique_assets": 9,
+      "bytes": 2179982592,
+      "files": [
+        {
+          "original_filename": "08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
+          "asset_name": "08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
+          "size_bytes": 303605436,
+          "sha256": "08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
+          "asset_name": "18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
+          "size_bytes": 232510309,
+          "sha256": "18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "asset_name": "269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "size_bytes": 285448586,
+          "sha256": "269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "asset_name": "269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "size_bytes": 285448586,
+          "sha256": "269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
+          "asset_name": "3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
+          "size_bytes": 125702672,
+          "sha256": "3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups",
+              "release_name": "Online4Tech Verified Backups",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups",
+              "asset_name": "3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "Hyperion-X3-novalerpro_18102026.zip",
+          "asset_name": "Hyperion-X3-novalerpro_18102026.zip",
+          "size_bytes": 303605436,
+          "sha256": "08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/Hyperion-X3-novalerpro_18102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "Hyperion-X3-novalerpro_18102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Hyperion-X3-novalerpro_18102026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "novalerpro_corvoboys_slot5.zip",
+          "asset_name": "novalerpro_corvoboys_slot5.zip",
+          "size_bytes": 125702672,
+          "sha256": "3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/novalerpro_corvoboys_slot5.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "novalerpro_corvoboys_slot5.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novalerpro_corvoboys_slot5.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "asset_name": "OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "size_bytes": 285448586,
+          "sha256": "269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-GCC-16.1-novalerpro_19102026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "PurE2-7.6-novalerpro_18102026.zip",
+          "asset_name": "PurE2-7.6-novalerpro_18102026.zip",
+          "size_bytes": 232510309,
+          "sha256": "18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-pro-backups/PurE2-7.6-novalerpro_18102026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerpro",
+              "release_name": "Online4Tech backups - Novalerpro",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerpro",
+              "asset_name": "PurE2-7.6-novalerpro_18102026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/PurE2-7.6-novalerpro_18102026.zip"
             }
           ]
         }

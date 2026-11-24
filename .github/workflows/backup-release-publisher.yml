@@ -7,11 +7,11 @@ on:
     inputs:
       source_url:
         description: "Direct downloadable URL of a cloud-hosted backup archive"
-        required: true
+        required: false
         type: string
       tag_name:
         description: "Unique Release tag, e.g. backup-vu-zero-4k-openatv-2026"
-        required: true
+        required: false
         type: string
       release_name:
         description: "Release title (optional)"
@@ -23,11 +23,11 @@ on:
         type: string
       brand:
         description: "Receiver brand, e.g. Vu+"
-        required: true
+        required: false
         type: string
       device_model:
         description: "Exact receiver model"
-        required: true
+        required: false
         type: string
       version:
         description: "Image / backup version"
@@ -55,7 +55,7 @@ concurrency:
 
 jobs:
   publish-and-index:
-    if: github.event_name == 'release' || inputs.source_url != ''
+    if: github.event_name == 'release' || inputs.source_url != '' || inputs.tag_name != ''
     runs-on: ubuntu-latest
     timeout-minutes: 350
     steps:
@@ -89,6 +89,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REPO: online4tech/Online4Tech-Repository
         run: python tools/catalog/publish_release_backup.py
+      - name: Re-index an existing Release
+        if: github.event_name == 'workflow_dispatch' && inputs.source_url == '' && inputs.tag_name != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: online4tech/Online4Tech-Repository
+        run: python tools/catalog/publish_release_backup.py --index-tag "${{ inputs.tag_name }}"
       - name: Rebuild public indexes
         run: python tools/catalog/build_upload_indexes.py
       - name: Commit generated backup metadata and indexes

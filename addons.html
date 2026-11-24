@@ -32,7 +32,7 @@ const ROOT='https://raw.githubusercontent.com/online4tech/Online4Tech-Repository
 const grid=document.getElementById('grid'),statusBox=document.getElementById('status');
 let allItems=[],activeKind='all';
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
-function safeUrl(path){if(!path)return '';try{const u=new URL(path,ROOT);return u.origin==='https://raw.githubusercontent.com'?u.href:''}catch(_){return ''}}
+function safeUrl(path){if(!path)return '';try{const u=new URL(path,ROOT);return (u.origin==='https://raw.githubusercontent.com'||(u.origin==='https://github.com'&&u.pathname.startsWith('/online4tech/Online4Tech-Repository/releases/download/')))?u.href:''}catch(_){return ''}}
 function render(){
  grid.replaceChildren();const items=allItems.filter(x=>(activeKind==='all'||x.kind===activeKind)&&x.status==='published');
  statusBox.textContent=items.length+' عنصر منشور';
@@ -46,8 +46,15 @@ function render(){
   if(Array.isArray(item.supported_models)&&item.supported_models.length)card.append(el('div','meta','الأجهزة: '+item.supported_models.join('، ')));
   const shots=el('div','shots');(item.screenshots||[]).slice(0,8).forEach(p=>{const u=safeUrl(p);if(u){const im=el('img');im.loading='lazy';im.src=u;im.alt=item.name||'Screenshot';shots.append(im)}});if(shots.childElementCount)card.append(shots);
   const actions=el('div','actions');
+  if(item.package_url){const a=el('a','tab primary','تحميل الحزمة');a.href=safeUrl(item.package_url);a.target='_blank';a.rel='noopener';if(a.href)actions.append(a)}
   if(item.latest_manifest){const a=el('a','tab','تفاصيل الإصدار');a.href=safeUrl(item.latest_manifest);a.target='_blank';a.rel='noopener';actions.append(a)}
   if(item.install_url){const cmd='wget -qO- '+safeUrl(item.install_url)+' | sh';const b=el('button','primary','نسخ أمر التثبيت');b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(cmd);b.textContent='تم نسخ الأمر'}catch(_){b.textContent='تعذر النسخ'}});actions.append(b)}
+  card.append(actions);
+  if(Array.isArray(item.available_packages)&&item.available_packages.length>1){
+   const details=el('details');const summary=el('summary','meta','كل ملفات الحزمة ('+item.available_packages.length+')');details.append(summary);
+   item.available_packages.forEach(pkg=>{const u=safeUrl(pkg.download_url);if(!u)return;const a=el('a','meta',pkg.filename||'تحميل ملف');a.href=u;a.target='_blank';a.rel='noopener';a.style.display='block';a.style.padding='5px 0';details.append(a)});
+   card.append(details);
+  }
   card.append(actions);grid.append(card);
  }
 }

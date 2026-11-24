@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:56:59.190937+00:00",
+  "updated_at": "2026-11-24T13:59:12.179299+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
@@ -12,7 +12,8 @@
     "Multibox Pro",
     "Vu+ Zero",
     "Vu+ Uno 4K",
-    "Vu+ Ultimo 4K"
+    "Vu+ Ultimo 4K",
+    "Vu+ Solo 4K"
   ],
   "models": [
     {
@@ -1692,6 +1693,186 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vuultimo4k",
               "asset_name": "PurE2-7.6-vuultimo4k_05112026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/PurE2-7.6-vuultimo4k_05112026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Vu+ Solo 4K",
+      "tag": "o4t-device-vu-solo-4k-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-vu-solo-4k-backups",
+      "source_records": 10,
+      "unique_assets": 10,
+      "bytes": 3051647533,
+      "files": [
+        {
+          "original_filename": "egami-11.0-r22-vusolo4k-23092026.zip",
+          "asset_name": "egami-11.0-r22-vusolo4k-23092026.zip",
+          "size_bytes": 342373028,
+          "sha256": "e8690d264da8874b58ec3ea000e341574e4dc27b16d2110fcf334b6be1f1c845",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/egami-11.0-r22-vusolo4k-23092026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "egami-11.0-r22-vusolo4k-23092026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r22-vusolo4k-23092026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "egami-11.0-r23-vusolo4k-19112026.zip",
+          "asset_name": "egami-11.0-r23-vusolo4k-19112026.zip",
+          "size_bytes": 307714032,
+          "sha256": "b8f8fccae907e09c4e9c6fbf358a938a1d68051a43b818e9d66c15f2ec94511f",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/egami-11.0-r23-vusolo4k-19112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "egami-11.0-r23-vusolo4k-19112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r23-vusolo4k-19112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openatv-8.0.0-RC1-vusolo4k-23092026.zip",
+          "asset_name": "openatv-8.0.0-RC1-vusolo4k-23092026.zip",
+          "size_bytes": 339607479,
+          "sha256": "79ffcd04734b90c7ee70cfd04edb82fd3d7bef8fe3cc1a85c10c1d59d31692d6",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openatv-8.0.0-RC1-vusolo4k-23092026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "openatv-8.0.0-RC1-vusolo4k-23092026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.0-RC1-vusolo4k-23092026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openatv-8.0.1-vusolo4k-19112026.zip",
+          "asset_name": "openatv-8.0.1-vusolo4k-19112026.zip",
+          "size_bytes": 292732748,
+          "sha256": "bbb50ae0b7f0d9f3efa82b48e05da7c0877c95807801bb42300682e22f23f112",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openatv-8.0.1-vusolo4k-19112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "openatv-8.0.1-vusolo4k-19112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.1-vusolo4k-19112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openbh-6.0.003-vusolo4k-23092026.zip",
+          "asset_name": "openbh-6.0.003-vusolo4k-23092026.zip",
+          "size_bytes": 315074191,
+          "sha256": "cf7203765a060fb21e5652a94a36bb20013ca89acfef327d955318a666f79cbb",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openbh-6.0.003-vusolo4k-23092026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "openbh-6.0.003-vusolo4k-23092026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.003-vusolo4k-23092026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openbh-6.0.005-vusolo4k-19112026.zip",
+          "asset_name": "openbh-6.0.005-vusolo4k-19112026.zip",
+          "size_bytes": 230620551,
+          "sha256": "f60675779e509acf96550939945822f8936f86a0f6b774fa71f1a92680340d4e",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openbh-6.0.005-vusolo4k-19112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "openbh-6.0.005-vusolo4k-19112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.005-vusolo4k-19112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openvix-6.9.002-vusolo4k_23092026.zip",
+          "asset_name": "openvix-6.9.002-vusolo4k_23092026.zip",
+          "size_bytes": 342365439,
+          "sha256": "4bc6ac39c37cf45c1f3efcf31f52967065a30721ef8e945582a5278ae22457d7",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openvix-6.9.002-vusolo4k_23092026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "openvix-6.9.002-vusolo4k_23092026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.002-vusolo4k_23092026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openvix-6.9.007-vusolo4k_19112026.zip",
+          "asset_name": "openvix-6.9.007-vusolo4k_19112026.zip",
+          "size_bytes": 265124896,
+          "sha256": "73c79c835f2bd936566bab06a3ac0ecea6ece9148158525df635d0549ff160db",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/openvix-6.9.007-vusolo4k_19112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "openvix-6.9.007-vusolo4k_19112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.007-vusolo4k_19112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "PurE2-7.6-vusolo4k_19112026.zip",
+          "asset_name": "PurE2-7.6-vusolo4k_19112026.zip",
+          "size_bytes": 284291824,
+          "sha256": "73d3e7083b832e579aa65a2f17ad5e68aaa66d1d0e0d712327a351a84d833159",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/PurE2-7.6-vusolo4k_19112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "PurE2-7.6-vusolo4k_19112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/PurE2-7.6-vusolo4k_19112026.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "vusolo4k-PurE2-7.6-23092026.zip",
+          "asset_name": "vusolo4k-PurE2-7.6-23092026.zip",
+          "size_bytes": 331743345,
+          "sha256": "02fb60d3af42f4b30b00d87ca13a923c4c0ac921b108b521c49111fd64def648",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-vu-solo-4k-backups/vusolo4k-PurE2-7.6-23092026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-vusolo4k",
+              "release_name": "Online4Tech backups - Vusolo4k",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-vusolo4k",
+              "asset_name": "vusolo4k-PurE2-7.6-23092026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/vusolo4k-PurE2-7.6-23092026.zip"
             }
           ]
         }

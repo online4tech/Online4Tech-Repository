@@ -117,10 +117,12 @@ def build_backups():
     # folder-based backups, so existing backup.json folders remain untouched.
     release_root = ROOT / "catalog/uploads/release-backups"
     if release_root.exists():
-        for manifest in sorted(release_root.rglob("backup.json")):
+        release_manifests = []
+        for manifest in release_root.rglob("backup.json"):
             meta = read_json(manifest)
-            if not meta or meta.get("status") != "published":
-                continue
+            if meta and meta.get("status") == "published":
+                release_manifests.append((str(meta.get("published_at") or meta.get("date") or ""), manifest, meta))
+        for _, manifest, meta in sorted(release_manifests, key=lambda row: row[0]):
             items.append({
                 "id": str(meta.get("id") or manifest.parent.name),
                 "name": str(meta.get("name") or manifest.parent.name),
@@ -138,10 +140,10 @@ def build_backups():
                 "release_url": str(meta.get("release_url") or ""),
                 "release_tag": str(meta.get("release_tag") or "")
             })
-    # Stable deduplication: a Release tag identifies one published backup entry.
+    # Stable deduplication by backup ID: newer releases replace the same card.
     deduped = {}
     for item in items:
-        key = ("release:" + item["release_tag"]) if item.get("release_tag") else ("folder:" + item["id"])
+        key = str(item.get("id") or item.get("release_tag") or item.get("name"))
         deduped[key] = item
     return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(), "items": list(deduped.values())}
 

@@ -30,15 +30,17 @@ jobs:
           python-version: "3.12"
       - name: Build plugin, skin and backup indexes
         run: python tools/catalog/build_upload_indexes.py
-      - name: Commit generated indexes
+      - name: Commit generated indexes safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --hard origin/main
+          python tools/catalog/build_upload_indexes.py
           git add catalog/addons/plugins.json catalog/addons/skins.json catalog/uploads/backups.json
           if git diff --cached --quiet; then
             echo "No index changes."
           else
             git commit -m "Auto-update plugin, skin and backup catalogs"
-            git pull --rebase origin main
-            git push
+            git push origin HEAD:main
           fi

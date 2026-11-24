@@ -1,0 +1,18 @@
+{
+  "id": "openatv-8-0-1",
+  "name": "OpenATV 8.0.1",
+  "brand": "Vu+",
+  "device_model": "Vu+ Zero 4K",
+  "version": "OpenATV 8.0.1",
+  "date": "2026-11-24",
+  "description": "نسخة احتياطية لجهاز Vu+ Zero 4K.",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/RELEASE_TAG/backup.zip",
+  "cover": "cover.webp",
+  "screenshots": [
+    "screenshots/01.webp",
+    "screenshots/02.webp"
+  ],
+  "compatibility": "Vu+ Zero 4K فقط",
+  "source_url": "",
+  "status": "published"
+}

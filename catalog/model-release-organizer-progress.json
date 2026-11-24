@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:00:24.441078+00:00",
+  "updated_at": "2026-11-24T14:00:48.580005+00:00",
   "completed_models": [
     "Dreambox DM520",
     "Vu+ Duo 4K SE",
@@ -14,7 +14,8 @@
     "Vu+ Uno 4K",
     "Vu+ Ultimo 4K",
     "Vu+ Solo 4K",
-    "Multibox SE"
+    "Multibox SE",
+    "Novaler SE"
   ],
   "models": [
     {
@@ -2003,6 +2004,50 @@
               "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
               "asset_name": "PurE2-7.6-multiboxse_06112026.zip",
               "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/PurE2-7.6-multiboxse_06112026.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Novaler SE",
+      "tag": "o4t-device-novaler-se-backups",
+      "url": "https://github.com/online4tech/Online4Tech-Repository/releases/tag/o4t-device-novaler-se-backups",
+      "source_records": 2,
+      "unique_assets": 2,
+      "bytes": 381545155,
+      "files": [
+        {
+          "original_filename": "novalerSE_corvoboys_slot5.zip",
+          "asset_name": "novalerSE_corvoboys_slot5.zip",
+          "size_bytes": 116524864,
+          "sha256": "228fc119a72a17dfc99db272c4312ed2f68efa0e73c7ceb3547d32b99cafcf16",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-se-backups/novalerSE_corvoboys_slot5.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "novalerSE_corvoboys_slot5.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/novalerSE_corvoboys_slot5.zip"
+            }
+          ]
+        },
+        {
+          "original_filename": "openspa-8.7.003-novalerse-10112026.zip",
+          "asset_name": "openspa-8.7.003-novalerse-10112026.zip",
+          "size_bytes": 265020291,
+          "sha256": "22e68db4f85dd34c15a2ef95bd4dcd86f16c9d5e7b214890acc899f276d7d9de",
+          "download_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-device-novaler-se-backups/openspa-8.7.003-novalerse-10112026.zip",
+          "source_records": [
+            {
+              "repository": "online4tech/online4Tech",
+              "release_tag": "online4tech-backups-novalerse",
+              "release_name": "Online4Tech backups - Novalerse",
+              "release_url": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-novalerse",
+              "asset_name": "openspa-8.7.003-novalerse-10112026.zip",
+              "original_download_url": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/openspa-8.7.003-novalerse-10112026.zip"
             }
           ]
         }

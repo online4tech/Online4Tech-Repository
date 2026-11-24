@@ -1,0 +1,17 @@
+{
+  "id": "aglare-fhd-openatv",
+  "name": "Aglare FHD OpenATV",
+  "description": "Skin Aglare FHD مع صور معاينة أصلية من مكتبة Online4Tech.",
+  "version": "source-release",
+  "status": "published",
+  "package_url": "https://github.com/online4tech/Online4Tech-Repository/releases/download/o4t-mirror-small-first-20261124-034429/0002--8a5c66e73d69-aglare.ipk",
+  "package_format": "ipk",
+  "icon": "assets/skins/aglare-fhd-openatv/1706864080519.jpg",
+  "screenshots": [
+    "assets/skins/aglare-fhd-openatv/1706864086499.jpg",
+    "assets/skins/aglare-fhd-openatv/1706864116867.jpg",
+    "assets/skins/aglare-fhd-openatv/1706864120392.jpg"
+  ],
+  "supported_models": [],
+  "compatibility_status": "unverified"
+}

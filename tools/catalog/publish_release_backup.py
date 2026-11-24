@@ -54,7 +54,7 @@ def metadata_from_release(release):
         raise RuntimeError("No recognized backup archive asset found in this Release.")
     cover_asset = next((a for a in images if any(x in a["name"].lower() for x in ("cover","thumb","poster"))), None)
     return {
-        "id": body.get("id") or slug(release["tag_name"]),
+        "id": body.get("id") or slug(f"{body.get('brand', '')}-{body.get('device_model', '')}") or slug(release["tag_name"]),
         "name": body.get("name") or title,
         "brand": body.get("brand", ""),
         "device_model": body.get("device_model", ""),
@@ -67,7 +67,7 @@ def metadata_from_release(release):
         "compatibility": body.get("compatibility", ""),
         "source_url": body.get("source_url", ""),
         "status": "published", "release_url": release.get("html_url", ""),
-        "release_tag": release["tag_name"], "asset_name": package["name"], "size": package.get("size", 0)
+        "release_tag": release["tag_name"], "published_at": release.get("published_at") or release.get("created_at", ""), "asset_name": package["name"], "size": package.get("size", 0)
     }
 
 def save_manifest(meta):

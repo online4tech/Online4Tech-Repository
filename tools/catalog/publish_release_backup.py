@@ -44,6 +44,8 @@ def metadata_from_release(release):
     if len(parts) >= 3:
         body.setdefault("brand", parts[1]); body.setdefault("device_model", parts[2])
         if len(parts) >= 4: body.setdefault("version", parts[3])
+    if not body.get("device_model"):
+        raise RuntimeError("Missing receiver model. Add Model: ... to the Release description or use title: Backup | Brand | Model | Version.")
     assets = release.get("assets", [])
     archives = [a for a in assets if a.get("name", "").lower().endswith(ARCHIVES)]
     images = [a for a in assets if a.get("name", "").lower().endswith(IMAGES)]
